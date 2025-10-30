@@ -1,0 +1,21 @@
+남은 것
+1. sst + 인프라 (무료)
+2. comment sentiment-analysis -> 점수화
+3. huggingface 
+- summarization (토픽/주제)
+- zero-shot classification (토픽/주제)
+- NER named entity recognition (인물/지명) -> 광고여부로 연계될수도 있을듯?
+- text classification (톤)
+
+
+
+
+문제점
+1. 화자 구분 -> whisper 화자구분 안됨
+
+
+
+
+아이디어
+1. 유튜브 뒷광고 확률 리턴하는 api
+2. 수제 자막 추출하는 api

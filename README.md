@@ -1,15 +1,70 @@
-# YouTube Video Preference Predictor
+# YouTube Channel Predictor
 
 YouTube 채널의 비디오 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
 
 ## 📋 프로젝트 목표
 
-트랜스포머(Transformer)를 실전 프로젝트에 활용하여 YouTube 비디오의 선호도를 예측
+트랜스포머(Transformer)를 실전 프로젝트에 활용하여 YouTube 비디오의 선호도를 예측합니다.
 
 **주요 기능:**
 - YouTube 채널 데이터 자동 수집
 - 멀티모달 데이터 분석 (텍스트 + 메타데이터)
 - 트랜스포머 기반 선호도 예측 모델
+
+## 🔍 유틸리티 도구
+
+### 비디오 메타데이터 확인
+```bash
+# 특정 비디오의 모든 메타데이터 확인
+python check_video_metadata.py H5lz6_hqCNw
+
+# JSON 파일로 저장
+python check_video_metadata.py VIDEO_ID > metadata.json
+```
+
+### Whisper로 자막 생성 (STT)
+```bash
+# 단일 비디오 테스트
+python stt_whisper.py H5lz6_hqCNw
+
+# 다른 모델 사용 (더 정확)
+python stt_whisper.py VIDEO_ID --model small
+
+# 모델 크기 옵션: tiny, base, small, medium, large
+```
+
+**Whisper 설치:**
+```bash
+pip install openai-whisper yt-dlp
+brew install ffmpeg  # Mac
+# or
+sudo apt-get install ffmpeg  # Ubuntu
+```
+
+### 키워드 추출 (다중 방법)
+```bash
+# 자막 파일에서 키워드 추출 (6가지 방법 통합)
+python extract_keywords.py H5lz6_hqCNw_whisper_transcript.txt
+
+# 키워드 개수 조정
+python extract_keywords.py input.txt --top 30
+
+# JSON으로 저장
+python extract_keywords.py input.txt --output keywords.json
+```
+
+**키워드 추출 방법:**
+- 🤗 Hugging Face NER (개체명 인식)
+- 🤗 Hugging Face Zero-shot (토픽 분류)
+- 🔑 KeyBERT (BERT 임베딩)
+- 📊 YAKE (통계 분석)
+- 📈 TF-IDF (형태소 분석)
+- 🔢 빈도 분석
+
+**설치:**
+```bash
+pip install transformers torch keybert yake scikit-learn konlpy
+```
 
 ## 🎯 예측 목표
 
@@ -106,6 +161,8 @@ youtube-channel-predictor/
 │   └── train.py                       # 학습 파이프라인
 ├── youtube_data_collector.py          # 데이터 수집 스크립트
 ├── check_video_metadata.py            # 메타데이터 확인 도구
+├── test_whisper.py                    # Whisper STT 테스트
+├── extract_keywords.py                # 키워드 추출 (다중 방법)
 ├── requirements.txt                    # Python 패키지 목록
 ├── setup_venv.sh                      # 가상환경 설정 스크립트
 ├── .env                               # 환경변수 (git 제외)
@@ -198,12 +255,25 @@ python check_video_metadata.py VIDEO_ID > metadata.json
 ## 📦 Dependencies
 
 주요 패키지:
+
+**데이터 수집:**
 - `google-api-python-client`: YouTube Data API
 - `youtube-transcript-api`: 자막 수집
 - `python-dotenv`: 환경변수 관리
-- `transformers`: 트랜스포머 모델 (예정)
-- `torch`: PyTorch (예정)
-- `scikit-learn`: 머신러닝 (예정)
+
+**트랜스포머 & ML:**
+- `transformers`: Hugging Face 트랜스포머 모델
+- `torch`: PyTorch (딥러닝 프레임워크)
+- `scikit-learn`: 머신러닝
+
+**키워드 추출:**
+- `keybert`: BERT 기반 키워드 추출
+- `yake`: 통계 기반 키워드 추출
+- `konlpy`: 한국어 형태소 분석
+
+**음성 인식 (선택):**
+- `openai-whisper`: Whisper STT 모델
+- `yt-dlp`: YouTube 다운로더
 
 전체 목록은 `requirements.txt` 참조
 
