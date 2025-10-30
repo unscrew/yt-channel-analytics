@@ -1,6 +1,6 @@
-# YouTube Channel Predictor
+# YouTube Video Preference Predictor
 
-YouTube 채널의 비디오 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
+YouTube 채널의 비디오 대중 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
 
 ## 📋 프로젝트 목표
 
