@@ -1,5 +1,36 @@
 {
   "video_id": "H0bZ6wU-znQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@evetsteve1",
+      "text": "1:53  밥크리트",
+      "likeCount": 1,
+      "publishedAt": "2017-08-06T17:49:59Z"
+    },
+    {
+      "author": "@sonchanghyun9754",
+      "text": "요즘 모기~",
+      "likeCount": 0,
+      "publishedAt": "2017-08-06T13:26:27Z"
+    },
+    {
+      "author": "@GochuJangMayo",
+      "text": "지긑지그태~",
+      "likeCount": 0,
+      "publishedAt": "2017-08-07T03:47:13Z"
+    },
+    {
+      "author": "@암사요",
+      "text": "소미야 위키미키꼴만 나지말자",
+      "likeCount": 0,
+      "publishedAt": "2017-08-11T01:06:05Z"
+    },
+    {
+      "author": "@jamdole1230",
+      "text": "근데 도네에서 나오는 \"나랑 뽀뽀할래\" 는 뭔가요??",
+      "likeCount": 0,
+      "publishedAt": "2017-08-06T23:58:31Z"
+    }
+  ]
 }

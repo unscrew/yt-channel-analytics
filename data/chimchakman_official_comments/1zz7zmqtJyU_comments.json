@@ -1,5 +1,30 @@
 {
   "video_id": "1zz7zmqtJyU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@슬립냥",
+      "text": "굴단 딜이 오져따리 오져땅",
+      "likeCount": 2,
+      "publishedAt": "2016-12-22T10:39:37Z"
+    },
+    {
+      "author": "@TaeJun_Kee",
+      "text": "키야... 침단 그 자체 ^^b",
+      "likeCount": 1,
+      "publishedAt": "2016-12-22T10:58:10Z"
+    },
+    {
+      "author": "@sket3887",
+      "text": "시.공.조.아",
+      "likeCount": 0,
+      "publishedAt": "2023-01-22T19:20:06Z"
+    },
+    {
+      "author": "@nakta9163",
+      "text": "프로 불편러들 많네",
+      "likeCount": 1,
+      "publishedAt": "2016-12-27T03:27:44Z"
+    }
+  ]
 }

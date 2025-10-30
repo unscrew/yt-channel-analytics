@@ -1,5 +1,18 @@
 {
   "video_id": "hi_jTFTHUhI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@chimchakgirl",
+      "text": "쿠우 먹는 병건이 귀여워",
+      "likeCount": 0,
+      "publishedAt": "2023-10-28T13:51:27Z"
+    },
+    {
+      "author": "@Bombardeo_",
+      "text": "졌지만 잘싸웠다",
+      "likeCount": 2,
+      "publishedAt": "2017-03-28T15:00:33Z"
+    }
+  ]
 }

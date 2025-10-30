@@ -1,5 +1,24 @@
 {
   "video_id": "2HzT-wRy7ls",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@user-nv4tj8ue5b",
+      "text": "28:17",
+      "likeCount": 0,
+      "publishedAt": "2023-02-20T19:13:49Z"
+    },
+    {
+      "author": "@채영-v2c",
+      "text": "6:12",
+      "likeCount": 0,
+      "publishedAt": "2023-04-14T18:16:59Z"
+    },
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "침면쑤심 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-03-24T06:58:21Z"
+    }
+  ]
 }

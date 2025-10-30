@@ -1,5 +1,30 @@
 {
   "video_id": "TpaUhjl3vXA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@raucousraccoon17",
+      "text": "아조씨는 역시 카드 게임 누리시는거 좋아하셔요.",
+      "likeCount": 0,
+      "publishedAt": "2025-09-12T05:18:20Z"
+    },
+    {
+      "author": "@맛난샌딋치",
+      "text": "셋댓.",
+      "likeCount": 0,
+      "publishedAt": "2023-01-12T07:27:45Z"
+    },
+    {
+      "author": "@se070",
+      "text": "넷댓.",
+      "likeCount": 0,
+      "publishedAt": "2025-09-12T00:14:21Z"
+    },
+    {
+      "author": "@우정임-p5y",
+      "text": "첫댓.",
+      "likeCount": 0,
+      "publishedAt": "2016-05-02T22:56:38Z"
+    }
+  ]
 }

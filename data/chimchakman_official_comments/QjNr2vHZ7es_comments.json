@@ -1,5 +1,30 @@
 {
   "video_id": "QjNr2vHZ7es",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@이지성-u9d",
+      "text": "수장님 히오스 영상 보면서 히오스 시작했습니다 파이팅!",
+      "likeCount": 1,
+      "publishedAt": "2017-02-15T11:27:31Z"
+    },
+    {
+      "author": "@A_to_P",
+      "text": "오랜만에 히오스 레전드다 ㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2017-02-15T14:58:52Z"
+    },
+    {
+      "author": "@두르크",
+      "text": "아무리 5인팟이라지만 세번만나네ㅋㅋㅋ",
+      "likeCount": 3,
+      "publishedAt": "2017-02-15T13:20:12Z"
+    },
+    {
+      "author": "@SWBaek117",
+      "text": "반바ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-02-23T19:42:15Z"
+    }
+  ]
 }

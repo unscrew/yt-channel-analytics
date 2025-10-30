@@ -1,5 +1,24 @@
 {
   "video_id": "Wy0fr6OmbjQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김도미-c7f",
+      "text": "와 진짜 잘한당",
+      "likeCount": 0,
+      "publishedAt": "2018-08-30T04:52:04Z"
+    },
+    {
+      "author": "@윤철강-i7s",
+      "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㄱㅋ",
+      "likeCount": 0,
+      "publishedAt": "2018-08-30T10:35:26Z"
+    },
+    {
+      "author": "@김우연-w1w",
+      "text": "맨날 뒤죽박죽 올리시는 이유가 뭔가요..??",
+      "likeCount": 0,
+      "publishedAt": "2018-08-30T03:47:48Z"
+    }
+  ]
 }

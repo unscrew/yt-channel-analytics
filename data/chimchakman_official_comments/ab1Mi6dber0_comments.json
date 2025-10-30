@@ -1,5 +1,24 @@
 {
   "video_id": "ab1Mi6dber0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김민국-x5b",
+      "text": "16:12 야오져따!",
+      "likeCount": 2,
+      "publishedAt": "2016-01-20T09:55:43Z"
+    },
+    {
+      "author": "@bok_chita",
+      "text": "오프닝 노래 아무리 들어도 안익숙해",
+      "likeCount": 1,
+      "publishedAt": "2022-05-08T12:58:22Z"
+    },
+    {
+      "author": "@배추와양배추",
+      "text": "ㅋㅋㅋㅋㅋㅋㅋ야오져따",
+      "likeCount": 0,
+      "publishedAt": "2016-01-20T15:20:53Z"
+    }
+  ]
 }

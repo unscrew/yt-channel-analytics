@@ -1,5 +1,24 @@
 {
   "video_id": "GCQBgDneFPM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@HJ-cf1ih",
+      "text": "10:48 하이라이트",
+      "likeCount": 1,
+      "publishedAt": "2017-08-01T09:34:17Z"
+    },
+    {
+      "author": "@lesu7649",
+      "text": "이걸 달리네",
+      "likeCount": 0,
+      "publishedAt": "2017-08-02T03:46:36Z"
+    },
+    {
+      "author": "@정찬은-g4o",
+      "text": "매미 귀갱 ㅡㅡ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-10T06:26:40Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "463sCOnfKiQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@oh6637",
+      "text": "채팅창이 얼방을 안해본듯 하오....",
+      "likeCount": 2,
+      "publishedAt": "2016-09-25T16:39:01Z"
+    },
+    {
+      "author": "@Joker-gt6ln",
+      "text": "아재 머리회전이 안되니 절대 얼법은 하지마세요",
+      "likeCount": 0,
+      "publishedAt": "2016-09-25T14:08:21Z"
+    },
+    {
+      "author": "@지니-q7k",
+      "text": "팅김잼 별 떨구기 꿀잼",
+      "likeCount": 0,
+      "publishedAt": "2016-09-24T12:06:22Z"
+    },
+    {
+      "author": "@Eldordo",
+      "text": "방송 오래보면서 이렇게답답할줄이야",
+      "likeCount": 0,
+      "publishedAt": "2016-09-24T16:57:33Z"
+    }
+  ]
 }

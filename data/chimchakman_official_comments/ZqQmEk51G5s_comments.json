@@ -1,5 +1,36 @@
 {
   "video_id": "ZqQmEk51G5s",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@ysj1258",
+      "text": "20:00 쏘영이 기여어...",
+      "likeCount": 10,
+      "publishedAt": "2017-05-15T14:05:01Z"
+    },
+    {
+      "author": "@CABBAGEHAHA",
+      "text": "제목이 잘못되었네요 '쏘영이의 신기한 2.5D 퍼즐게임 (with 침착맨)'으로 수정부탁드립니다",
+      "likeCount": 8,
+      "publishedAt": "2017-05-15T10:31:25Z"
+    },
+    {
+      "author": "@집삵",
+      "text": "쏘커(쏘영이 커엽다는뜻ㅎ)",
+      "likeCount": 1,
+      "publishedAt": "2017-06-04T21:36:10Z"
+    },
+    {
+      "author": "@ab-bo5hq",
+      "text": "쏘영이데리고 하기에는 너무어려운데..",
+      "likeCount": 1,
+      "publishedAt": "2017-05-15T12:57:26Z"
+    },
+    {
+      "author": "@UPSADA-s8d",
+      "text": "맵 중간에 큐브 놓치고 이동하면 다시 찾기 힘들겠어요",
+      "likeCount": 0,
+      "publishedAt": "2017-05-16T08:42:02Z"
+    }
+  ]
 }

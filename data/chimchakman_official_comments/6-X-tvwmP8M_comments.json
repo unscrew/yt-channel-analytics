@@ -1,5 +1,18 @@
 {
   "video_id": "6-X-tvwmP8M",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@Pireneu",
+      "text": "조회수 1 ㄱ",
+      "likeCount": 0,
+      "publishedAt": "2017-10-04T07:21:56Z"
+    },
+    {
+      "author": "@발더스게이트",
+      "text": "캬",
+      "likeCount": 0,
+      "publishedAt": "2025-08-02T16:31:44Z"
+    }
+  ]
 }

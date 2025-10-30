@@ -1,5 +1,30 @@
 {
   "video_id": "CG83N5xvJPg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@이정훈-p1w",
+      "text": "행님 잘보고있습니다 ㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-12T14:32:49Z"
+    },
+    {
+      "author": "@yugi4212",
+      "text": "말체자르 손님초대 오지게 잘해오네 ㄷㄷ",
+      "likeCount": 2,
+      "publishedAt": "2017-09-14T13:01:57Z"
+    },
+    {
+      "author": "@ino1342w",
+      "text": "인트로부터 심쿵",
+      "likeCount": 0,
+      "publishedAt": "2017-09-13T23:16:39Z"
+    },
+    {
+      "author": "@한개굴-s6j",
+      "text": "엥 그러고보니 왜 흑마???",
+      "likeCount": 0,
+      "publishedAt": "2017-09-12T14:38:40Z"
+    }
+  ]
 }

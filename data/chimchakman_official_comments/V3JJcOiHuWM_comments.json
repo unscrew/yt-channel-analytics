@@ -1,5 +1,24 @@
 {
   "video_id": "V3JJcOiHuWM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@고건희",
+      "text": "위대한 금연3일차의 팬다",
+      "likeCount": 0,
+      "publishedAt": "2023-06-03T05:57:38Z"
+    },
+    {
+      "author": "@Joe-id1xi",
+      "text": "노딜 예스 스트레스",
+      "likeCount": 0,
+      "publishedAt": "2017-01-08T22:49:48Z"
+    },
+    {
+      "author": "@메원소",
+      "text": "요즘 다이브 많이 찍는대 광란안찍엇다고 뭐라하네...",
+      "likeCount": 0,
+      "publishedAt": "2017-01-08T11:11:45Z"
+    }
+  ]
 }

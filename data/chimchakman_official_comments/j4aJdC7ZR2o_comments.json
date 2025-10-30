@@ -1,5 +1,36 @@
 {
   "video_id": "j4aJdC7ZR2o",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "은근 꿀잼인데 조회수가 왤케 없누",
+      "likeCount": 1,
+      "publishedAt": "2020-03-23T20:16:22Z"
+    },
+    {
+      "author": "@Ayodropthe",
+      "text": "7:04",
+      "likeCount": 0,
+      "publishedAt": "2020-05-06T04:24:39Z"
+    },
+    {
+      "author": "@mihowink5099",
+      "text": "한판하면 시청자들로 부터 쓰레기취급을 받을수 있는 게임",
+      "likeCount": 1,
+      "publishedAt": "2016-11-24T11:42:54Z"
+    },
+    {
+      "author": "@Twenty1357",
+      "text": "강도짓하고 멘탈나가면 술마시면 됨",
+      "likeCount": 0,
+      "publishedAt": "2021-12-11T17:16:02Z"
+    },
+    {
+      "author": "@wonikcho1030",
+      "text": "침착맨 인성의 상태가?",
+      "likeCount": 1,
+      "publishedAt": "2016-12-01T06:47:17Z"
+    }
+  ]
 }

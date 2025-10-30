@@ -1,5 +1,18 @@
 {
   "video_id": "8pvXdbxABHo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@sunnyyy77660",
+      "text": "2",
+      "likeCount": 0,
+      "publishedAt": "2024-12-03T00:20:26Z"
+    },
+    {
+      "author": "@dogfootsmellgood",
+      "text": "1",
+      "likeCount": 0,
+      "publishedAt": "2018-12-25T07:27:55Z"
+    }
+  ]
 }

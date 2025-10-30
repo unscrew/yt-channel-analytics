@@ -1,5 +1,24 @@
 {
   "video_id": "j7Iy35lUN_4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@V6CL",
+      "text": "재밋겠당 히히",
+      "likeCount": 0,
+      "publishedAt": "2021-07-05T04:19:24Z"
+    },
+    {
+      "author": "@newtopchoi2937",
+      "text": "이제 아조씨도 조만간 소울시리즈 하시겠네요. 기대하겠습니다.",
+      "likeCount": 0,
+      "publishedAt": "2017-01-05T16:04:33Z"
+    },
+    {
+      "author": "@공정환-i6l",
+      "text": "개 킹받네",
+      "likeCount": 0,
+      "publishedAt": "2019-12-19T15:29:42Z"
+    }
+  ]
 }

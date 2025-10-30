@@ -1,5 +1,24 @@
 {
   "video_id": "_SFFfjX3pg0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@로크크",
+      "text": "후아가 전성기 시절이네.",
+      "likeCount": 0,
+      "publishedAt": "2021-08-22T17:12:48Z"
+    },
+    {
+      "author": "@고진우-k8t",
+      "text": "킹도",
+      "likeCount": 0,
+      "publishedAt": "2016-12-22T08:14:28Z"
+    },
+    {
+      "author": "@GalLuchii",
+      "text": "댓글띠!",
+      "likeCount": 0,
+      "publishedAt": "2016-12-22T08:43:03Z"
+    }
+  ]
 }

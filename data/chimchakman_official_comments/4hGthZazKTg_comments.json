@@ -1,5 +1,24 @@
 {
   "video_id": "4hGthZazKTg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@조강현-q5u",
+      "text": "크 마지막 개존멋 투기장은 역시 사람손으로 직접 픽해야 맛이제",
+      "likeCount": 0,
+      "publishedAt": "2017-09-30T18:24:45Z"
+    },
+    {
+      "author": "@밀크티다즐링",
+      "text": "6승저거 뭐냐....?",
+      "likeCount": 1,
+      "publishedAt": "2017-10-01T01:45:26Z"
+    },
+    {
+      "author": "@이태건-d2t",
+      "text": "뭐여 12승 아닌것도 올라왔네",
+      "likeCount": 0,
+      "publishedAt": "2023-05-19T07:37:34Z"
+    }
+  ]
 }

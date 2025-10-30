@@ -1,5 +1,30 @@
 {
   "video_id": "EwmduPa0prk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@스펀지밥-n3n",
+      "text": "빛나래 살살 녹는다~~",
+      "likeCount": 0,
+      "publishedAt": "2017-05-26T19:35:37Z"
+    },
+    {
+      "author": "@Helith",
+      "text": "줄임말 에바점친데;",
+      "likeCount": 2,
+      "publishedAt": "2017-05-26T10:24:06Z"
+    },
+    {
+      "author": "@김지민-p2t",
+      "text": "이걸 노바가",
+      "likeCount": 0,
+      "publishedAt": "2017-06-12T04:04:18Z"
+    },
+    {
+      "author": "@게임종결자-j7o",
+      "text": "요정침블린이벤트",
+      "likeCount": 0,
+      "publishedAt": "2017-05-26T21:05:56Z"
+    }
+  ]
 }

@@ -1,5 +1,36 @@
 {
   "video_id": "yuj_9GRNNqk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@윤효성-b3d",
+      "text": "티리온은 역시 사랑",
+      "likeCount": 0,
+      "publishedAt": "2016-03-05T00:41:17Z"
+    },
+    {
+      "author": "@ggoonggg",
+      "text": "멀록이 따블!",
+      "likeCount": 0,
+      "publishedAt": "2016-03-05T01:50:00Z"
+    },
+    {
+      "author": "@zaq0657",
+      "text": "용거각이래 ㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-03-04T14:51:53Z"
+    },
+    {
+      "author": "@갱플랭크-f2v",
+      "text": "씹서vs씹서",
+      "likeCount": 0,
+      "publishedAt": "2016-03-04T14:30:45Z"
+    },
+    {
+      "author": "@이예빈-k8p",
+      "text": "1등",
+      "likeCount": 0,
+      "publishedAt": "2016-03-04T14:30:46Z"
+    }
+  ]
 }

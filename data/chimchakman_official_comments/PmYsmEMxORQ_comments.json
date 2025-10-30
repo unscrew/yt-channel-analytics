@@ -1,5 +1,30 @@
 {
   "video_id": "PmYsmEMxORQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@테즈매니아-w5h",
+      "text": "흡연은 폐암 등 각종 질병의 원인! 그래도 피우시겠습니까",
+      "likeCount": 6,
+      "publishedAt": "2017-08-23T10:40:26Z"
+    },
+    {
+      "author": "@OlJ-k1h",
+      "text": "앜ㅋㅋㅋ 경고에서 빵터졌어요ㅋㅋㅋ 넘나 유쾌ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-24T05:59:01Z"
+    },
+    {
+      "author": "@김진호-k7s2b",
+      "text": "맵다 매워..",
+      "likeCount": 0,
+      "publishedAt": "2017-08-24T09:49:04Z"
+    },
+    {
+      "author": "@정찬은-g4o",
+      "text": "그래도 때리시겠습니까? ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-24T10:49:51Z"
+    }
+  ]
 }

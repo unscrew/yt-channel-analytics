@@ -1,5 +1,24 @@
 {
   "video_id": "ZjjT9BIvTLI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@시노페",
+      "text": "정주행 시작!",
+      "likeCount": 0,
+      "publishedAt": "2024-08-08T15:58:56Z"
+    },
+    {
+      "author": "@lizel3158",
+      "text": "쬬젼,,,그립읍니다,,,,",
+      "likeCount": 0,
+      "publishedAt": "2020-11-21T21:45:59Z"
+    },
+    {
+      "author": "@-_-.............",
+      "text": "그립읍니다2222",
+      "likeCount": 0,
+      "publishedAt": "2022-10-13T11:01:03Z"
+    }
+  ]
 }

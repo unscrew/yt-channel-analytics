@@ -1,5 +1,24 @@
 {
   "video_id": "CU2gY4z9nr0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김첨지-z9s",
+      "text": "좋은 조합입니다 수장님",
+      "likeCount": 9,
+      "publishedAt": "2017-06-02T08:31:41Z"
+    },
+    {
+      "author": "@kmbngmn",
+      "text": "[2:20]울부짖는 침착맨",
+      "likeCount": 0,
+      "publishedAt": "2017-06-04T01:09:09Z"
+    },
+    {
+      "author": "@rkim4481",
+      "text": "혁하",
+      "likeCount": 0,
+      "publishedAt": "2017-06-02T09:26:43Z"
+    }
+  ]
 }

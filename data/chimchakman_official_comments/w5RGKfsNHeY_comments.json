@@ -1,5 +1,24 @@
 {
   "video_id": "w5RGKfsNHeY",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@우마로그",
+      "text": "와 몰랐는데 히오스 진짜 재밌네요 집가서 바로 해봐야할듯",
+      "likeCount": 2,
+      "publishedAt": "2016-09-12T03:09:43Z"
+    },
+    {
+      "author": "@k0j3p61",
+      "text": "상대리리 캐리네요 ^^*",
+      "likeCount": 0,
+      "publishedAt": "2016-09-12T07:18:44Z"
+    },
+    {
+      "author": "@IrumSung-f7z",
+      "text": "리리 죽으면 죄악 이라는",
+      "likeCount": 0,
+      "publishedAt": "2016-09-12T08:54:30Z"
+    }
+  ]
 }

@@ -1,5 +1,36 @@
 {
   "video_id": "4ETNizBS4AI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@오성은-s9j",
+      "text": "판당고 좋아",
+      "likeCount": 1,
+      "publishedAt": "2017-02-20T09:39:44Z"
+    },
+    {
+      "author": "@gpsrlin123",
+      "text": "그러고보니 달모양이 해골뼉다구네 ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-02-25T05:38:43Z"
+    },
+    {
+      "author": "@user-sailorv2nus",
+      "text": "가보자고",
+      "likeCount": 0,
+      "publishedAt": "2021-08-17T18:48:23Z"
+    },
+    {
+      "author": "@뱁새-j5c",
+      "text": "어우 보다 처음으로 졸았네",
+      "likeCount": 0,
+      "publishedAt": "2019-09-08T04:44:12Z"
+    },
+    {
+      "author": "@이정현-f1u",
+      "text": "근데 뭉수가뭐에요? 훈수를왜그렇게표현하는거죠??",
+      "likeCount": 0,
+      "publishedAt": "2017-02-21T10:33:39Z"
+    }
+  ]
 }

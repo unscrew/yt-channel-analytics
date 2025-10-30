@@ -1,5 +1,24 @@
 {
   "video_id": "mc9dzS-ugI4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@user-kellog1",
+      "text": "분명튜토리얼할때 밖이 밝았던걸로 기억하는데...",
+      "likeCount": 1,
+      "publishedAt": "2016-10-26T03:48:57Z"
+    },
+    {
+      "author": "@Maru_YP",
+      "text": "자고일어나니 여기였읍니다",
+      "likeCount": 0,
+      "publishedAt": "2021-09-17T17:13:44Z"
+    },
+    {
+      "author": "@_kkimin",
+      "text": "아니 이게 구독자 81만 채널의 댓글창 이라고?",
+      "likeCount": 3,
+      "publishedAt": "2020-12-18T16:39:58Z"
+    }
+  ]
 }

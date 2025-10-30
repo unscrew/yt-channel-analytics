@@ -1,5 +1,36 @@
 {
   "video_id": "tvvCZDTuYI4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@김수찬-g8i",
+      "text": "요새 투기장 흥하내",
+      "likeCount": 0,
+      "publishedAt": "2017-07-27T14:32:35Z"
+    },
+    {
+      "author": "@HappyS-fl6ll",
+      "text": "돌창이셔서 바로 맞추시네",
+      "likeCount": 0,
+      "publishedAt": "2017-07-28T01:21:51Z"
+    },
+    {
+      "author": "@TheNineX9",
+      "text": "내가 냥꾼이었으면 키보드 부쉈다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-04T14:38:06Z"
+    },
+    {
+      "author": "@tenny7619",
+      "text": "아제 투기장많이하더니 잘해지심",
+      "likeCount": 0,
+      "publishedAt": "2017-07-27T16:51:08Z"
+    },
+    {
+      "author": "@ohtv6805",
+      "text": "말장난 그만하자",
+      "likeCount": 0,
+      "publishedAt": "2017-07-28T11:49:37Z"
+    }
+  ]
 }

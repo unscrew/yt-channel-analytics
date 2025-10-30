@@ -1,5 +1,24 @@
 {
   "video_id": "1pdSaTB78a0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@sunnyyy77660",
+      "text": "너무재밌어",
+      "likeCount": 0,
+      "publishedAt": "2024-12-03T00:39:02Z"
+    },
+    {
+      "author": "@안노2",
+      "text": "2017년은 히오스의 해",
+      "likeCount": 0,
+      "publishedAt": "2016-10-29T13:33:17Z"
+    },
+    {
+      "author": "@AJH826",
+      "text": "ㅋㅋ말년갑",
+      "likeCount": 0,
+      "publishedAt": "2016-10-29T11:20:14Z"
+    }
+  ]
 }

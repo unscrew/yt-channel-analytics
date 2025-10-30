@@ -1,5 +1,18 @@
 {
   "video_id": "M23P5bkBcUs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@klas_young",
+      "text": "돌크리트 격파ㅋㅋㅋㅋ 어금니 살살녹는닼ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-10-03T11:08:17Z"
+    },
+    {
+      "author": "@밀크티다즐링",
+      "text": "7분에 체력2인데 왜 1과2를 때렸나요?",
+      "likeCount": 0,
+      "publishedAt": "2017-10-03T12:35:39Z"
+    }
+  ]
 }

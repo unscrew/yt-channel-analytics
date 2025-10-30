@@ -1,5 +1,24 @@
 {
   "video_id": "fCgMzkUKKMI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@happypalette",
+      "text": "???:7승 하고 싶으시면 도적하세요!",
+      "likeCount": 0,
+      "publishedAt": "2017-04-03T15:05:01Z"
+    },
+    {
+      "author": "@강명수-w6y",
+      "text": "언더시티 상인/포크/치유로봇 ㅠㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-02T16:33:15Z"
+    },
+    {
+      "author": "@지고깜",
+      "text": "언더시티 상인 뽑았어야 됐는데",
+      "likeCount": 0,
+      "publishedAt": "2017-04-03T05:40:05Z"
+    }
+  ]
 }

@@ -1,5 +1,18 @@
 {
   "video_id": "t4PM9_sEbEc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@abababand1344",
+      "text": "이걸 했다고?",
+      "likeCount": 0,
+      "publishedAt": "2024-08-08T18:26:10Z"
+    },
+    {
+      "author": "@Bedoraze",
+      "text": "5년 만에 첫 댓글이라니...",
+      "likeCount": 0,
+      "publishedAt": "2023-01-10T10:30:45Z"
+    }
+  ]
 }

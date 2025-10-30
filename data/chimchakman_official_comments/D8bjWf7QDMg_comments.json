@@ -1,5 +1,18 @@
 {
   "video_id": "D8bjWf7QDMg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@hvenwint8513",
+      "text": "MVP",
+      "likeCount": 0,
+      "publishedAt": "2017-01-03T00:36:53Z"
+    },
+    {
+      "author": "@hyojunkim5563",
+      "text": "아재...핵을 왜 안 써요?",
+      "likeCount": 0,
+      "publishedAt": "2017-01-01T13:08:56Z"
+    }
+  ]
 }

@@ -1,5 +1,18 @@
 {
   "video_id": "yIl5kcZOlxs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@두부로지구를가격-t2y",
+      "text": "서강인 씨커형 아닌감...",
+      "likeCount": 0,
+      "publishedAt": "2016-04-02T12:33:33Z"
+    },
+    {
+      "author": "@1q2w3r",
+      "text": "아재가 계속 고오급 레스또랑 가서 저도 어제 복귀했어요...",
+      "likeCount": 0,
+      "publishedAt": "2016-04-04T06:36:57Z"
+    }
+  ]
 }

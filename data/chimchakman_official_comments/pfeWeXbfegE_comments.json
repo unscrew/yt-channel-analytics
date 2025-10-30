@@ -1,5 +1,36 @@
 {
   "video_id": "pfeWeXbfegE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@freeso794",
+      "text": "12:38 하품할때 나도 같이 하품했네",
+      "likeCount": 2,
+      "publishedAt": "2020-02-09T16:50:08Z"
+    },
+    {
+      "author": "@macju7207",
+      "text": "7:47 ㅠㅠㅠㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-05T07:36:43Z"
+    },
+    {
+      "author": "@chulhoonjang296",
+      "text": "2편까지 보는게 한계다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-03T11:43:20Z"
+    },
+    {
+      "author": "@MAISON_MARGIELA",
+      "text": "아재요 ㅠㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-03T13:15:01Z"
+    },
+    {
+      "author": "@낙타-d6h",
+      "text": "조회수가 100회도 안되네.. 잠 솔솔온다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-03T10:44:24Z"
+    }
+  ]
 }

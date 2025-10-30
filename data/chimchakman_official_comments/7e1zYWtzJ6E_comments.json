@@ -1,5 +1,30 @@
 {
   "video_id": "7e1zYWtzJ6E",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@원종현-b4l",
+      "text": "토탈워 좋다",
+      "likeCount": 5,
+      "publishedAt": "2017-10-08T07:16:42Z"
+    },
+    {
+      "author": "@캐쓸-w9q",
+      "text": "썸네일이 아련하네요",
+      "likeCount": 4,
+      "publishedAt": "2017-10-08T06:41:50Z"
+    },
+    {
+      "author": "@hohohohho",
+      "text": "쇼토 정도면 고갤 가도 될 정도구만 햄토나 하시지",
+      "likeCount": 0,
+      "publishedAt": "2017-10-08T15:32:54Z"
+    },
+    {
+      "author": "@user-Jaime119",
+      "text": "음.. 답답하지만 뭐.. 처음하시는 거니까 ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2017-10-08T12:06:42Z"
+    }
+  ]
 }

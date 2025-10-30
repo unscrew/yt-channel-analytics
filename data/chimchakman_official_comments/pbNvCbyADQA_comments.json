@@ -1,5 +1,36 @@
 {
   "video_id": "pbNvCbyADQA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@aa-tr8pn",
+      "text": "왜 12승 못한지 알겠다",
+      "likeCount": 4,
+      "publishedAt": "2017-08-25T00:26:21Z"
+    },
+    {
+      "author": "@정찬은-g4o",
+      "text": "장고 끝에 악수란 이런건가",
+      "likeCount": 0,
+      "publishedAt": "2017-09-07T12:24:22Z"
+    },
+    {
+      "author": "@야옹이0",
+      "text": "아 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2019-11-22T09:49:54Z"
+    },
+    {
+      "author": "@지영-c4d",
+      "text": "전부 만만치않네 실력자들만..",
+      "likeCount": 1,
+      "publishedAt": "2017-10-05T17:24:32Z"
+    },
+    {
+      "author": "@드륵냥",
+      "text": "얼방잼",
+      "likeCount": 0,
+      "publishedAt": "2017-08-24T17:18:53Z"
+    }
+  ]
 }

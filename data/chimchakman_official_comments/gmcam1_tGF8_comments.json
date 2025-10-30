@@ -1,5 +1,30 @@
 {
   "video_id": "gmcam1_tGF8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@vulcanus9538",
+      "text": "나름 정의구현한 경기였습니다 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-06-02T09:15:28Z"
+    },
+    {
+      "author": "@Doronbo199",
+      "text": "또다른 성호가 응원합니다.",
+      "likeCount": 0,
+      "publishedAt": "2016-06-01T12:46:38Z"
+    },
+    {
+      "author": "@kulkanku5087",
+      "text": "잘봤습니다.",
+      "likeCount": 0,
+      "publishedAt": "2016-06-01T16:58:43Z"
+    },
+    {
+      "author": "@콩완자-b5y",
+      "text": "대부분 사람들 히오스방송하면 롤이랑 비교하는데 그냥 방송이나마 백수들아!",
+      "likeCount": 0,
+      "publishedAt": "2016-06-01T10:11:33Z"
+    }
+  ]
 }

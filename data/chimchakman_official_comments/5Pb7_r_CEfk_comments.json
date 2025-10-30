@@ -1,5 +1,36 @@
 {
   "video_id": "5Pb7_r_CEfk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@topaz4150",
+      "text": "내꺼하자~",
+      "likeCount": 4,
+      "publishedAt": "2016-12-17T12:09:34Z"
+    },
+    {
+      "author": "@음료는나랑드",
+      "text": "오늘 침착맨형님 어깨깡패시네",
+      "likeCount": 0,
+      "publishedAt": "2016-12-17T10:58:36Z"
+    },
+    {
+      "author": "@hapski0906",
+      "text": "침착맨님 옷 개이쁜데 무슨 옷이죠??",
+      "likeCount": 0,
+      "publishedAt": "2016-12-17T12:31:55Z"
+    },
+    {
+      "author": "@user-blakeredon",
+      "text": "마동석ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-12-25T11:15:31Z"
+    },
+    {
+      "author": "@平沢所",
+      "text": "호옹",
+      "likeCount": 0,
+      "publishedAt": "2016-12-17T10:50:36Z"
+    }
+  ]
 }

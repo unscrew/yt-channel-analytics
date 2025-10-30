@@ -1,5 +1,30 @@
 {
   "video_id": "D3pSRqMv_Ew",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@uchirachi",
+      "text": "침촉맨 입장서 그야말로 가슴이 저미는 심정으로 플레이 하셨겠군요",
+      "likeCount": 1,
+      "publishedAt": "2020-11-24T03:02:40Z"
+    },
+    {
+      "author": "@inoitamalcxe",
+      "text": "여몽펀치",
+      "likeCount": 2,
+      "publishedAt": "2019-12-30T08:03:10Z"
+    },
+    {
+      "author": "@NightOverForMyName_Official",
+      "text": "킹몽갓치",
+      "likeCount": 1,
+      "publishedAt": "2021-06-02T14:02:59Z"
+    },
+    {
+      "author": "@김기창-k6q",
+      "text": "아 잘못눌렀네",
+      "likeCount": 0,
+      "publishedAt": "2020-01-04T22:48:39Z"
+    }
+  ]
 }

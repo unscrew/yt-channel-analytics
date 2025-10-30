@@ -1,5 +1,18 @@
 {
   "video_id": "-eOCG7uQLjQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@spiritor85",
+      "text": "밥먹으면서 보기 딱 좋아 그냥...",
+      "likeCount": 0,
+      "publishedAt": "2016-01-06T12:34:17Z"
+    },
+    {
+      "author": "@야님이",
+      "text": "아재 거 아재는 삽살개 할아버지 걸리면 포기해야 한당께요...",
+      "likeCount": 0,
+      "publishedAt": "2016-01-01T16:06:52Z"
+    }
+  ]
 }

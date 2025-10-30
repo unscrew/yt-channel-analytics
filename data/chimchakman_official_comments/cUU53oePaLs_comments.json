@@ -1,5 +1,18 @@
 {
   "video_id": "cUU53oePaLs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@drink_water.",
+      "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-03-22T08:45:43Z"
+    },
+    {
+      "author": "@451-f7e",
+      "text": "신병철인이 뭐임? 안 매운 불닭같은건가?",
+      "likeCount": 0,
+      "publishedAt": "2017-03-22T10:13:57Z"
+    }
+  ]
 }

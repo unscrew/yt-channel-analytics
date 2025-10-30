@@ -1,5 +1,24 @@
 {
   "video_id": "jLebHUJtObs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@kkingkkyong",
+      "text": "오메 이거 아직도 하고있었네ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2016-10-01T08:53:45Z"
+    },
+    {
+      "author": "@이경태-f6m",
+      "text": "맵 극횸 1.5배 국ㅡ룰",
+      "likeCount": 0,
+      "publishedAt": "2019-12-09T16:40:00Z"
+    },
+    {
+      "author": "@cjswing",
+      "text": "게임보다 미술사가 더재밌는데 이상한 영상...",
+      "likeCount": 0,
+      "publishedAt": "2021-10-01T14:17:38Z"
+    }
+  ]
 }

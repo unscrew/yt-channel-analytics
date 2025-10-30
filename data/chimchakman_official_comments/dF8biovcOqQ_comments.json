@@ -1,5 +1,36 @@
 {
   "video_id": "dF8biovcOqQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@sinu_8744",
+      "text": "아들이 태어났으면 어찌됐을까",
+      "likeCount": 3,
+      "publishedAt": "2017-08-21T07:23:59Z"
+    },
+    {
+      "author": "@greenfish146",
+      "text": "쏘영이 똑부러지게 말하는거 보소\n솔직히 나보다 말 잘한다ㅋㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2017-10-08T17:33:55Z"
+    },
+    {
+      "author": "@youjungha5031",
+      "text": "와 댓글 왜케 없어",
+      "likeCount": 0,
+      "publishedAt": "2024-06-01T09:00:28Z"
+    },
+    {
+      "author": "@100-r3y",
+      "text": "댓글이 오직 4개ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2023-05-24T12:39:46Z"
+    },
+    {
+      "author": "@901D",
+      "text": "꿀팁 : 2배속으로 보면 덜 답답하다",
+      "likeCount": 2,
+      "publishedAt": "2017-08-21T08:29:49Z"
+    }
+  ]
 }

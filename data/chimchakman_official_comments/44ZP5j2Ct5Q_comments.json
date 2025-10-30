@@ -1,5 +1,24 @@
 {
   "video_id": "44ZP5j2Ct5Q",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@MInas-cz9jz",
+      "text": "차까이 마까이",
+      "likeCount": 1,
+      "publishedAt": "2017-04-08T14:44:20Z"
+    },
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "베사메~ 베사메 무친판단.",
+      "likeCount": 0,
+      "publishedAt": "2020-04-13T04:39:16Z"
+    },
+    {
+      "author": "@흑호-i4o",
+      "text": "뻔뻔한거 보소 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-08T10:41:28Z"
+    }
+  ]
 }

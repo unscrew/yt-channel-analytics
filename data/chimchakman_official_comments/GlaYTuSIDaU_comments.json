@@ -1,5 +1,24 @@
 {
   "video_id": "GlaYTuSIDaU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Chulunida",
+      "text": "여윾시 브로맨스는 로맨스 오브 쓰리킹덤이지!",
+      "likeCount": 0,
+      "publishedAt": "2017-04-10T07:22:09Z"
+    },
+    {
+      "author": "@FearnotOnly",
+      "text": "유요따위 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-10T07:30:58Z"
+    },
+    {
+      "author": "@boo620",
+      "text": "엔딩이 빠졋네용 ㅜ",
+      "likeCount": 0,
+      "publishedAt": "2017-05-27T22:14:45Z"
+    }
+  ]
 }

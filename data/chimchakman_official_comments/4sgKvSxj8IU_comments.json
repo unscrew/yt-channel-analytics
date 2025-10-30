@@ -1,5 +1,24 @@
 {
   "video_id": "4sgKvSxj8IU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@휴면맨",
+      "text": "한나라 대를 끊어놓고 옥쇄 슬쩍하면 정통성이 생기는군요. 정말 신기하네요",
+      "likeCount": 2,
+      "publishedAt": "2018-01-25T19:00:27Z"
+    },
+    {
+      "author": "@TBVIR",
+      "text": "침착맨 꿀잼",
+      "likeCount": 0,
+      "publishedAt": "2017-06-20T05:01:39Z"
+    },
+    {
+      "author": "@wargear9326",
+      "text": "씅쌍~",
+      "likeCount": 0,
+      "publishedAt": "2022-03-06T02:53:16Z"
+    }
+  ]
 }

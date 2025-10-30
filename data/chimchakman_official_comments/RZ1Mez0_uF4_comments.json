@@ -1,5 +1,24 @@
 {
   "video_id": "RZ1Mez0_uF4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@deweychoice7873",
+      "text": "14:23 호로록 걱정 5연속",
+      "likeCount": 0,
+      "publishedAt": "2017-03-10T18:10:15Z"
+    },
+    {
+      "author": "@Byulgut",
+      "text": "빅 호로록맨",
+      "likeCount": 0,
+      "publishedAt": "2017-03-05T10:31:55Z"
+    },
+    {
+      "author": "@wama1854",
+      "text": "썸네일",
+      "likeCount": 0,
+      "publishedAt": "2017-03-05T16:17:43Z"
+    }
+  ]
 }

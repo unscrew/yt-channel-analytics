@@ -1,5 +1,30 @@
 {
   "video_id": "vdnbK6kks1k",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@홍길동-s6m",
+      "text": "하이라이트 12:00",
+      "likeCount": 0,
+      "publishedAt": "2017-08-18T13:11:29Z"
+    },
+    {
+      "author": "@이정민-h5l",
+      "text": "제 장례식에 돌숭이를 올려주세요",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T00:45:50Z"
+    },
+    {
+      "author": "@최재우-k4q",
+      "text": "히트다 히트!!!!!",
+      "likeCount": 0,
+      "publishedAt": "2017-08-18T18:15:42Z"
+    },
+    {
+      "author": "@holdenbelzer2130",
+      "text": "아조시 실력은 정말 좋은데 장고 끝에 악수 두는 경우가 종종 있음",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T15:45:27Z"
+    }
+  ]
 }

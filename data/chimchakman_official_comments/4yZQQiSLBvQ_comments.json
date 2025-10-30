@@ -1,5 +1,36 @@
 {
   "video_id": "4yZQQiSLBvQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@jinkyugod",
+      "text": "17:55 하이라이트",
+      "likeCount": 7,
+      "publishedAt": "2017-09-16T09:34:10Z"
+    },
+    {
+      "author": "@jinuske9156",
+      "text": "39:56 경운기 타고 상황극하는 나",
+      "likeCount": 2,
+      "publishedAt": "2017-09-16T14:12:06Z"
+    },
+    {
+      "author": "@김빈츠-t7s",
+      "text": "어째 캐리건 불안하더만ㅋㅋㅋㅋㅋ ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-05-19T13:36:48Z"
+    },
+    {
+      "author": "@갈릭-p4c",
+      "text": "다음꺼 언제나와요? 브루드워까지 전부부탁드려요.",
+      "likeCount": 0,
+      "publishedAt": "2017-09-24T07:39:02Z"
+    },
+    {
+      "author": "@김주태-v7r",
+      "text": "ㅈㄲㅁㅇ~ (쾅)",
+      "likeCount": 0,
+      "publishedAt": "2021-06-04T00:39:19Z"
+    }
+  ]
 }

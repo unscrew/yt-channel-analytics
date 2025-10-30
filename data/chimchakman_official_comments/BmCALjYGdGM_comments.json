@@ -1,5 +1,18 @@
 {
   "video_id": "BmCALjYGdGM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@l_1_1",
+      "text": "진짜 이 시절 영상 조회 수 낮은거 안타깝다... 사람들이 진짜 보물을 못 찾고 있네",
+      "likeCount": 2,
+      "publishedAt": "2023-04-08T05:53:56Z"
+    },
+    {
+      "author": "@ysbk18",
+      "text": "좆꿀잼 ㅊㅊㅊ",
+      "likeCount": 0,
+      "publishedAt": "2018-07-09T22:35:47Z"
+    }
+  ]
 }

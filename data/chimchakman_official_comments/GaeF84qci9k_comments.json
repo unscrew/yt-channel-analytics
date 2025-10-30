@@ -1,5 +1,30 @@
 {
   "video_id": "GaeF84qci9k",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@oo_mizu",
+      "text": "이덱 완죤 쌔다",
+      "likeCount": 1,
+      "publishedAt": "2016-07-05T11:10:55Z"
+    },
+    {
+      "author": "@햄벅-h6o",
+      "text": "아니 먼짓을 하시길래 팩에서 그렇게 나오는건가요 배가너무 아프네요",
+      "likeCount": 1,
+      "publishedAt": "2016-07-06T17:09:50Z"
+    },
+    {
+      "author": "@ktecmouse",
+      "text": "티씨가...",
+      "likeCount": 1,
+      "publishedAt": "2016-07-05T16:38:39Z"
+    },
+    {
+      "author": "@jewooji39",
+      "text": "아조씨 엑스컴 2도 하죠",
+      "likeCount": 1,
+      "publishedAt": "2016-07-05T10:55:05Z"
+    }
+  ]
 }

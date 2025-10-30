@@ -1,5 +1,24 @@
 {
   "video_id": "Rg2fOPdzqa0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Chulunida",
+      "text": "린간젤리 출연 1회차만에 사망...",
+      "likeCount": 0,
+      "publishedAt": "2017-03-01T20:17:13Z"
+    },
+    {
+      "author": "@zocker4th",
+      "text": "일진맨이 엑스컴을할줄이야",
+      "likeCount": 1,
+      "publishedAt": "2017-03-01T12:06:19Z"
+    },
+    {
+      "author": "@youngwunam",
+      "text": "여긴 댓글이 ㅈㄴ 적네",
+      "likeCount": 0,
+      "publishedAt": "2023-02-14T12:21:38Z"
+    }
+  ]
 }

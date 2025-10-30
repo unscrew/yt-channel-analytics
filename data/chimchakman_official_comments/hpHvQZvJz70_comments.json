@@ -1,5 +1,30 @@
 {
   "video_id": "hpHvQZvJz70",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@김진호-p6n",
+      "text": "하이라이트 넘나 커여우신 것...",
+      "likeCount": 1,
+      "publishedAt": "2017-11-17T19:06:40Z"
+    },
+    {
+      "author": "@이세영-k5o",
+      "text": "트수들과 인질극하는 침착맨 당신은 반도체.......",
+      "likeCount": 2,
+      "publishedAt": "2017-11-17T15:09:35Z"
+    },
+    {
+      "author": "@happyboksilday",
+      "text": "침.착.조.아",
+      "likeCount": 0,
+      "publishedAt": "2017-11-17T12:43:43Z"
+    },
+    {
+      "author": "@jinkyugod",
+      "text": "아무데도 도움이 안되는 트수들..",
+      "likeCount": 2,
+      "publishedAt": "2017-11-17T15:20:01Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "V2jQexqqFqU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@제발너프좀",
+      "text": "조온 연의들 보면 삼국지 인물전 하는느낌도 나는듯",
+      "likeCount": 0,
+      "publishedAt": "2023-02-28T16:42:15Z"
+    },
+    {
+      "author": "@Wooogiii",
+      "text": "옥새로 부활한 손견좌... 정주행하러 갑니다...",
+      "likeCount": 0,
+      "publishedAt": "2020-06-21T16:33:58Z"
+    },
+    {
+      "author": "@루크리리",
+      "text": "눈이 삐었나? 강동호랑이가 강호동랑이로 보임",
+      "likeCount": 0,
+      "publishedAt": "2020-08-06T13:12:46Z"
+    }
+  ]
 }

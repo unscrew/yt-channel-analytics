@@ -1,5 +1,18 @@
 {
   "video_id": "VlBVwpwbbnY",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@gabeeet",
+      "text": "틀자마자 욕나와서 놀랐네요 ㅎㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-18T09:42:51Z"
+    },
+    {
+      "author": "@Buru-c",
+      "text": "댓글한개짜리 알고리즘.... 더이상 나올 영상이 없는건가?",
+      "likeCount": 0,
+      "publishedAt": "2020-11-29T05:04:42Z"
+    }
+  ]
 }

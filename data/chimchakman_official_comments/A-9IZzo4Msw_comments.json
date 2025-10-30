@@ -1,5 +1,24 @@
 {
   "video_id": "A-9IZzo4Msw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김현철-l6x",
+      "text": "모랄 수류탄 각 개 잘본다 ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2016-10-25T06:49:44Z"
+    },
+    {
+      "author": "@ushyuk",
+      "text": "모랄이 잘하넴",
+      "likeCount": 0,
+      "publishedAt": "2016-10-24T12:08:24Z"
+    },
+    {
+      "author": "@hero_to_save",
+      "text": "😮조회수가 800밖에 안되네....",
+      "likeCount": 0,
+      "publishedAt": "2025-07-10T09:30:08Z"
+    }
+  ]
 }

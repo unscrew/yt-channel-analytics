@@ -1,5 +1,18 @@
 {
   "video_id": "S2eVj3oklx8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@wint6364",
+      "text": "이게 딱 침착맨 난이도네",
+      "likeCount": 0,
+      "publishedAt": "2022-05-29T14:19:24Z"
+    },
+    {
+      "author": "@김인준-u5g",
+      "text": "요즘 감성으로 다시 해줬으면 좋겠다",
+      "likeCount": 0,
+      "publishedAt": "2022-08-24T07:32:11Z"
+    }
+  ]
 }

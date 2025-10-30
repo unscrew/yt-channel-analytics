@@ -1,5 +1,30 @@
 {
   "video_id": "1RKp3z1qLuQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@yomanlee5493",
+      "text": "이야 오더 지린다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-20T16:55:47Z"
+    },
+    {
+      "author": "@김민수-r1k9d",
+      "text": "ㅠㅠ 괜히 저희랑 같은 조 되셔서..",
+      "likeCount": 0,
+      "publishedAt": "2017-01-20T21:51:45Z"
+    },
+    {
+      "author": "@루시안-h9j",
+      "text": "탱밑딜...",
+      "likeCount": 0,
+      "publishedAt": "2017-01-20T21:26:33Z"
+    },
+    {
+      "author": "@닌신-g7g",
+      "text": "알타진짜 잘한다",
+      "likeCount": 0,
+      "publishedAt": "2017-02-03T00:32:47Z"
+    }
+  ]
 }

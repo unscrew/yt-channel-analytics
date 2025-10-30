@@ -1,5 +1,24 @@
 {
   "video_id": "Lv_xlgbOb7k",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@nopasaran6307",
+      "text": "트레 잘한다...",
+      "likeCount": 0,
+      "publishedAt": "2017-01-22T12:29:10Z"
+    },
+    {
+      "author": "@sentret",
+      "text": "반굴 vs 너굴",
+      "likeCount": 0,
+      "publishedAt": "2017-01-21T19:05:20Z"
+    },
+    {
+      "author": "@톱니고래",
+      "text": "힝 나도.. 어그로 잘 끄는데",
+      "likeCount": 0,
+      "publishedAt": "2017-01-22T00:49:31Z"
+    }
+  ]
 }

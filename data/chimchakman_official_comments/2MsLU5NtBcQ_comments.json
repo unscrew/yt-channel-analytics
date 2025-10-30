@@ -1,5 +1,30 @@
 {
   "video_id": "2MsLU5NtBcQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@흐하-p6c",
+      "text": "다졌오",
+      "likeCount": 1,
+      "publishedAt": "2017-05-28T03:03:43Z"
+    },
+    {
+      "author": "@won9670able",
+      "text": "호우!!",
+      "likeCount": 1,
+      "publishedAt": "2017-05-24T14:31:03Z"
+    },
+    {
+      "author": "@teneathyn799",
+      "text": "매직박은 누구지",
+      "likeCount": 1,
+      "publishedAt": "2017-05-25T14:48:32Z"
+    },
+    {
+      "author": "@fisherman9199",
+      "text": "별로",
+      "likeCount": 1,
+      "publishedAt": "2017-05-25T08:01:30Z"
+    }
+  ]
 }

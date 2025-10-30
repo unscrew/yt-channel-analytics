@@ -1,5 +1,36 @@
 {
   "video_id": "9kQ625IRZCk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@crow_song",
+      "text": "나긋나긋하니 들으면서 작업하기 좋아요",
+      "likeCount": 0,
+      "publishedAt": "2023-07-23T22:06:30Z"
+    },
+    {
+      "author": "@NewJeans92",
+      "text": "조회수 실화냐",
+      "likeCount": 0,
+      "publishedAt": "2024-11-04T04:53:41Z"
+    },
+    {
+      "author": "@감자-y2e",
+      "text": "조회수 처참하네",
+      "likeCount": 1,
+      "publishedAt": "2018-09-15T04:24:45Z"
+    },
+    {
+      "author": "@호나로-j4j",
+      "text": "히히",
+      "likeCount": 0,
+      "publishedAt": "2021-12-06T01:31:57Z"
+    },
+    {
+      "author": "@이점점-j9n",
+      "text": "?",
+      "likeCount": 0,
+      "publishedAt": "2016-11-12T03:55:42Z"
+    }
+  ]
 }

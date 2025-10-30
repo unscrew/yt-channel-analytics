@@ -1,5 +1,24 @@
 {
   "video_id": "zni53jMzw3A",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@locusoh",
+      "text": "와.... 배원소 개불쌍...",
+      "likeCount": 0,
+      "publishedAt": "2017-04-25T12:07:18Z"
+    },
+    {
+      "author": "@Chulunida",
+      "text": "윾가놈 인성부터 아랫것들 인성까지...",
+      "likeCount": 0,
+      "publishedAt": "2017-04-19T15:39:33Z"
+    },
+    {
+      "author": "@제발너프좀",
+      "text": "고나우 인성",
+      "likeCount": 0,
+      "publishedAt": "2019-05-21T23:14:34Z"
+    }
+  ]
 }

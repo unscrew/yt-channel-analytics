@@ -1,5 +1,24 @@
 {
   "video_id": "B1rfo6pHFL4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@란파-y1w",
+      "text": "금과 은은 나와도 침형의 잃어버린 머리카락은 안놔왔다고 한다",
+      "likeCount": 1,
+      "publishedAt": "2017-06-30T00:45:20Z"
+    },
+    {
+      "author": "@Jamenese",
+      "text": "꿀ㅡ잼!",
+      "likeCount": 0,
+      "publishedAt": "2017-06-29T11:39:28Z"
+    },
+    {
+      "author": "@Leleuta",
+      "text": "테사 무슨 특 가면 저래요?",
+      "likeCount": 0,
+      "publishedAt": "2017-06-29T13:23:42Z"
+    }
+  ]
 }

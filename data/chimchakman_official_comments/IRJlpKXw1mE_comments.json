@@ -1,5 +1,24 @@
 {
   "video_id": "IRJlpKXw1mE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@ranoldola",
+      "text": "역시 수장님",
+      "likeCount": 0,
+      "publishedAt": "2016-12-23T11:10:51Z"
+    },
+    {
+      "author": "@반짝이는바지",
+      "text": "죽어도 여한이 없습니다.",
+      "likeCount": 0,
+      "publishedAt": "2016-12-23T11:34:21Z"
+    },
+    {
+      "author": "@kevinspace3308",
+      "text": "아조시 워킹데드3해주세여",
+      "likeCount": 0,
+      "publishedAt": "2016-12-23T14:25:32Z"
+    }
+  ]
 }

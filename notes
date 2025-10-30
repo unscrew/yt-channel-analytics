@@ -7,15 +7,11 @@
 - NER named entity recognition (인물/지명) -> 광고여부로 연계될수도 있을듯?
 - text classification (톤)
 
-
-
-
 문제점
 1. 화자 구분 -> whisper 화자구분 안됨
 
-
-
-
-아이디어
-1. 유튜브 뒷광고 확률 리턴하는 api
-2. 수제 자막 추출하는 api
+예상 벗어난 지점
+1. youtube data v3 하루에 10k 쿼타 너무 적어서 이틀에 걸쳐서 데이터 풀링해옴
+2. keybert 등 llm 이 처음 추천했던 모델이 sst transcript 대상으로 성능이 매우 떨어짐
+-> 해결됨) koNLPy 쓰니까 키워드 추출 훨씬 정확해짐. denoiser 는 별 영향 없음
+3. 

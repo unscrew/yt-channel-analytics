@@ -1,5 +1,24 @@
 {
   "video_id": "H38Weq62WFQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@PoliceLHJ",
+      "text": "놀라운 솔로공연",
+      "likeCount": 3,
+      "publishedAt": "2017-01-21T15:31:46Z"
+    },
+    {
+      "author": "@류영재-x1h",
+      "text": "이세상 소가 아니다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-27T12:52:26Z"
+    },
+    {
+      "author": "@성이름-z7t7k",
+      "text": "음... 그냥 무라딘 하셔야할듯.. ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-21T18:39:42Z"
+    }
+  ]
 }

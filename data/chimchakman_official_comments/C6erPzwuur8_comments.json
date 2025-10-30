@@ -1,5 +1,36 @@
 {
   "video_id": "C6erPzwuur8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@tea-two856",
+      "text": "헤헷 재밌는\n영상 감사합니당!",
+      "likeCount": 0,
+      "publishedAt": "2016-10-30T09:51:34Z"
+    },
+    {
+      "author": "@1q2w3r",
+      "text": "와 테사다 진짜.. 와... 혼자 자꾸 다른곳가 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2016-11-02T08:18:00Z"
+    },
+    {
+      "author": "@fattboyy112",
+      "text": "적절한 정당화다...",
+      "likeCount": 1,
+      "publishedAt": "2016-10-30T19:44:21Z"
+    },
+    {
+      "author": "@hyangswun2",
+      "text": "탱커없는걸 수긍하다니...",
+      "likeCount": 0,
+      "publishedAt": "2016-10-30T13:45:10Z"
+    },
+    {
+      "author": "@lep6411",
+      "text": "실버 발암",
+      "likeCount": 0,
+      "publishedAt": "2016-12-06T07:33:52Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "V01nGkiOG6M",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@1q2w3r",
+      "text": "5:57 ㅗㅜㅑ",
+      "likeCount": 2,
+      "publishedAt": "2018-01-12T11:30:00Z"
+    },
+    {
+      "author": "@whatthehandle.",
+      "text": "침조씨님 하이라이트 올리지마시고 풀영상을 주세요!",
+      "likeCount": 0,
+      "publishedAt": "2018-01-14T16:41:09Z"
+    },
+    {
+      "author": "@hsisdg",
+      "text": "침라딘 망치스택이... 크흠",
+      "likeCount": 0,
+      "publishedAt": "2018-01-12T12:21:03Z"
+    },
+    {
+      "author": "@cho2_z22",
+      "text": "포커싱이...ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2018-01-12T11:40:10Z"
+    }
+  ]
 }

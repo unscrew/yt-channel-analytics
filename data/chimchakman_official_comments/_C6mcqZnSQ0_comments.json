@@ -1,5 +1,18 @@
 {
   "video_id": "_C6mcqZnSQ0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@으아악-o8m",
+      "text": "5:21?",
+      "likeCount": 0,
+      "publishedAt": "2017-02-02T13:09:46Z"
+    },
+    {
+      "author": "@RuneArtic",
+      "text": "먹지 않으면 머키입니다.",
+      "likeCount": 1,
+      "publishedAt": "2017-01-21T16:38:56Z"
+    }
+  ]
 }

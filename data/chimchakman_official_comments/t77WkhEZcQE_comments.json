@@ -1,5 +1,36 @@
 {
   "video_id": "t77WkhEZcQE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@maxshin5721",
+      "text": "다들 뭐해요!\n덱에 모로스 넣으러 가지 않고!",
+      "likeCount": 1,
+      "publishedAt": "2016-09-24T04:09:21Z"
+    },
+    {
+      "author": "@MKS1221",
+      "text": "리로이 난투의 1/4 확률을!",
+      "likeCount": 2,
+      "publishedAt": "2016-09-23T13:40:39Z"
+    },
+    {
+      "author": "@aradormer",
+      "text": "오늘의 수면제",
+      "likeCount": 0,
+      "publishedAt": "2023-01-06T16:41:12Z"
+    },
+    {
+      "author": "@walter3953",
+      "text": "모 '더 킹갓엠퍼러' 로스",
+      "likeCount": 0,
+      "publishedAt": "2016-09-24T03:26:27Z"
+    },
+    {
+      "author": "@kizst316",
+      "text": "ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-09-23T13:59:57Z"
+    }
+  ]
 }

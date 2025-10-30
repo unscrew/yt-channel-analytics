@@ -1,5 +1,24 @@
 {
   "video_id": "pq1RExXaASA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@harryhan4975",
+      "text": "이야 이번 판 진짜 멋졌다.",
+      "likeCount": 0,
+      "publishedAt": "2016-10-10T10:35:19Z"
+    },
+    {
+      "author": "@사이버엔드유상철",
+      "text": "병건형님 무라딘 많이 늘었네",
+      "likeCount": 0,
+      "publishedAt": "2016-10-10T08:25:24Z"
+    },
+    {
+      "author": "@chh4503",
+      "text": "평소 실력이 아니신데?!",
+      "likeCount": 0,
+      "publishedAt": "2016-10-14T05:06:32Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "TCE11rMQTo0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@MKS1221",
+      "text": "인성맨 : 기분나쁘게 이걸로 잡아야겠다",
+      "likeCount": 0,
+      "publishedAt": "2016-09-22T09:50:02Z"
+    },
+    {
+      "author": "@FelineHunter-x1z",
+      "text": "이덱...1티어다",
+      "likeCount": 0,
+      "publishedAt": "2016-09-22T09:11:53Z"
+    },
+    {
+      "author": "@0624kth",
+      "text": "딱코딱뎀!",
+      "likeCount": 0,
+      "publishedAt": "2016-09-21T12:52:47Z"
+    },
+    {
+      "author": "@김현철-l6x",
+      "text": "동영상2랑 3 사이에 한 게임 짤렸나요?",
+      "likeCount": 0,
+      "publishedAt": "2016-09-21T18:21:14Z"
+    }
+  ]
 }

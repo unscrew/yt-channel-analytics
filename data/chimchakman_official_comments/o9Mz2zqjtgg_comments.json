@@ -1,5 +1,30 @@
 {
   "video_id": "o9Mz2zqjtgg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@톱니고래",
+      "text": "여러분....실버는 이렇게 어썸한 사람들이 많습니다 다들 실버로 오세요",
+      "likeCount": 2,
+      "publishedAt": "2016-12-09T09:44:20Z"
+    },
+    {
+      "author": "@Yazawang",
+      "text": "오늘씹라툴했는데 존나재밌었음",
+      "likeCount": 1,
+      "publishedAt": "2016-12-09T14:51:25Z"
+    },
+    {
+      "author": "@lifeofjamak3248",
+      "text": "제목부터 웃김ㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-24T10:53:41Z"
+    },
+    {
+      "author": "@Egehae",
+      "text": "단 한명도 빠짐없이 못하는 갓버...",
+      "likeCount": 0,
+      "publishedAt": "2016-12-09T18:03:01Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "TS3-KlU7M8w",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@고건희",
+      "text": "이게 끝인가요? 다음거 주세요주세요",
+      "likeCount": 0,
+      "publishedAt": "2023-05-25T17:42:19Z"
+    },
+    {
+      "author": "@notorious_kim",
+      "text": "아바투르그머지 공생체인가 걸어놓으면 제라툴 보이지않나요?",
+      "likeCount": 0,
+      "publishedAt": "2017-01-23T13:13:29Z"
+    },
+    {
+      "author": "@성이름-j6m",
+      "text": "저만 싱크 안맞나요?",
+      "likeCount": 0,
+      "publishedAt": "2017-01-23T10:08:58Z"
+    }
+  ]
 }

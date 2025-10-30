@@ -1,5 +1,24 @@
 {
   "video_id": "JHGuOANvjeA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@정다빈-c9r",
+      "text": "갓풍센세ㅜㅜ",
+      "likeCount": 0,
+      "publishedAt": "2018-04-09T11:39:54Z"
+    },
+    {
+      "author": "@Chulunida",
+      "text": "허유 진짜 컨셉 잘잡았네 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-02T20:42:56Z"
+    },
+    {
+      "author": "@이동희-e7w",
+      "text": "존예 전설의빌드업ㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-08T05:06:03Z"
+    }
+  ]
 }

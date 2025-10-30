@@ -1,5 +1,42 @@
 {
   "video_id": "OI0qV2EM_ng",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 6,
+  "comments": [
+    {
+      "author": "@류규범",
+      "text": "정보) 오믈렛은 맛있다",
+      "likeCount": 9,
+      "publishedAt": "2017-09-29T04:37:54Z"
+    },
+    {
+      "author": "@조강현-q5u",
+      "text": "여윽시 교수님 12승 잘보고 갑니다",
+      "likeCount": 1,
+      "publishedAt": "2017-09-28T15:53:37Z"
+    },
+    {
+      "author": "@htst-c1x",
+      "text": "역병 타이밍 좋다",
+      "likeCount": 0,
+      "publishedAt": "2020-03-22T14:30:00Z"
+    },
+    {
+      "author": "@dnarkgkfk2472",
+      "text": "ㄷㄷㄷ 설마 12승해서 1승당 만원이 4만원이 될줄은 몰랐지",
+      "likeCount": 1,
+      "publishedAt": "2017-09-28T16:25:51Z"
+    },
+    {
+      "author": "@주히-c3h",
+      "text": "22:49 유희왕..;;",
+      "likeCount": 0,
+      "publishedAt": "2019-11-03T10:31:06Z"
+    },
+    {
+      "author": "@kimurzzoo",
+      "text": "질문 : 컴터로 볼 때는 1080p가 지원되는데 왜 폰(갤8)으로 볼 때는 720p까지만 지원되나요? 침투부를 폰에서도 화질 좋게 보고 싶읍니다",
+      "likeCount": 0,
+      "publishedAt": "2017-09-29T02:16:27Z"
+    }
+  ]
 }

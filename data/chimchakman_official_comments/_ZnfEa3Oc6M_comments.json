@@ -1,5 +1,18 @@
 {
   "video_id": "_ZnfEa3Oc6M",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@htst-c1x",
+      "text": "너두 나두~ 히트다 히트",
+      "likeCount": 0,
+      "publishedAt": "2019-07-05T18:22:41Z"
+    },
+    {
+      "author": "@박태빈-l5v",
+      "text": "히트다 히트~",
+      "likeCount": 0,
+      "publishedAt": "2017-09-14T13:22:44Z"
+    }
+  ]
 }

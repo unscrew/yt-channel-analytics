@@ -1,5 +1,24 @@
 {
   "video_id": "ArqO8oeTsLo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Chulunida",
+      "text": "돌크리트들 요즘 수준 오지게 떨어지네... 저런놈들이 훈수두면서 빼애액 거리는 거 보니까 너두 나두 야나두",
+      "likeCount": 4,
+      "publishedAt": "2017-04-10T16:02:47Z"
+    },
+    {
+      "author": "@jwhan2522",
+      "text": "도네 밴넣겠습니다 ㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-04-11T06:31:24Z"
+    },
+    {
+      "author": "@유비가또",
+      "text": "침하",
+      "likeCount": 0,
+      "publishedAt": "2017-04-10T08:25:03Z"
+    }
+  ]
 }

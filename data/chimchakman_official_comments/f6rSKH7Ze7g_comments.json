@@ -1,5 +1,30 @@
 {
   "video_id": "f6rSKH7Ze7g",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@tae_a0",
+      "text": "좋았다 3:26",
+      "likeCount": 0,
+      "publishedAt": "2017-03-07T09:25:20Z"
+    },
+    {
+      "author": "@차동민-z3i",
+      "text": "파비굴단에 파멸리밍 환상적이냌ㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-03-07T15:16:53Z"
+    },
+    {
+      "author": "@김퉁상",
+      "text": "빠그리류빠그리루빠그리루!",
+      "likeCount": 2,
+      "publishedAt": "2017-03-09T19:21:45Z"
+    },
+    {
+      "author": "@prising9804",
+      "text": "요그... 역시 랜덤게임",
+      "likeCount": 0,
+      "publishedAt": "2017-03-08T13:43:33Z"
+    }
+  ]
 }

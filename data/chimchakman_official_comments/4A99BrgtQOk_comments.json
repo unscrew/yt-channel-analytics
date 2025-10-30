@@ -1,5 +1,36 @@
 {
   "video_id": "4A99BrgtQOk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@손영진-u5u",
+      "text": "인트로는 항상 앜이네요 ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-09-29T09:57:48Z"
+    },
+    {
+      "author": "@paijai73",
+      "text": "갓겜하시네요",
+      "likeCount": 0,
+      "publishedAt": "2017-09-29T12:18:29Z"
+    },
+    {
+      "author": "@트수-z5o",
+      "text": "인트로만 3번 돌려보고 봄 ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-09-30T12:13:23Z"
+    },
+    {
+      "author": "@jayyo811",
+      "text": "말티엘이랑 켈투 둘이서 이긴듯 ;;",
+      "likeCount": 0,
+      "publishedAt": "2017-09-29T15:01:42Z"
+    },
+    {
+      "author": "@kth3770",
+      "text": "아앙",
+      "likeCount": 0,
+      "publishedAt": "2017-09-29T07:49:48Z"
+    }
+  ]
 }

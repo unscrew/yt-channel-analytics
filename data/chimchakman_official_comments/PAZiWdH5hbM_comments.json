@@ -1,5 +1,24 @@
 {
   "video_id": "PAZiWdH5hbM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@이주찬-w2b",
+      "text": "5편만 두개 있네",
+      "likeCount": 0,
+      "publishedAt": "2017-01-25T16:46:17Z"
+    },
+    {
+      "author": "@성이름-j6m",
+      "text": "2편은 어디있죠?",
+      "likeCount": 0,
+      "publishedAt": "2017-01-25T12:46:21Z"
+    },
+    {
+      "author": "@장재민-m3j",
+      "text": "2편 실종?",
+      "likeCount": 0,
+      "publishedAt": "2017-01-25T14:40:06Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "mgGClK5pLYQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@leessong_official",
+      "text": "10:00 앜",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T05:35:53Z"
+    },
+    {
+      "author": "@노창집",
+      "text": "18:41  he is not human",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T05:09:20Z"
+    },
+    {
+      "author": "@손영진-u5u",
+      "text": "남탓맨 엔딩 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-22T23:59:34Z"
+    },
+    {
+      "author": "@정찬은-g4o",
+      "text": "이제는 인류탓까지 하네  ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-04T23:04:42Z"
+    }
+  ]
 }

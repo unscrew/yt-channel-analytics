@@ -1,5 +1,36 @@
 {
   "video_id": "aYQEZjo555E",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@올리브오일두박스",
+      "text": "23:24 좋아죽는 치무착맨",
+      "likeCount": 5,
+      "publishedAt": "2018-02-05T10:21:14Z"
+    },
+    {
+      "author": "@김대현-c1k",
+      "text": "인트로 영상 뭔데 긴장감이 느껴지냐",
+      "likeCount": 0,
+      "publishedAt": "2018-02-15T16:00:35Z"
+    },
+    {
+      "author": "@크툰-y6u",
+      "text": "썸네일 8분 21초",
+      "likeCount": 2,
+      "publishedAt": "2018-02-05T11:22:46Z"
+    },
+    {
+      "author": "@Bandal-KR",
+      "text": "6:28  딱뎀을 맞춰주려는 수장님의 마음씨에 감동먹을뻔했으나 영능을 누르지 않아 딱코가 안됬군요 불-편",
+      "likeCount": 5,
+      "publishedAt": "2018-02-05T10:18:23Z"
+    },
+    {
+      "author": "@작은달-j2d",
+      "text": "1",
+      "likeCount": 0,
+      "publishedAt": "2018-02-05T10:04:03Z"
+    }
+  ]
 }

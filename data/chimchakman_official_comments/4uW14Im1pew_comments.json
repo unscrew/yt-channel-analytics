@@ -1,5 +1,24 @@
 {
   "video_id": "4uW14Im1pew",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@antique_key",
+      "text": "한번막았다고 안심하지마십쇼..",
+      "likeCount": 0,
+      "publishedAt": "2017-09-05T17:08:12Z"
+    },
+    {
+      "author": "@뽀급육개장",
+      "text": "트레이서만 97렙 개역-겹",
+      "likeCount": 0,
+      "publishedAt": "2017-09-05T22:28:51Z"
+    },
+    {
+      "author": "@mechacuman",
+      "text": "아싸 1빠",
+      "likeCount": 0,
+      "publishedAt": "2017-09-05T17:07:36Z"
+    }
+  ]
 }

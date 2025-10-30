@@ -1,5 +1,36 @@
 {
   "video_id": "Dlxw0anfxeI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@user-fy7jg6oz4e",
+      "text": "룩레이서 레전드 13:15",
+      "likeCount": 3,
+      "publishedAt": "2017-03-13T08:55:56Z"
+    },
+    {
+      "author": "@1q2w3r",
+      "text": "ㅋㅋㅋㅋ 왜 히오스 인트로는 맨날 수장님 죽는거야 ㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-03-13T12:27:39Z"
+    },
+    {
+      "author": "@khd5031",
+      "text": "수장님 표정이 ㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-03-13T10:03:04Z"
+    },
+    {
+      "author": "@123aaa213",
+      "text": "선댓글후감상",
+      "likeCount": 0,
+      "publishedAt": "2017-03-13T08:26:12Z"
+    },
+    {
+      "author": "@증시조",
+      "text": "시공좋아",
+      "likeCount": 0,
+      "publishedAt": "2017-03-13T16:39:43Z"
+    }
+  ]
 }

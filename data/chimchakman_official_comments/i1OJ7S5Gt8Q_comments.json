@@ -1,5 +1,24 @@
 {
   "video_id": "i1OJ7S5Gt8Q",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@노창집",
+      "text": "죽메가 뭔지는 예상 할 수 있지 않나.. 버프 선택하는 사람 못 본 거 같은데. 18:00",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T05:59:14Z"
+    },
+    {
+      "author": "@고정우-w7c",
+      "text": "성지 순례왔습니다.",
+      "likeCount": 1,
+      "publishedAt": "2017-08-21T05:49:00Z"
+    },
+    {
+      "author": "@Doongspan",
+      "text": "솔직히 오프닝 표정 따라했다",
+      "likeCount": 0,
+      "publishedAt": "2017-08-25T17:48:04Z"
+    }
+  ]
 }

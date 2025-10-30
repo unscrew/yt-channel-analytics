@@ -1,5 +1,24 @@
 {
   "video_id": "Nz9Iitw1uaQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김상욱-h1v",
+      "text": "나만의 명치도적덱.. ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2016-06-03T07:08:01Z"
+    },
+    {
+      "author": "@ingyeo99",
+      "text": "리로ㅗㅗㅗㅗㅗㅗㅗ이ㅣㅣㅣㅣㅣㅣ 젠킨스",
+      "likeCount": 0,
+      "publishedAt": "2016-06-04T08:30:43Z"
+    },
+    {
+      "author": "@social_agent",
+      "text": "ㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-06-02T10:06:03Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "yzOSndjePjg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@이찬영-w9u",
+      "text": "바이킹 노답 ㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-09-16T16:09:52Z"
+    },
+    {
+      "author": "@징짱이채고시다",
+      "text": "1등이다",
+      "likeCount": 0,
+      "publishedAt": "2016-09-16T15:14:30Z"
+    },
+    {
+      "author": "@sunnyyy77660",
+      "text": "3등",
+      "likeCount": 0,
+      "publishedAt": "2024-12-12T08:07:05Z"
+    }
+  ]
 }

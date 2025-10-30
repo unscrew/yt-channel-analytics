@@ -1,5 +1,24 @@
 {
   "video_id": "iEWos4oyL1U",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@halur3479",
+      "text": "도트조형 구분힘들다,,,머리색이라도 다양했으면 좋았을껄",
+      "likeCount": 0,
+      "publishedAt": "2020-07-22T16:20:46Z"
+    },
+    {
+      "author": "@MKS1221",
+      "text": "파티원 너무많아",
+      "likeCount": 0,
+      "publishedAt": "2016-09-12T12:37:28Z"
+    },
+    {
+      "author": "@똥겜만보면짖는개돼지",
+      "text": "똥나무 나름 괜찮은데.. 버그때문에 인식이 안좋아서그렇지 게임자체는 괜찮음",
+      "likeCount": 0,
+      "publishedAt": "2016-09-18T10:28:55Z"
+    }
+  ]
 }

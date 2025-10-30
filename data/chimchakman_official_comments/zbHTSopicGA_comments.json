@@ -1,5 +1,30 @@
 {
   "video_id": "zbHTSopicGA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@김빈츠-t7s",
+      "text": "않이 왜 스타에서 와우로 싸우고 있냐",
+      "likeCount": 0,
+      "publishedAt": "2020-05-19T17:55:34Z"
+    },
+    {
+      "author": "@hmagj4412",
+      "text": "빠놀이 하는애 없어서 좋다",
+      "likeCount": 2,
+      "publishedAt": "2017-10-01T15:03:25Z"
+    },
+    {
+      "author": "@박성무-p5i",
+      "text": "틋쑤들 워크갖고 오지게 싸우네",
+      "likeCount": 0,
+      "publishedAt": "2017-10-02T05:40:30Z"
+    },
+    {
+      "author": "@butterfly55.-_",
+      "text": "스타 초보시군요 실력 키우세요",
+      "likeCount": 0,
+      "publishedAt": "2020-03-23T09:43:38Z"
+    }
+  ]
 }

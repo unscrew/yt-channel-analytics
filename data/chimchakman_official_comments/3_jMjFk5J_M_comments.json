@@ -1,5 +1,24 @@
 {
   "video_id": "3_jMjFk5J_M",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@노창집",
+      "text": "20:58 으~썸!",
+      "likeCount": 1,
+      "publishedAt": "2017-08-11T01:05:50Z"
+    },
+    {
+      "author": "@RellacastNeverDie",
+      "text": "미녹시딜 기억하겠습니당",
+      "likeCount": 0,
+      "publishedAt": "2017-08-09T22:08:19Z"
+    },
+    {
+      "author": "@벨이난다",
+      "text": "아무리봐도 광전사 뒤집는건데..",
+      "likeCount": 0,
+      "publishedAt": "2017-08-09T17:13:34Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "WjpTuVZvRO0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@백경민-o4x",
+      "text": "대참사 티리엘인줄알고 들어왔읍니다",
+      "likeCount": 10,
+      "publishedAt": "2017-08-07T15:19:49Z"
+    },
+    {
+      "author": "@soar-o3f",
+      "text": "캬 환상",
+      "likeCount": 0,
+      "publishedAt": "2017-08-07T10:12:29Z"
+    },
+    {
+      "author": "@mlo-s3q",
+      "text": "대천사? 옥냥? 그거 완전 읍읍",
+      "likeCount": 0,
+      "publishedAt": "2017-08-08T03:10:24Z"
+    }
+  ]
 }

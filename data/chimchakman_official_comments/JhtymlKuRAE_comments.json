@@ -1,5 +1,30 @@
 {
   "video_id": "JhtymlKuRAE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@dohe4305",
+      "text": "이 팀의 운명은 ....",
+      "likeCount": 1,
+      "publishedAt": "2016-10-23T01:42:23Z"
+    },
+    {
+      "author": "@jiwoongpak8106",
+      "text": "마치 구티의 그날 같앗습니다 침착맨님",
+      "likeCount": 0,
+      "publishedAt": "2016-10-23T08:08:19Z"
+    },
+    {
+      "author": "@hophop8027",
+      "text": "핵은 부적이라는 걸로",
+      "likeCount": 0,
+      "publishedAt": "2016-10-22T17:48:09Z"
+    },
+    {
+      "author": "@우유-m3k",
+      "text": "여자 목소리 누구죠??",
+      "likeCount": 0,
+      "publishedAt": "2016-10-23T13:12:38Z"
+    }
+  ]
 }

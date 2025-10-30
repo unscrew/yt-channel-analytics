@@ -1,5 +1,30 @@
 {
   "video_id": "ihPgSgv_NAI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@east3226",
+      "text": "2023년이 가기 전 여기에 댓글 박고 갑니다",
+      "likeCount": 2,
+      "publishedAt": "2022-11-27T15:16:46Z"
+    },
+    {
+      "author": "@vx6189",
+      "text": "그렇지! 그렇지!",
+      "likeCount": 0,
+      "publishedAt": "2017-09-21T00:10:23Z"
+    },
+    {
+      "author": "@ppppp2625",
+      "text": "정배 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-21T13:40:24Z"
+    },
+    {
+      "author": "@whydoyoulive",
+      "text": "역겹네",
+      "likeCount": 0,
+      "publishedAt": "2017-09-27T16:10:23Z"
+    }
+  ]
 }

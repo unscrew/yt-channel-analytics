@@ -1,5 +1,30 @@
 {
   "video_id": "vn16gVxYj8A",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@moon9b",
+      "text": "22:57 차흑맨아~ 시참겜하자~",
+      "likeCount": 2,
+      "publishedAt": "2018-04-19T09:18:27Z"
+    },
+    {
+      "author": "@CLU11101",
+      "text": "교수님 환불해주십쇼",
+      "likeCount": 1,
+      "publishedAt": "2018-04-19T01:42:46Z"
+    },
+    {
+      "author": "@소음-g7p",
+      "text": "으 채팅창 더러워 진짜;",
+      "likeCount": 2,
+      "publishedAt": "2018-04-19T10:20:12Z"
+    },
+    {
+      "author": "@edwin1605",
+      "text": "뭐지 .. 1편 어디갔지 ..",
+      "likeCount": 0,
+      "publishedAt": "2018-04-18T10:03:48Z"
+    }
+  ]
 }

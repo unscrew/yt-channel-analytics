@@ -1,5 +1,24 @@
 {
   "video_id": "_HJp51VtiCw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@구려박스",
+      "text": "오 캡틴 마이 캡틴... 영원한 히오스 수장 침착맨",
+      "likeCount": 0,
+      "publishedAt": "2021-05-23T06:23:33Z"
+    },
+    {
+      "author": "@김유정-i6o",
+      "text": "누가 분식소리를 내었는가 말이야!!",
+      "likeCount": 0,
+      "publishedAt": "2016-12-14T16:36:51Z"
+    },
+    {
+      "author": "@hodonge2034",
+      "text": "시.공.좋.아",
+      "likeCount": 0,
+      "publishedAt": "2016-12-15T04:01:48Z"
+    }
+  ]
 }

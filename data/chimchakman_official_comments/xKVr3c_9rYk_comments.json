@@ -1,5 +1,30 @@
 {
   "video_id": "xKVr3c_9rYk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@제발너프좀",
+      "text": "너는빛 나는어둠",
+      "likeCount": 0,
+      "publishedAt": "2019-05-22T02:04:26Z"
+    },
+    {
+      "author": "@wargear9326",
+      "text": "7:18 8:50 조운믹서기 가동",
+      "likeCount": 0,
+      "publishedAt": "2022-01-29T06:05:34Z"
+    },
+    {
+      "author": "@lizel3158",
+      "text": "후라이팬 놀이 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-08-21T14:59:37Z"
+    },
+    {
+      "author": "@김철수-r6b",
+      "text": "팅팅티링 티팅팅",
+      "likeCount": 0,
+      "publishedAt": "2017-04-22T14:30:39Z"
+    }
+  ]
 }

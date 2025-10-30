@@ -1,5 +1,30 @@
 {
   "video_id": "MqB6KmKeUhM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@읏짜-u1v",
+      "text": "10:00",
+      "likeCount": 0,
+      "publishedAt": "2022-07-13T17:10:01Z"
+    },
+    {
+      "author": "@광용윤-i4i",
+      "text": "왜 이거만 키면 멈추냐",
+      "likeCount": 1,
+      "publishedAt": "2017-01-09T14:32:13Z"
+    },
+    {
+      "author": "@danji3567",
+      "text": "마지막 결국  빡종인가ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-01-10T04:11:46Z"
+    },
+    {
+      "author": "@낙타-d6h",
+      "text": "거잨 이거 먹으려고?",
+      "likeCount": 1,
+      "publishedAt": "2017-02-25T14:07:59Z"
+    }
+  ]
 }

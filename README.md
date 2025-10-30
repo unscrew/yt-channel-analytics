@@ -1,6 +1,6 @@
-# YouTube Video Preference Predictor
+# YouTube Channel Predictor
 
-YouTube 채널의 비디오 대중 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
+YouTube 채널의 비디오 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
 
 ## 📋 프로젝트 목표
 
@@ -13,57 +13,255 @@ YouTube 채널의 비디오 대중 선호도를 예측하는 트랜스포머 기
 
 ## 🔍 유틸리티 도구
 
-### 비디오 메타데이터 확인
+### 📹 비디오 메타데이터 확인
 ```bash
 # 특정 비디오의 모든 메타데이터 확인
-python check_video_metadata.py H5lz6_hqCNw
+python check_video_metadata.py J3OBgAIcPeA
 
 # JSON 파일로 저장
 python check_video_metadata.py VIDEO_ID > metadata.json
 ```
 
-### Whisper로 자막 생성 (STT)
+### 🎤 Whisper로 자막 생성 (STT)
+
+음성을 텍스트로 변환하여 비디오 내용 분석
+
 ```bash
 # 단일 비디오 테스트
-python stt_whisper.py H5lz6_hqCNw
+python test_whisper.py H5lz6_hqCNw
 
 # 다른 모델 사용 (더 정확)
-python stt_whisper.py VIDEO_ID --model small
+python test_whisper.py VIDEO_ID --model small
 
-# 모델 크기 옵션: tiny, base, small, medium, large
+# 모델 크기: tiny, base, small, medium, large
 ```
-
-**Whisper 설치:**
-```bash
-pip install openai-whisper yt-dlp
-brew install ffmpeg  # Mac
-# or
-sudo apt-get install ffmpeg  # Ubuntu
-```
-
-### 키워드 추출 (다중 방법)
-```bash
-# 자막 파일에서 키워드 추출 (6가지 방법 통합)
-python extract_keywords.py H5lz6_hqCNw_whisper_transcript.txt
-
-# 키워드 개수 조정
-python extract_keywords.py input.txt --top 30
-
-# JSON으로 저장
-python extract_keywords.py input.txt --output keywords.json
-```
-
-**키워드 추출 방법:**
-- 🤗 Hugging Face NER (개체명 인식)
-- 🤗 Hugging Face Zero-shot (토픽 분류)
-- 🔑 KeyBERT (BERT 임베딩)
-- 📊 YAKE (통계 분석)
-- 📈 TF-IDF (형태소 분석)
-- 🔢 빈도 분석
 
 **설치:**
 ```bash
+pip install openai-whisper yt-dlp
+
+# ffmpeg 필요
+brew install ffmpeg              # Mac
+sudo apt-get install ffmpeg      # Ubuntu
+```
+
+**출력:** `{VIDEO_ID}_whisper_transcript.txt`
+
+### 🧹 STT 자막 노이즈 제거
+
+Whisper가 생성한 자막에서 반복, 말더듬 등 제거
+
+```bash
+# 노이즈 제거
+python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
+
+# 강력 모드 (추임새까지 제거)
+python denoise_stt.py input.txt --aggressive
+
+# 조용히 실행
+python denoise_stt.py input.txt --quiet
+```
+
+**출력:** `{입력파일명}_denoised.txt`
+
+**제거되는 노이즈:**
+- 반복 감탄사 (아... 아... 아...)
+- 연속 반복 단어 (이거 이거 이거)
+- 과도한 추임새 (네네네네)
+- 말더듬 (저.. 저는)
+
+### 🔑 키워드 추출
+
+정제된 자막에서 의미있는 키워드 추출
+
+#### **방법 1: 간단한 버전 (추천, Java 불필요)** ⭐
+
+```bash
+# Java 불필요, 빠르고 확실
+python extract_keywords_simple.py input_denoised.txt
+
+# 키워드 개수 조정
+python extract_keywords_simple.py input.txt --top 15
+
+# JSON 저장
+python extract_keywords_simple.py input.txt --output keywords.json
+```
+
+**특징:**
+- ✅ 의존성 없음 (Java 불필요)
+- ✅ 항상 작동
+- ✅ 빠른 속도
+- ⚠️ 정확도 중간
+
+#### **방법 2: 정확한 버전 (KoNLPy 형태소 분석)** ⭐⭐⭐⭐⭐
+
+```bash
+# 형태소 분석으로 더 정확한 명사 추출
+python extract_keywords_contextual.py input_denoised.txt
+
+# 키워드 개수 조정
+python extract_keywords_contextual.py input.txt --top 15
+
+# JSON 저장
+python extract_keywords_contextual.py input.txt --output keywords.json
+```
+
+**특징:**
+- ✅ 형태소 분석 (명사 정확히 추출)
+- ✅ 고유명사 우선 처리
+- ✅ 빈도 + 의미 기반
+- ⚠️ Java 필요 (아래 참조)
+
+#### **Java 설치 (KoNLPy용)**
+
+KoNLPy는 Java가 필요합니다. 없으면 자동으로 간단한 방법으로 전환됩니다.
+
+**Mac:**
+```bash
+# Homebrew로 설치
+brew install openjdk@11
+
+# 시스템 링크
+sudo ln -sfn \
+  $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk \
+  /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+# 환경변수 설정 (zsh)
+echo 'export JAVA_HOME="$(brew --prefix)/opt/openjdk@11"' >> ~/.zshrc
+echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+# 확인
+java -version
+```
+
+**Ubuntu/Linux:**
+```bash
+# Java 설치
+sudo apt-get update
+sudo apt-get install default-jdk
+
+# 확인
+java -version
+```
+
+**설치 후:**
+```bash
+# KoNLPy 설치
+pip install konlpy
+
+# 다시 실행 (이제 형태소 분석 사용!)
+python extract_keywords_contextual.py input.txt
+```
+
+#### **전체 워크플로우 예시**
+
+```bash
+# 1. Whisper로 자막 생성
+python test_whisper.py H5lz6_hqCNw
+
+# 2. 노이즈 제거
+python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
+
+# 3. 키워드 추출 (간단)
+python extract_keywords_simple.py H5lz6_hqCNw_whisper_transcript_denoised.txt
+
+# 또는: 키워드 추출 (정확 - Java 있으면)
+python extract_keywords_contextual.py H5lz6_hqCNw_whisper_transcript_denoised.txt
+```
+
+#### **예상 결과**
+
+```
+✨ 최종 키워드 Top 10:
+ 1. 테라     [brand  ] 빈도:14  점수: 33.6
+ 2. 탄산     [topic  ] 빈도: 7  점수:  8.4
+ 3. 맥주     [topic  ] 빈도: 2  점수:  4.8
+ 4. 넉살     [person ] 빈도: 5  점수: 12.0
+ 5. 침착맨    [person ] 빈도: 3  점수:  7.2
+ 6. 와이프    [person ] 빈도: 2  점수:  4.8
+ 7. 소맥     [topic  ] 빈도: 4  점수:  9.6
+ 8. 광고     [topic  ] 빈도: 3  점수:  7.2
+ 9. 게임     [topic  ] 빈도: 2  점수:  4.8
+10. ASMR    [topic  ] 빈도: 3  점수:  7.2
+
+🏷️ 발견된 고유명사:
+  brands : 테라, 참이슬
+  persons: 침착맨, 넉살, 와이프
+  topics : 게임, 맥주, 광고, 방송
+```
+
+### 📊 키워드 추출 방법 비교
+
+| 방법 | Java | KoNLPy | 정확도 | 속도 | 추천 |
+|------|------|--------|--------|------|------|
+| `extract_keywords_simple.py` | ❌ | ❌ | ⭐⭐⭐ | 빠름 | 시작할 때 |
+| `extract_keywords_contextual.py` (Java 없이) | ❌ | ❌ | ⭐⭐⭐ | 빠름 | Java 설치 전 |
+| `extract_keywords_contextual.py` (Java 있음) | ✅ | ✅ | ⭐⭐⭐⭐⭐ | 중간 | 최종 사용 |
+| `extract_keywords.py` (다중 방법) | ✅ | ✅ | ⭐⭐ | 느림 | ❌ 비추천 |
+
+**권장 순서:**
+1. 처음: `extract_keywords_simple.py` 사용
+2. Java 설치 후: `extract_keywords_contextual.py` 사용
+3. `extract_keywords.py`는 사용 안 함 (결과 부정확)
+sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk \
+  /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+# 환경변수 설정
+echo 'export JAVA_HOME="$(brew --prefix)/opt/openjdk@11"' >> ~/.zshrc
+source ~/.zshrc
+
+# 2. KoNLPy 설치
+pip install konlpy
+
+# 3. 확인
+python -c "from konlpy.tag import Okt; print('OK')"
+```
+
+**Ubuntu:**
+```bash
+# Java 설치
+sudo apt-get install default-jdk
+
+# KoNLPy
+pip install konlpy
+```
+
+**방법 3: 다중 방법 통합 (실험용)**
+```bash
+# Hugging Face, KeyBERT, YAKE 등 6가지 방법 통합
+python extract_keywords.py input.txt --top 30
+```
+
+**필요 패키지:**
+```bash
 pip install transformers torch keybert yake scikit-learn konlpy
+```
+
+### 📊 전체 워크플로우
+
+```bash
+# 1. 비디오 메타데이터 확인
+python check_video_metadata.py VIDEO_ID
+
+# 2. 자막 생성 (Whisper)
+python test_whisper.py VIDEO_ID
+
+# 3. 노이즈 제거
+python denoise_stt.py VIDEO_ID_whisper_transcript.txt
+
+# 4. 키워드 추출
+python extract_keywords_simple.py VIDEO_ID_whisper_transcript_denoised.txt
+
+# 또는 정확한 버전 (KoNLPy)
+python extract_keywords_contextual.py VIDEO_ID_whisper_transcript_denoised.txt
+```
+
+**예시:**
+```bash
+python test_whisper.py H5lz6_hqCNw
+python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
+python extract_keywords_simple.py H5lz6_hqCNw_whisper_transcript_denoised.txt
 ```
 
 ## 🎯 예측 목표

@@ -1,5 +1,24 @@
 {
   "video_id": "66_Lo-TIA8A",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@박형민형민형민",
+      "text": "아 이 아저씨 주먹 불끈쥐게 만드시네",
+      "likeCount": 0,
+      "publishedAt": "2016-04-27T11:20:13Z"
+    },
+    {
+      "author": "@ETCmusicproducer",
+      "text": "소통맨",
+      "likeCount": 0,
+      "publishedAt": "2016-04-26T16:28:22Z"
+    },
+    {
+      "author": "@지고깜",
+      "text": "화면이...",
+      "likeCount": 0,
+      "publishedAt": "2016-04-27T10:36:58Z"
+    }
+  ]
 }
