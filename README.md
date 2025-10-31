@@ -1,277 +1,55 @@
-# YouTube Channel Predictor
+# YouTube Video Preference Predictor
 
-YouTube 채널의 비디오 선호도를 예측하는 트랜스포머 기반 머신러닝 프로젝트
+대중 선호도 예측을 위한 YouTube 비디오 데이터 수집 및 분석 시스템
 
-## 📋 프로젝트 목표
+## 📋 목차
 
-트랜스포머(Transformer)를 실전 프로젝트에 활용하여 YouTube 비디오의 선호도를 예측합니다.
+- [개요](#개요)
+- [기능](#기능)
+- [설치](#설치)
+- [사용법](#사용법)
+  - [데이터 수집](#데이터-수집)
+  - [자막 생성 (Whisper)](#자막-생성-whisper)
+  - [댓글 백필](#댓글-백필)
+  - [감정 분석](#감정-분석)
+- [프로젝트 구조](#프로젝트-구조)
+- [성능 최적화](#성능-최적화)
 
-**주요 기능:**
-- YouTube 채널 데이터 자동 수집
-- 멀티모달 데이터 분석 (텍스트 + 메타데이터)
-- 트랜스포머 기반 선호도 예측 모델
+---
 
-## 🔍 유틸리티 도구
+## 개요
 
-### 📹 비디오 메타데이터 확인
-```bash
-# 특정 비디오의 모든 메타데이터 확인
-python check_video_metadata.py J3OBgAIcPeA
+YouTube 비디오의 선호도를 예측하기 위해 다음 데이터를 수집하고 분석합니다:
 
-# JSON 파일로 저장
-python check_video_metadata.py VIDEO_ID > metadata.json
-```
+- **비디오 통계**: 조회수, 좋아요, 댓글 수
+- **댓글 데이터**: 댓글 내용 및 감정 분석
+- **자막 데이터**: Whisper STT로 생성한 transcript
+- **키워드 추출**: 콘텐츠 주제 분석
 
-### 🎤 Whisper로 자막 생성 (STT)
+최종 목표: **새 비디오의 대중 선호도를 % 단위로 예측**
 
-음성을 텍스트로 변환하여 비디오 내용 분석
+---
 
-```bash
-# 단일 비디오 테스트
-python test_whisper.py H5lz6_hqCNw
+## 기능
 
-# 다른 모델 사용 (더 정확)
-python test_whisper.py VIDEO_ID --model small
+### ✅ 구현 완료
+- YouTube 비디오 메타데이터 수집
+- 통계 데이터 수집 (조회수, 좋아요, 댓글 수)
+- 댓글 수집 및 백필
+- Whisper 기반 자막 생성 (병렬 처리)
+- 한글 감정 분석 (KcBERT)
+- Shorts 필터링
 
-# 모델 크기: tiny, base, small, medium, large
-```
+### 🚧 진행 예정
+- 키워드 추출 및 분석
+- ML 모델 학습 (선호도 예측)
+- 예측 시스템 구축
 
-**설치:**
-```bash
-pip install openai-whisper yt-dlp
+---
 
-# ffmpeg 필요
-brew install ffmpeg              # Mac
-sudo apt-get install ffmpeg      # Ubuntu
-```
+## 설치
 
-**출력:** `{VIDEO_ID}_whisper_transcript.txt`
-
-### 🧹 STT 자막 노이즈 제거
-
-Whisper가 생성한 자막에서 반복, 말더듬 등 제거
-
-```bash
-# 노이즈 제거
-python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
-
-# 강력 모드 (추임새까지 제거)
-python denoise_stt.py input.txt --aggressive
-
-# 조용히 실행
-python denoise_stt.py input.txt --quiet
-```
-
-**출력:** `{입력파일명}_denoised.txt`
-
-**제거되는 노이즈:**
-- 반복 감탄사 (아... 아... 아...)
-- 연속 반복 단어 (이거 이거 이거)
-- 과도한 추임새 (네네네네)
-- 말더듬 (저.. 저는)
-
-### 🔑 키워드 추출
-
-정제된 자막에서 의미있는 키워드 추출
-
-#### **방법 1: 간단한 버전 (추천, Java 불필요)** ⭐
-
-```bash
-# Java 불필요, 빠르고 확실
-python extract_keywords_simple.py input_denoised.txt
-
-# 키워드 개수 조정
-python extract_keywords_simple.py input.txt --top 15
-
-# JSON 저장
-python extract_keywords_simple.py input.txt --output keywords.json
-```
-
-**특징:**
-- ✅ 의존성 없음 (Java 불필요)
-- ✅ 항상 작동
-- ✅ 빠른 속도
-- ⚠️ 정확도 중간
-
-#### **방법 2: 정확한 버전 (KoNLPy 형태소 분석)** ⭐⭐⭐⭐⭐
-
-```bash
-# 형태소 분석으로 더 정확한 명사 추출
-python extract_keywords_contextual.py input_denoised.txt
-
-# 키워드 개수 조정
-python extract_keywords_contextual.py input.txt --top 15
-
-# JSON 저장
-python extract_keywords_contextual.py input.txt --output keywords.json
-```
-
-**특징:**
-- ✅ 형태소 분석 (명사 정확히 추출)
-- ✅ 고유명사 우선 처리
-- ✅ 빈도 + 의미 기반
-- ⚠️ Java 필요 (아래 참조)
-
-#### **Java 설치 (KoNLPy용)**
-
-KoNLPy는 Java가 필요합니다. 없으면 자동으로 간단한 방법으로 전환됩니다.
-
-**Mac:**
-```bash
-# Homebrew로 설치
-brew install openjdk@11
-
-# 시스템 링크
-sudo ln -sfn \
-  $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk \
-  /Library/Java/JavaVirtualMachines/openjdk-11.jdk
-
-# 환경변수 설정 (zsh)
-echo 'export JAVA_HOME="$(brew --prefix)/opt/openjdk@11"' >> ~/.zshrc
-echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
-
-# 확인
-java -version
-```
-
-**Ubuntu/Linux:**
-```bash
-# Java 설치
-sudo apt-get update
-sudo apt-get install default-jdk
-
-# 확인
-java -version
-```
-
-**설치 후:**
-```bash
-# KoNLPy 설치
-pip install konlpy
-
-# 다시 실행 (이제 형태소 분석 사용!)
-python extract_keywords_contextual.py input.txt
-```
-
-#### **전체 워크플로우 예시**
-
-```bash
-# 1. Whisper로 자막 생성
-python test_whisper.py H5lz6_hqCNw
-
-# 2. 노이즈 제거
-python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
-
-# 3. 키워드 추출 (간단)
-python extract_keywords_simple.py H5lz6_hqCNw_whisper_transcript_denoised.txt
-
-# 또는: 키워드 추출 (정확 - Java 있으면)
-python extract_keywords_contextual.py H5lz6_hqCNw_whisper_transcript_denoised.txt
-```
-
-#### **예상 결과**
-
-```
-✨ 최종 키워드 Top 10:
- 1. 테라     [brand  ] 빈도:14  점수: 33.6
- 2. 탄산     [topic  ] 빈도: 7  점수:  8.4
- 3. 맥주     [topic  ] 빈도: 2  점수:  4.8
- 4. 넉살     [person ] 빈도: 5  점수: 12.0
- 5. 침착맨    [person ] 빈도: 3  점수:  7.2
- 6. 와이프    [person ] 빈도: 2  점수:  4.8
- 7. 소맥     [topic  ] 빈도: 4  점수:  9.6
- 8. 광고     [topic  ] 빈도: 3  점수:  7.2
- 9. 게임     [topic  ] 빈도: 2  점수:  4.8
-10. ASMR    [topic  ] 빈도: 3  점수:  7.2
-
-🏷️ 발견된 고유명사:
-  brands : 테라, 참이슬
-  persons: 침착맨, 넉살, 와이프
-  topics : 게임, 맥주, 광고, 방송
-```
-
-### 📊 키워드 추출 방법 비교
-
-| 방법 | Java | KoNLPy | 정확도 | 속도 | 추천 |
-|------|------|--------|--------|------|------|
-| `extract_keywords_simple.py` | ❌ | ❌ | ⭐⭐⭐ | 빠름 | 시작할 때 |
-| `extract_keywords_contextual.py` (Java 없이) | ❌ | ❌ | ⭐⭐⭐ | 빠름 | Java 설치 전 |
-| `extract_keywords_contextual.py` (Java 있음) | ✅ | ✅ | ⭐⭐⭐⭐⭐ | 중간 | 최종 사용 |
-| `extract_keywords.py` (다중 방법) | ✅ | ✅ | ⭐⭐ | 느림 | ❌ 비추천 |
-
-**권장 순서:**
-1. 처음: `extract_keywords_simple.py` 사용
-2. Java 설치 후: `extract_keywords_contextual.py` 사용
-3. `extract_keywords.py`는 사용 안 함 (결과 부정확)
-sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk \
-  /Library/Java/JavaVirtualMachines/openjdk-11.jdk
-
-# 환경변수 설정
-echo 'export JAVA_HOME="$(brew --prefix)/opt/openjdk@11"' >> ~/.zshrc
-source ~/.zshrc
-
-# 2. KoNLPy 설치
-pip install konlpy
-
-# 3. 확인
-python -c "from konlpy.tag import Okt; print('OK')"
-```
-
-**Ubuntu:**
-```bash
-# Java 설치
-sudo apt-get install default-jdk
-
-# KoNLPy
-pip install konlpy
-```
-
-**방법 3: 다중 방법 통합 (실험용)**
-```bash
-# Hugging Face, KeyBERT, YAKE 등 6가지 방법 통합
-python extract_keywords.py input.txt --top 30
-```
-
-**필요 패키지:**
-```bash
-pip install transformers torch keybert yake scikit-learn konlpy
-```
-
-### 📊 전체 워크플로우
-
-```bash
-# 1. 비디오 메타데이터 확인
-python check_video_metadata.py VIDEO_ID
-
-# 2. 자막 생성 (Whisper)
-python test_whisper.py VIDEO_ID
-
-# 3. 노이즈 제거
-python denoise_stt.py VIDEO_ID_whisper_transcript.txt
-
-# 4. 키워드 추출
-python extract_keywords_simple.py VIDEO_ID_whisper_transcript_denoised.txt
-
-# 또는 정확한 버전 (KoNLPy)
-python extract_keywords_contextual.py VIDEO_ID_whisper_transcript_denoised.txt
-```
-
-**예시:**
-```bash
-python test_whisper.py H5lz6_hqCNw
-python denoise_stt.py H5lz6_hqCNw_whisper_transcript.txt
-python extract_keywords_simple.py H5lz6_hqCNw_whisper_transcript_denoised.txt
-```
-
-## 🎯 예측 목표
-
-입력: 비디오 메타데이터 (제목, 설명, 초기 지표 등)  
-출력: 선호도 레벨 (High / Medium / Low)
-
-## 🚀 Quick Start
-
-### 1. 환경 설정
+### 1. 가상환경 생성 및 활성화
 
 **자동 설정 (추천):**
 ```bash
@@ -281,283 +59,388 @@ chmod +x setup_venv.sh
 
 **수동 설정:**
 ```bash
-# 가상환경 생성 및 활성화
+# 가상환경 생성
 python3 -m venv venv
+
+# 가상환경 활성화
 source venv/bin/activate  # Linux/Mac
 # or
 venv\Scripts\activate     # Windows
 
 # 패키지 설치
-pip install --upgrade pip
-pip install -r requirements.txt
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
 ```
 
-### 2. API 키 설정
+### 2. 환경변수 설정
 
-`.env` 파일을 생성하고 YouTube API 키를 입력하세요:
+`.env` 파일을 생성하고 API 키를 입력하세요:
 
 ```bash
 cp .env.example .env
 # .env 파일을 편집하여 실제 API 키 입력
 ```
 
-**YouTube API 키 발급:**
-1. [Google Cloud Console](https://console.cloud.google.com/) 접속
-2. 프로젝트 생성
-3. "YouTube Data API v3" 활성화
-4. API 키 생성
-5. `.env` 파일에 추가
+`.env` 파일 내용:
+```
+YOUTUBE_API_KEY=your_youtube_api_key_here
+```
 
-### 3. 데이터 수집
+### 3. ffmpeg 설치 (Whisper용)
 
 ```bash
-# 기본 사용법
-python youtube_data_collector.py "https://www.youtube.com/@channelname"
+# Mac
+brew install ffmpeg
 
-# 또는 채널 ID 직접 입력
-python youtube_data_collector.py "UC1234567890"
+# Ubuntu/Debian
+sudo apt-get install ffmpeg
 
-# 특정 데이터만 수집
-python youtube_data_collector.py "@channelname" --skip-transcripts
-python youtube_data_collector.py "@channelname" --skip-comments
-
-# 최소 비디오 길이 설정 (Shorts 필터링)
-python youtube_data_collector.py "@channelname" --min-duration 300  # 5분 이상만
-
-# 기존 데이터 새로고침
-python youtube_data_collector.py "@channelname" --force-refresh
+# Windows (Chocolatey)
+choco install ffmpeg
 ```
 
-## 📊 수집되는 데이터
+### 4. Whisper 설치
 
-### 자동 수집:
-- ✅ **비디오 메타데이터**: 제목, 설명, 게시일, 썸네일, 길이
-- ✅ **참여도 통계**: 조회수, 좋아요, 댓글 수
-- ✅ **댓글**: 모든 댓글 텍스트
-- ✅ **자막**: 한국어 자막 (있는 경우)
-
-### 자동 필터링:
-- 🚫 **Shorts 제외**: 60초 미만 비디오 자동 필터링
-- 📁 **채널별 폴더**: 채널 slug 기반 파일명/폴더명
-
-## 📁 프로젝트 구조
-
-```
-youtube-channel-predictor/
-├── venv/                               # 가상환경 (git 제외)
-├── data/                               # 수집된 데이터
-│   ├── ChannelName_videos.json       # 비디오 목록
-│   ├── ChannelName_transcripts/       # 자막 파일들
-│   ├── ChannelName_engagement_stats/  # 참여도 통계
-│   └── ChannelName_comments/          # 댓글 데이터
-├── models/                             # 학습된 모델 (예정)
-├── notebooks/                          # Jupyter notebooks (예정)
-├── src/                                # 소스코드 (예정)
-│   ├── labeling.py                    # 데이터 라벨링
-│   ├── feature_extraction.py         # Feature 추출
-│   ├── model.py                       # 트랜스포머 모델
-│   └── train.py                       # 학습 파이프라인
-├── youtube_data_collector.py          # 데이터 수집 스크립트
-├── check_video_metadata.py            # 메타데이터 확인 도구
-├── test_whisper.py                    # Whisper STT 테스트
-├── extract_keywords.py                # 키워드 추출 (다중 방법)
-├── requirements.txt                    # Python 패키지 목록
-├── setup_venv.sh                      # 가상환경 설정 스크립트
-├── .env                               # 환경변수 (git 제외)
-├── .env.example                       # 환경변수 템플릿
-├── .gitignore                         # Git 제외 파일
-└── README.md                          # 이 파일
-```
-
-## 🔧 주요 기능
-
-### 1. 스마트 캐싱
-기존에 수집한 비디오 목록이 있으면 API 호출을 건너뛰고 재사용합니다.
 ```bash
-# 첫 실행: API에서 데이터 가져오기
-python youtube_data_collector.py "@channel"
-
-# 두 번째 실행: 캐시된 데이터 사용 (빠름!)
-python youtube_data_collector.py "@channel"
-
-# 강제 새로고침
-python youtube_data_collector.py "@channel" --force-refresh
+pip install openai-whisper yt-dlp
 ```
 
-### 2. Shorts 자동 필터링
-60초 미만의 YouTube Shorts는 자동으로 제외됩니다.
+---
+
+## 사용법
+
+### 데이터 수집
+
+#### 1. 비디오 목록 수집
+
 ```bash
-# 기본: 60초 이상만
-python youtube_data_collector.py "@channel"
-
-# 커스텀: 5분 이상만
-python youtube_data_collector.py "@channel" --min-duration 300
+python youtube_data_collector.py
 ```
 
-### 3. 채널 Slug 기반 파일명
-읽기 쉬운 파일명으로 저장됩니다.
-```
-Before: UC1234567890_videos.json
-After:  ChimChakMan_Official_videos.json
-```
+**출력:**
+- `data/chimchakman_official_videos.json` - 비디오 목록
+- `data/chimchakman_official_stats/*.json` - 각 비디오 통계
+- `data/chimchakman_official_comments/*.json` - 각 비디오 댓글
 
-### 4. 병렬 처리
-자막 수집 시 멀티스레딩으로 빠르게 처리합니다.
+**설정 옵션:**
+- `MIN_VIDEO_DURATION`: 최소 비디오 길이 (초) - Shorts 필터링
+- `MAX_RESULTS`: 최대 수집 비디오 수
+
+---
+
+### 자막 생성 (Whisper)
+
+#### 단일 비디오 테스트
+
 ```bash
-# 워커 수 조정
-python youtube_data_collector.py "@channel" --max-workers 10
+# 기본 (base 모델)
+python sst_whisper.py VIDEO_ID
+
+# 다른 모델 사용
+python sst_whisper.py VIDEO_ID --model small
 ```
 
-## 🔍 유틸리티 도구
+**모델 크기:**
+- `tiny` - 가장 빠름, 부정확 (39M params)
+- `base` - 빠름, 적당함 (74M) **[기본값]**
+- `small` - 중간 (244M)
+- `medium` - 느림, 정확 (769M)
+- `large` - 가장 느림, 가장 정확 (1550M)
 
-### 비디오 메타데이터 확인
+#### 배치 처리 (병렬)
+
 ```bash
-# 특정 비디오의 모든 메타데이터 확인
-python check_video_metadata.py VIDEO_ID
+# 기본 (8개 병렬)
+python batch_whisper.py
 
-# JSON 파일로 저장
-python check_video_metadata.py VIDEO_ID > metadata.json
+# workers 수 조정
+python batch_whisper.py --workers 12
+
+# 특정 비디오만
+python batch_whisper.py --video-ids abc123 def456 ghi789
+
+# 다른 모델 + workers
+python batch_whisper.py --model small --workers 10
 ```
 
-## 🤖 모델링 (예정)
+**Workers 수 권장:**
 
-### Phase 1: 데이터 라벨링
-- 참여도 지표 기반 자동 라벨링
-- High / Medium / Low 분류
+| 시스템 | 메모리 | 추천 Workers | 모델 |
+|--------|--------|--------------|------|
+| MacBook Air M1/M2 | 8GB | 2-3 | base |
+| MacBook Air M1/M2 | 16GB | 4-6 | base/small |
+| MacBook Pro M3 | 48GB | 12-16 | small |
+| Intel Mac | 16GB | 2-4 | base |
 
-### Phase 2: Feature 추출
-- **텍스트**: BERT 임베딩 (제목, 설명, 댓글)
-- **메타데이터**: 조회수, 좋아요, 길이, 게시 시간 등
-
-### Phase 3: 트랜스포머 모델
-```python
-입력:
-├─ 텍스트 (BERT로 인코딩)
-│  ├─ 제목
-│  ├─ 설명
-│  └─ 댓글 요약
-└─ 메타데이터
-   ├─ 비디오 길이
-   ├─ 게시 시간 (요일, 시간대)
-   └─ 초기 참여도 지표
-
-모델: 멀티모달 트랜스포머
-├─ BERT Encoder (텍스트)
-├─ MLP Encoder (메타데이터)
-├─ Fusion Layer
-└─ Classification Head
-
-출력: 선호도 (High / Medium / Low)
-```
-
-## 📦 Dependencies
-
-주요 패키지:
-
-**데이터 수집:**
-- `google-api-python-client`: YouTube Data API
-- `youtube-transcript-api`: 자막 수집
-- `python-dotenv`: 환경변수 관리
-
-**트랜스포머 & ML:**
-- `transformers`: Hugging Face 트랜스포머 모델
-- `torch`: PyTorch (딥러닝 프레임워크)
-- `scikit-learn`: 머신러닝
-
-**키워드 추출:**
-- `keybert`: BERT 기반 키워드 추출
-- `yake`: 통계 기반 키워드 추출
-- `konlpy`: 한국어 형태소 분석
-
-**음성 인식 (선택):**
-- `openai-whisper`: Whisper STT 모델
-- `yt-dlp`: YouTube 다운로더
-
-전체 목록은 `requirements.txt` 참조
-
-## 🎓 학습 리소스
-
-### YouTube API
-- [YouTube Data API v3 문서](https://developers.google.com/youtube/v3)
-- [API 할당량](https://developers.google.com/youtube/v3/getting-started#quota): 10,000 units/day (무료)
-
-### 트랜스포머
-- [Hugging Face Transformers](https://huggingface.co/docs/transformers)
-- [KLUE BERT](https://huggingface.co/klue/bert-base): 한국어 BERT 모델
-
-## ⚠️ 주의사항
-
-### API 할당량
-- 하루 10,000 units 제한
-- 비디오 목록 조회: 1 unit
-- 댓글 조회: 1 unit
-- 통계 조회: 1 unit
-
-### 자막 수집
-- 자막이 없는 비디오는 경고와 함께 건너뜁니다
-- 자막 비활성화된 비디오는 수집 불가
-- 한국어 자막만 수집 (다른 언어 필요시 코드 수정)
-
-### 저장 공간
-- 비디오 150개 기준: ~500MB-1GB
-- 자막, 댓글 포함 시 더 증가 가능
-
-## 🔄 워크플로우
-
-```mermaid
-graph LR
-    A[YouTube 채널] --> B[데이터 수집]
-    B --> C[전처리 & 라벨링]
-    C --> D[Feature 추출]
-    D --> E[모델 학습]
-    E --> F[예측 & 분석]
-```
-
-## 🐛 트러블슈팅
-
-### "youtube_transcript_api 에러"
+**성능 예시 (M3 Max 48GB):**
 ```bash
-pip uninstall youtube-transcript-api -y
-pip install youtube-transcript-api --upgrade
+# 보수적
+python batch_whisper.py --workers 8
+# → 5000개 비디오 ~10시간
+
+# 추천 ⭐
+python batch_whisper.py --workers 12
+# → 5000개 비디오 ~7시간
+
+# 공격적
+python batch_whisper.py --workers 16
+# → 5000개 비디오 ~5시간
 ```
 
-### "API 키 오류"
-`.env` 파일이 제대로 설정되었는지 확인:
+**출력:**
+- `data/chimchakman_official_transcripts/{video_id}_whisper_transcript.txt`
+
+**주요 기능:**
+- ✅ 자동 스킵: 이미 처리된 비디오는 건너뜀
+- ✅ 병렬 처리: 여러 비디오 동시 처리
+- ✅ 진행 표시: 실시간 진행률 출력
+- ✅ 에러 복구: 실패해도 다음 비디오 계속 처리
+
+---
+
+### 댓글 백필
+
+비어있는 댓글 필드를 YouTube API로 채웁니다:
+
 ```bash
-cat .env
-# YOUTUBE_API_KEY=your_actual_key 확인
+python backfill_comments.py
 ```
 
-### "가상환경 활성화 안됨"
+**동작:**
+1. `data/chimchakman_official_comments/` 의 모든 JSON 파일 스캔
+2. `comments` 필드가 비어있는 파일 발견
+3. YouTube API로 댓글 수집 (최대 100개)
+4. 원본 파일 업데이트
+
+**출력 예시:**
+```
+📁 23개 파일 검사 중...
+
+📄 _-10RP0GhuM.json
+  🔄 백필 중: _-10RP0GhuM
+  ✅ 완료: 87개 댓글 추가됨
+
+📄 abc123xyz.json
+  ⏭️  이미 댓글 있음
+
+==================================================
+✨ 백필 완료!
+  ✅ 백필됨: 15개
+  ⏭️  건너뜀: 8개
+  ❌ 실패: 0개
+```
+
+---
+
+### 감정 분석
+
+한글 댓글의 긍정/부정 감정을 분석합니다:
+
 ```bash
-# 확인
-which python
-# venv 경로가 나와야 함
+# 테스트
+python test_sentiment_korean.py
 
-# 재활성화
-source venv/bin/activate
+# 실제 파일 분석
+python test_sentiment_korean.py data/chimchakman_official_comments/VIDEO_ID_comments.json
 ```
 
-## 📈 프로젝트 진행 상황
+**사용 모델:**
+- `beomi/kcbert-base` - 한국어 특화 BERT 모델
 
-- [x] 프로젝트 구조 설계
-- [x] 데이터 수집 파이프라인
-- [x] 캐싱 시스템
-- [x] Shorts 필터링
-- [x] 자막 수집
-- [x] 댓글 수집
-- [x] 참여도 통계 수집
-- [ ] 데이터 라벨링 스크립트
-- [ ] Feature 추출 파이프라인
-- [ ] 트랜스포머 모델 구현
-- [ ] 학습 파이프라인
-- [ ] 평가 & 분석 도구
-- [ ] 웹 데모 (선택)
+**출력 예시:**
+```
+📊 총 3개 댓글 분석 중...
 
-## 🤝 Contributing
+😊 POSITIVE (85.2%) | 너무 재밌어요! 최고!
+😞 NEGATIVE (72.3%) | 이건 진짜 별로네요
+😊 POSITIVE (91.5%) | 감사합니다 좋은 영상
 
-이 프로젝트는 트랜스포머 학습을 위한 개인 프로젝트입니다.
+✨ 감정 분석 결과:
+  😊 긍정: 2개 (66.7%)
+  😞 부정: 1개 (33.3%)
+  💯 Sentiment Score: 66.7/100
+```
 
-## 📝 License
+---
+
+## 프로젝트 구조
+
+```
+youtube-video-preference-predictor/
+├── README.md
+├── requirements.txt
+├── .env                          # API 키 (gitignore)
+├── .env.example                  # 환경변수 템플릿
+│
+├── data/
+│   ├── chimchakman_official_videos.json          # 비디오 목록
+│   ├── chimchakman_official_stats/               # 통계 데이터
+│   │   └── {video_id}_stats.json
+│   ├── chimchakman_official_comments/            # 댓글 데이터
+│   │   └── {video_id}_comments.json
+│   └── chimchakman_official_transcripts/         # 자막 데이터
+│       └── {video_id}_whisper_transcript.txt
+│
+├── youtube_data_collector.py    # 비디오/통계/댓글 수집
+├── sst_whisper.py               # 단일 비디오 자막 생성
+├── batch_whisper.py             # 배치 자막 생성 (병렬)
+├── backfill_comments.py         # 댓글 백필
+├── test_sentiment_korean.py     # 감정 분석 테스트
+│
+└── (향후 추가 예정)
+    ├── extract_keywords.py      # 키워드 추출
+    ├── create_features.py       # ML Feature 생성
+    ├── train_model.py           # 모델 학습
+    └── predict.py               # 선호도 예측
+```
+
+---
+
+## 성능 최적화
+
+### Whisper 병렬 처리
+
+**최적 Workers 수 찾기:**
+
+```bash
+# 시스템 정보 확인
+python find_optimal_workers.py --info
+
+# 실제 벤치마크 (3개 비디오로 테스트)
+python find_optimal_workers.py video1 video2 video3 --workers 2 4 8 12
+```
+
+**일반 가이드:**
+
+```bash
+# 메모리 기준
+Workers = (사용 가능 RAM - 8GB) / 2GB
+
+# CPU 기준
+Workers <= CPU 코어 수
+
+# 예시
+# 48GB RAM, 16코어 → 12-16 workers 추천
+# 16GB RAM, 8코어  → 4-6 workers 추천
+# 8GB RAM, 4코어   → 2-3 workers 추천
+```
+
+### 모델 선택
+
+**정확도 vs 속도:**
+
+| 모델 | 속도 | 정확도 | 메모리 | 추천 상황 |
+|------|------|--------|--------|-----------|
+| tiny | ⭐⭐⭐⭐⭐ | ⭐⭐ | 1GB | 테스트용 |
+| base | ⭐⭐⭐⭐ | ⭐⭐⭐ | 2GB | 일반 사용 ⭐ |
+| small | ⭐⭐⭐ | ⭐⭐⭐⭐ | 3GB | 정확도 중요 |
+| medium | ⭐⭐ | ⭐⭐⭐⭐⭐ | 5GB | 최고 품질 |
+| large | ⭐ | ⭐⭐⭐⭐⭐ | 10GB | 연구용 |
+
+**추천:**
+- 일반: `base` 모델 (기본값)
+- 메모리 여유: `small` 모델 (더 정확)
+- 속도 중요: `tiny` 모델
+
+---
+
+## 데이터 형식
+
+### videos.json
+```json
+[
+  {
+    "video_id": "abc123",
+    "title": "비디오 제목",
+    "published_at": "2024-01-01T00:00:00Z",
+    "duration": "PT15M30S"
+  }
+]
+```
+
+### stats.json
+```json
+{
+  "video_id": "abc123",
+  "view_count": 7277,
+  "like_count": 29,
+  "comment_count": 6,
+  "favorite_count": 0,
+  "collected_at": "2025-10-29T17:31:27.503171"
+}
+```
+
+### comments.json
+```json
+{
+  "video_id": "abc123",
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@user123",
+      "text": "댓글 내용",
+      "likeCount": 5,
+      "publishedAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
+```
+
+### transcript.txt
+```
+Video ID: abc123
+Title: 비디오 제목
+Model: whisper-base
+--------------------------------------------------------------------------------
+
+자막 텍스트 내용이 여기에...
+```
+
+---
+
+## 문제 해결
+
+### ffmpeg 오류
+```bash
+# Mac
+brew install ffmpeg
+
+# Ubuntu
+sudo apt-get install ffmpeg
+```
+
+### Whisper 메모리 부족
+```bash
+# Workers 수 줄이기
+python batch_whisper.py --workers 2
+
+# 더 작은 모델 사용
+python batch_whisper.py --model tiny --workers 4
+```
+
+### YouTube API 할당량 초과
+- 일일 할당량: 10,000 units
+- 댓글 수집: 1 unit/request
+- 비디오 정보: 1 unit/request
+- 다음 날까지 대기 또는 API 키 추가
+
+---
+
+## 향후 계획
+
+- [ ] 키워드 추출 (TF-IDF, KoNLPy)
+- [ ] Feature Engineering
+- [ ] ML 모델 학습 (XGBoost, Random Forest)
+- [ ] 선호도 예측 시스템
+- [ ] 웹 대시보드
+- [ ] 실시간 모니터링
+
+---
+
+## 기여
+
+이슈 및 PR 환영합니다!
+
+## 라이선스
 
 MIT License

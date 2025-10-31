@@ -162,7 +162,7 @@ class BatchWhisperProcessor:
     
     def process_batch(self, video_ids: List[str] = None) -> Dict:
         """
-        배치 처리 (순차)
+        배치 처리 (병렬)
         
         Args:
             video_ids: 처리할 비디오 ID 목록 (None이면 전체)
@@ -178,9 +178,10 @@ class BatchWhisperProcessor:
             return {}
         
         print("\n" + "="*80)
-        print(f"🚀 배치 Whisper 처리 시작")
+        print(f"🚀 배치 Whisper 처리 시작 (병렬)")
         print("="*80)
         print(f"  총 비디오: {len(video_ids)}개")
+        print(f"  병렬 워커: {self.max_workers}개")
         print(f"  모델: whisper-{self.model_size}")
         print(f"  출력: {self.output_dir}")
         print("="*80 + "\n")
@@ -195,37 +196,51 @@ class BatchWhisperProcessor:
         }
         
         start_time = time.time()
+        completed = 0
         
-        # 순차 처리
-        for i, video_id in enumerate(video_ids, 1):
-            print(f"\n[{i}/{len(video_ids)}] ", end="")
-            
-            try:
-                result = self.process_single_video(video_id)
+        # 병렬 처리 with ProcessPoolExecutor
+        try:
+            with ProcessPoolExecutor(max_workers=self.max_workers) as executor:
+                # 모든 작업 제출
+                future_to_video = {
+                    executor.submit(self.process_single_video, video_id): video_id
+                    for video_id in video_ids
+                }
                 
-                if result.get('skipped'):
-                    stats['skipped'] += 1
-                elif result['success']:
-                    stats['success'] += 1
-                else:
-                    stats['failed'] += 1
-                    if result.get('error'):
+                # 완료되는 대로 결과 수집
+                for future in as_completed(future_to_video):
+                    video_id = future_to_video[future]
+                    completed += 1
+                    
+                    try:
+                        result = future.result()
+                        
+                        # 진행률 표시
+                        print(f"[{completed}/{len(video_ids)}] ", end="")
+                        
+                        if result.get('skipped'):
+                            stats['skipped'] += 1
+                        elif result['success']:
+                            stats['success'] += 1
+                        else:
+                            stats['failed'] += 1
+                            if result.get('error'):
+                                stats['errors'].append({
+                                    'video_id': video_id,
+                                    'error': result['error']
+                                })
+                    
+                    except Exception as e:
+                        stats['failed'] += 1
                         stats['errors'].append({
                             'video_id': video_id,
-                            'error': result['error']
+                            'error': str(e)
                         })
-            
-            except KeyboardInterrupt:
-                print("\n\n⚠️  사용자가 중단했습니다.")
-                break
-            
-            except Exception as e:
-                stats['failed'] += 1
-                stats['errors'].append({
-                    'video_id': video_id,
-                    'error': str(e)
-                })
-                print(f"❌ 예외 발생: {video_id} - {e}")
+                        print(f"❌ 예외 발생: {video_id} - {e}")
+        
+        except KeyboardInterrupt:
+            print("\n\n⚠️  사용자가 중단했습니다.")
+            print("⚠️  진행 중인 작업이 완료될 때까지 기다립니다...")
         
         # 최종 통계
         total_time = time.time() - start_time
@@ -238,6 +253,7 @@ class BatchWhisperProcessor:
         print(f"  ❌ 실패: {stats['failed']}개")
         print(f"  📊 총: {stats['total']}개")
         print(f"  ⏱️  소요 시간: {total_time/60:.1f}분")
+        print(f"  ⚡ 평균 속도: {total_time/max(completed, 1):.1f}초/비디오")
         
         if stats['failed'] > 0:
             print(f"\n❌ 실패한 비디오 ({stats['failed']}개):")
@@ -296,6 +312,13 @@ def main():
         help='특정 비디오 ID만 처리 (공백으로 구분)'
     )
     
+    parser.add_argument(
+        '--workers',
+        type=int,
+        default=2,
+        help='병렬 워커 수 (기본값: 2, CPU 코어 수 고려)'
+    )
+    
     args = parser.parse_args()
     
     # 프로세서 생성
@@ -303,7 +326,7 @@ def main():
         videos_json=args.videos,
         output_dir=args.output_dir,
         model_size=args.model,
-        max_workers=1  # 순차 처리
+        max_workers=args.workers  # 기본값 2
     )
     
     # 처리할 비디오 ID 결정
