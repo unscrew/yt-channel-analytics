@@ -1,5 +1,24 @@
 {
   "video_id": "FW0NIN16dmY",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@GreatPark-ni8yc",
+      "text": "지금과는 사뭇 다른...",
+      "likeCount": 1,
+      "publishedAt": "2023-03-21T01:15:32Z"
+    },
+    {
+      "author": "@gaujitmal",
+      "text": "풋풋하다..",
+      "likeCount": 1,
+      "publishedAt": "2024-03-14T12:58:01Z"
+    },
+    {
+      "author": "@neomeogayot",
+      "text": "ㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-07-01T11:56:24Z"
+    }
+  ]
 }

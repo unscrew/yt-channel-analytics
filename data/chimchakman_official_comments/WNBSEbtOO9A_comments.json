@@ -1,5 +1,24 @@
 {
   "video_id": "WNBSEbtOO9A",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@superstrongsans",
+      "text": "착맨아재 싸랑해여",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T15:18:26Z"
+    },
+    {
+      "author": "@박형민형민형민",
+      "text": "고잔동을 빼신하셨나",
+      "likeCount": 0,
+      "publishedAt": "2016-05-02T16:38:37Z"
+    },
+    {
+      "author": "@DdongSunIn",
+      "text": "브란이랑 아르거스는 빼지",
+      "likeCount": 0,
+      "publishedAt": "2016-05-02T02:54:13Z"
+    }
+  ]
 }

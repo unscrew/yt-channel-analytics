@@ -1,26 +1,37 @@
 #!/usr/bin/env python3
 """
-Whisper 트랜스포머로 YouTube 비디오 자막 생성 테스트
-단일 비디오 테스트용
+Whisper 트랜스포머로 YouTube 비디오 자막 생성
+data/chimchakman_official_transcripts 에 저장
 """
 
 import os
 import sys
 import argparse
+from pathlib import Path
 
-def test_whisper_single_video(video_id, model_size="base"):
+# 출력 디렉토리
+OUTPUT_DIR = Path("data/chimchakman_official_transcripts")
+
+
+def test_whisper_single_video(video_id, model_size="base", output_dir=OUTPUT_DIR):
     """
     단일 YouTube 비디오로 Whisper 테스트
     
     Args:
         video_id: YouTube 비디오 ID
         model_size: Whisper 모델 크기 (tiny, base, small, medium, large)
+        output_dir: 출력 디렉토리
     """
+    # 출력 디렉토리 생성
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
     print("=" * 80)
-    print("🎤 Whisper (Speech-to-Text Transformer) 테스트")
+    print("🎤 Whisper (Speech-to-Text Transformer)")
     print("=" * 80)
     print(f"\n비디오 ID: {video_id}")
     print(f"모델 크기: {model_size}")
+    print(f"출력 디렉토리: {output_dir}")
     
     # Step 1: yt-dlp로 오디오 다운로드
     print("\n[1/3] 오디오 다운로드 중...")
@@ -29,7 +40,7 @@ def test_whisper_single_video(video_id, model_size="base"):
     except ImportError:
         print("❌ yt-dlp가 설치되지 않았습니다.")
         print("설치: pip install yt-dlp")
-        return
+        return False
     
     output_audio = f"temp_{video_id}.mp3"
     
@@ -59,7 +70,7 @@ def test_whisper_single_video(video_id, model_size="base"):
         print("\n대안: ffmpeg가 설치되어 있는지 확인하세요")
         print("  Mac: brew install ffmpeg")
         print("  Ubuntu: sudo apt-get install ffmpeg")
-        return
+        return False
     
     # Step 2: Whisper로 변환
     print("\n[2/3] Whisper로 자막 생성 중...")
@@ -72,7 +83,7 @@ def test_whisper_single_video(video_id, model_size="base"):
         print("설치: pip install openai-whisper")
         if os.path.exists(output_audio):
             os.remove(output_audio)
-        return
+        return False
     
     try:
         # Whisper 모델 로드
@@ -98,12 +109,12 @@ def test_whisper_single_video(video_id, model_size="base"):
         print(f"❌ Whisper 변환 실패: {e}")
         if os.path.exists(output_audio):
             os.remove(output_audio)
-        return
+        return False
     
-    # Step 3: 결과 저장 및 출력
+    # Step 3: 결과 저장
     print("\n[3/3] 결과 저장...")
     
-    output_file = f"{video_id}_whisper_transcript.txt"
+    output_file = output_dir / f"{video_id}_whisper_transcript.txt"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(f"Video ID: {video_id}\n")
         f.write(f"Title: {video_title}\n")
@@ -113,10 +124,10 @@ def test_whisper_single_video(video_id, model_size="base"):
     
     print(f"✓ 저장 완료: {output_file}")
     
-    # 정리
-    # if os.path.exists(output_audio):
-    #     os.remove(output_audio)
-    #     print("✓ 임시 파일 삭제")
+    # 정리: 임시 오디오 파일 삭제
+    if os.path.exists(output_audio):
+        os.remove(output_audio)
+        print("✓ 임시 파일 삭제")
     
     # 결과 미리보기
     print("\n" + "=" * 80)
@@ -133,16 +144,18 @@ def test_whisper_single_video(video_id, model_size="base"):
     print(f"  비디오 길이: {duration}초")
     print(f"  텍스트 길이: {len(transcript)}자")
     print(f"  단어 수: {len(transcript.split())}개")
+    
+    return True
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Whisper로 YouTube 비디오 자막 생성 (테스트)',
+        description='Whisper로 YouTube 비디오 자막 생성',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 사용 예시:
-  python test_whisper.py dQw4w9WgXcQ
-  python test_whisper.py QFCLUZWNtQs --model small
+  python stt_whisper.py 15TdCFjSzCk
+  python stt_whisper.py QFCLUZWNtQs --model small
   
 모델 크기 (크기 ↑ = 정확도 ↑, 속도 ↓):
   tiny   - 가장 빠름, 부정확 (39M params)
@@ -162,7 +175,7 @@ ffmpeg 필요:
     
     parser.add_argument(
         'video_id',
-        help='YouTube 비디오 ID (예: dQw4w9WgXcQ)'
+        help='YouTube 비디오 ID (예: 15TdCFjSzCk)'
     )
     
     parser.add_argument(
@@ -170,6 +183,12 @@ ffmpeg 필요:
         choices=['tiny', 'base', 'small', 'medium', 'large'],
         default='base',
         help='Whisper 모델 크기 (기본값: base)'
+    )
+    
+    parser.add_argument(
+        '--output-dir',
+        default=OUTPUT_DIR,
+        help=f'출력 디렉토리 (기본값: {OUTPUT_DIR})'
     )
     
     args = parser.parse_args()
@@ -180,7 +199,8 @@ ffmpeg 필요:
     print("  - 20분 비디오 = CPU 30분~1시간, GPU 5~10분")
     print()
     
-    test_whisper_single_video(args.video_id, args.model)
+    success = test_whisper_single_video(args.video_id, args.model, args.output_dir)
+    sys.exit(0 if success else 1)
 
 
 if __name__ == '__main__':

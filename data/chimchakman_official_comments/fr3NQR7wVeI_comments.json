@@ -1,5 +1,24 @@
 {
   "video_id": "fr3NQR7wVeI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@why_t_t2382",
+      "text": "28:40 하이라이트입니당",
+      "likeCount": 2,
+      "publishedAt": "2017-01-15T12:09:45Z"
+    },
+    {
+      "author": "@MAX_A13",
+      "text": "후마담... 정말 당신은",
+      "likeCount": 0,
+      "publishedAt": "2017-01-15T10:30:08Z"
+    },
+    {
+      "author": "@user-in4px9dr4d",
+      "text": "암행어사판 5:30",
+      "likeCount": 0,
+      "publishedAt": "2017-01-16T05:30:36Z"
+    }
+  ]
 }

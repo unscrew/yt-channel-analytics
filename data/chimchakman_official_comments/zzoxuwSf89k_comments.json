@@ -1,5 +1,24 @@
 {
   "video_id": "zzoxuwSf89k",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@박진형-x2e",
+      "text": "이번편은 먼가 진지허네요",
+      "likeCount": 0,
+      "publishedAt": "2016-09-26T11:42:11Z"
+    },
+    {
+      "author": "@어류군",
+      "text": "결국 hcc6은 나가지도 못하고 탈락.........ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-09-26T11:45:09Z"
+    },
+    {
+      "author": "@태욱장-n3n",
+      "text": "예선이김?",
+      "likeCount": 0,
+      "publishedAt": "2016-09-26T10:38:10Z"
+    }
+  ]
 }

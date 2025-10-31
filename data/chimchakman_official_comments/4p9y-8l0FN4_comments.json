@@ -1,5 +1,30 @@
 {
   "video_id": "4p9y-8l0FN4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@abc-zn5ie",
+      "text": "쏘영이 진짜 보면볼수록 귀엽네",
+      "likeCount": 2,
+      "publishedAt": "2017-03-31T11:05:03Z"
+    },
+    {
+      "author": "@아름드리나무-j3p",
+      "text": "쏘하!",
+      "likeCount": 2,
+      "publishedAt": "2017-03-31T10:19:57Z"
+    },
+    {
+      "author": "@dorothy6532",
+      "text": "마지막에 대지충격 기괴한공포에쓰고 크라켄에 친다음 갈번써야하는거 아닌가요",
+      "likeCount": 0,
+      "publishedAt": "2017-04-01T03:14:26Z"
+    },
+    {
+      "author": "@unde1188",
+      "text": "아조씨 너무 안일해요...",
+      "likeCount": 0,
+      "publishedAt": "2017-03-31T11:12:19Z"
+    }
+  ]
 }

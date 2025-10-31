@@ -1,5 +1,24 @@
 {
   "video_id": "su3KiQZY5pg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@user-ym1et7rc3x",
+      "text": "갓겜이네",
+      "likeCount": 0,
+      "publishedAt": "2024-03-03T10:04:25Z"
+    },
+    {
+      "author": "@lostsaint620",
+      "text": "인트로ㄲㅋㄲㄱㅋㄱ",
+      "likeCount": 0,
+      "publishedAt": "2017-11-20T12:09:52Z"
+    },
+    {
+      "author": "@구쿠-g4x",
+      "text": "왕",
+      "likeCount": 0,
+      "publishedAt": "2017-11-20T09:25:50Z"
+    }
+  ]
 }

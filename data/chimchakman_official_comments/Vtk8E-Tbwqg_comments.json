@@ -1,5 +1,24 @@
 {
   "video_id": "Vtk8E-Tbwqg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@ijijjjijlji",
+      "text": "문알못 훈수가 이걸??",
+      "likeCount": 1,
+      "publishedAt": "2016-11-11T16:44:27Z"
+    },
+    {
+      "author": "@danji3567",
+      "text": "문명 꿀잼인데 댓글이없네",
+      "likeCount": 0,
+      "publishedAt": "2017-05-03T21:37:21Z"
+    },
+    {
+      "author": "@kichan114",
+      "text": "문크리트들 알지도못하면서 훈수두는거 역겹죠?",
+      "likeCount": 1,
+      "publishedAt": "2018-02-05T03:39:53Z"
+    }
+  ]
 }

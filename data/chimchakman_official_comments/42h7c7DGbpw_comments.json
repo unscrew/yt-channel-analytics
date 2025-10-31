@@ -1,5 +1,24 @@
 {
   "video_id": "42h7c7DGbpw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@chh4503",
+      "text": "제이나 보다가 암걸리겠다.\n못하면 말이나 말든가 거기서 귀신같이 정치질이네",
+      "likeCount": 0,
+      "publishedAt": "2016-10-25T18:22:38Z"
+    },
+    {
+      "author": "@김현철-l6x",
+      "text": "제이나를 국회로!!!",
+      "likeCount": 0,
+      "publishedAt": "2016-10-25T05:46:59Z"
+    },
+    {
+      "author": "@jkp547",
+      "text": "Dugle 빠르게 차단",
+      "likeCount": 0,
+      "publishedAt": "2016-10-24T18:14:11Z"
+    }
+  ]
 }

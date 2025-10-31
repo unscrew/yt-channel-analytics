@@ -1,5 +1,18 @@
 {
   "video_id": "-nd4g86dePg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@김병완-f6x",
+      "text": "3년전 영상에 첫 좋아요라니...히오스 그는 도덕책",
+      "likeCount": 0,
+      "publishedAt": "2019-08-28T14:11:52Z"
+    },
+    {
+      "author": "@JY-on1jn",
+      "text": "오늘 디아블로라는데 무라딘한테 또도리맞음",
+      "likeCount": 0,
+      "publishedAt": "2016-10-24T15:15:05Z"
+    }
+  ]
 }

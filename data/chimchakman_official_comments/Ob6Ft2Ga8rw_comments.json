@@ -1,5 +1,24 @@
 {
   "video_id": "Ob6Ft2Ga8rw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@fqersdafsdaf",
+      "text": "재밌다",
+      "likeCount": 0,
+      "publishedAt": "2025-08-27T03:05:24Z"
+    },
+    {
+      "author": "@yugi4212",
+      "text": "구울 무한리필 맛집 꿀맛 ㄷㄷㄷㄷ",
+      "likeCount": 1,
+      "publishedAt": "2017-09-14T16:56:05Z"
+    },
+    {
+      "author": "@577projectoo",
+      "text": "재밌어요 침투부",
+      "likeCount": 0,
+      "publishedAt": "2017-09-19T14:50:55Z"
+    }
+  ]
 }

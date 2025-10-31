@@ -1,5 +1,36 @@
 {
   "video_id": "Uh23rprZGwU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@20년산삼",
+      "text": "옥냥옥냥",
+      "likeCount": 0,
+      "publishedAt": "2017-01-14T01:45:07Z"
+    },
+    {
+      "author": "@수학반짝반짝",
+      "text": "후.즈.좋.아",
+      "likeCount": 0,
+      "publishedAt": "2017-01-13T15:20:47Z"
+    },
+    {
+      "author": "@노올걀라거",
+      "text": "잼통구르기..",
+      "likeCount": 0,
+      "publishedAt": "2017-01-15T01:12:14Z"
+    },
+    {
+      "author": "@_Tuggy_",
+      "text": "앙",
+      "likeCount": 0,
+      "publishedAt": "2017-01-13T11:30:43Z"
+    },
+    {
+      "author": "@taehona6",
+      "text": "후.즈.좋.아",
+      "likeCount": 0,
+      "publishedAt": "2017-01-16T09:47:59Z"
+    }
+  ]
 }

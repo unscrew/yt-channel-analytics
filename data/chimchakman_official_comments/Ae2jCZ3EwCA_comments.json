@@ -1,5 +1,24 @@
 {
   "video_id": "Ae2jCZ3EwCA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@taehona6",
+      "text": "8:56 ????????????????????",
+      "likeCount": 1,
+      "publishedAt": "2017-09-08T12:20:25Z"
+    },
+    {
+      "author": "@user-Jaime119",
+      "text": "비추천 달게 받으십시오.",
+      "likeCount": 0,
+      "publishedAt": "2017-09-11T06:57:28Z"
+    },
+    {
+      "author": "@user-qo9rk6sn7e",
+      "text": "그런데 짜쟌~ 절대라는건 없군요",
+      "likeCount": 0,
+      "publishedAt": "2017-09-08T14:10:58Z"
+    }
+  ]
 }

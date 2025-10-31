@@ -1,5 +1,42 @@
 {
   "video_id": "R9EFZwjOLX8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 6,
+  "comments": [
+    {
+      "author": "@정재훈-o2v",
+      "text": "재밌어요",
+      "likeCount": 0,
+      "publishedAt": "2022-05-07T11:25:04Z"
+    },
+    {
+      "author": "@반숙-w3n",
+      "text": "11:14 침리둥절",
+      "likeCount": 1,
+      "publishedAt": "2017-12-04T14:28:18Z"
+    },
+    {
+      "author": "@돌돌돌-d2b",
+      "text": "조팡현이 너무사리네..",
+      "likeCount": 2,
+      "publishedAt": "2017-06-03T04:18:01Z"
+    },
+    {
+      "author": "@김석훈-d2n",
+      "text": "육땡인데 죽는 클라스 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2018-09-14T05:23:58Z"
+    },
+    {
+      "author": "@zzizeee",
+      "text": "곰꾸라지 사림오졋다",
+      "likeCount": 0,
+      "publishedAt": "2017-09-15T16:14:03Z"
+    },
+    {
+      "author": "@이장훈-q3v",
+      "text": "아조씨 땡잡이가 장땡 잡을수 있낭요?",
+      "likeCount": 0,
+      "publishedAt": "2017-05-31T12:04:20Z"
+    }
+  ]
 }

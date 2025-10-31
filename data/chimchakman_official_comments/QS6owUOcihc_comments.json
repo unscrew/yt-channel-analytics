@@ -1,5 +1,36 @@
 {
   "video_id": "QS6owUOcihc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@its_oops",
+      "text": "마지막 전사 미쳤네....",
+      "likeCount": 0,
+      "publishedAt": "2017-10-17T04:33:02Z"
+    },
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "아니 1타 강사님 강의에 좋아요가 열개 뿐이라니",
+      "likeCount": 1,
+      "publishedAt": "2019-07-11T22:41:20Z"
+    },
+    {
+      "author": "@시퍼런새우젖",
+      "text": "저 전사같은 놈은 잡아야 정의구현인데ㅜㅜㅜ",
+      "likeCount": 0,
+      "publishedAt": "2017-10-16T16:33:44Z"
+    },
+    {
+      "author": "@rokikorea570",
+      "text": "투기장 영상 없으면 뭔 낙으로 사나",
+      "likeCount": 2,
+      "publishedAt": "2017-10-15T12:37:25Z"
+    },
+    {
+      "author": "@hyojunkim5563",
+      "text": "마지막 전사 카드부터 인성까지 개역겹네요 ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2017-10-15T15:40:57Z"
+    }
+  ]
 }

@@ -1,5 +1,18 @@
 {
   "video_id": "YvgXHGBnzGI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@Bedoraze",
+      "text": "5년 전에 댓글 다신 회원님… 그러게요 재밌는데…",
+      "likeCount": 0,
+      "publishedAt": "2023-01-11T07:12:49Z"
+    },
+    {
+      "author": "@최영종-g5r",
+      "text": "쪼온이 진짜인기없긴한가보다 보기엔 재밌는데",
+      "likeCount": 0,
+      "publishedAt": "2017-05-16T14:10:40Z"
+    }
+  ]
 }

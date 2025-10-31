@@ -1,5 +1,30 @@
 {
   "video_id": "8QhwWSl5-cM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@Eldordo",
+      "text": "맨날 돛거만해요 왜",
+      "likeCount": 3,
+      "publishedAt": "2017-04-30T09:43:22Z"
+    },
+    {
+      "author": "@감귤-z8u",
+      "text": "교수님 교수님의 설명을 들으며 댁을 얼추 맞추니 제가 처음 하스를 하는데도 5연승을 합니다ㅏ ㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-05-01T18:50:09Z"
+    },
+    {
+      "author": "@hchoi8423",
+      "text": "3개짜리라 안볼래요",
+      "likeCount": 0,
+      "publishedAt": "2017-04-30T16:05:16Z"
+    },
+    {
+      "author": "@jameshuntington3293",
+      "text": "아까 쳤으면 킬각인데 왜 55도발 안하냐고오오",
+      "likeCount": 0,
+      "publishedAt": "2017-04-30T16:13:21Z"
+    }
+  ]
 }

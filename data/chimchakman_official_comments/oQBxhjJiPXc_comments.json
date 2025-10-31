@@ -1,5 +1,36 @@
 {
   "video_id": "oQBxhjJiPXc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@terrapin-y",
+      "text": "2:13 커여워...",
+      "likeCount": 0,
+      "publishedAt": "2024-07-22T09:27:58Z"
+    },
+    {
+      "author": "@tw-ur1bq",
+      "text": "잔잔하다",
+      "likeCount": 0,
+      "publishedAt": "2024-05-31T12:10:15Z"
+    },
+    {
+      "author": "@non8u3Mn",
+      "text": "근데 이 FEZ는 제작자의 인성이 참 쓰레기라서...\n그래도 침착대장과 쏘영이가 재미있게 플레이하니까 다행이네요",
+      "likeCount": 4,
+      "publishedAt": "2017-07-24T02:21:37Z"
+    },
+    {
+      "author": "@성이름-j6m",
+      "text": "1,2편 어딧죠?",
+      "likeCount": 0,
+      "publishedAt": "2017-07-23T15:40:43Z"
+    },
+    {
+      "author": "@goyeonwook",
+      "text": "쏘영아,침착맨 아저씨 말 안들으면 철면수심 아저씨가 '쑤심'할수도 있어 알겠지?",
+      "likeCount": 0,
+      "publishedAt": "2017-07-23T15:18:22Z"
+    }
+  ]
 }

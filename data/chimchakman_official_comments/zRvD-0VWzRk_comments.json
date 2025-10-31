@@ -1,5 +1,30 @@
 {
   "video_id": "zRvD-0VWzRk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@sleepy1447",
+      "text": "쩌네",
+      "likeCount": 0,
+      "publishedAt": "2017-03-06T15:27:14Z"
+    },
+    {
+      "author": "@백경민-o4x",
+      "text": "방패리안 너프...꿀많이 빨아둬서 다행인듯",
+      "likeCount": 0,
+      "publishedAt": "2017-02-28T10:31:36Z"
+    },
+    {
+      "author": "@lep6411",
+      "text": "렙차 5.. 봇전급인데",
+      "likeCount": 0,
+      "publishedAt": "2017-03-01T05:09:55Z"
+    },
+    {
+      "author": "@Berrnine",
+      "text": "형래 개못하네 ㅡㅡ",
+      "likeCount": 0,
+      "publishedAt": "2017-03-04T09:05:17Z"
+    }
+  ]
 }

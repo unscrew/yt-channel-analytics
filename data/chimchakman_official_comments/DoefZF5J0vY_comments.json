@@ -1,5 +1,606 @@
 {
   "video_id": "DoefZF5J0vY",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 100,
+  "comments": [
+    {
+      "author": "@DrunkOakPokemon",
+      "text": "이게 맞다",
+      "likeCount": 2137,
+      "publishedAt": "2020-08-15T11:04:06Z"
+    },
+    {
+      "author": "@박규재-q2r",
+      "text": "악으로 버티라던 이근 대위님도 벌 있다고 위험하댔음. 벌레타입이 악타입에 강한 것이다",
+      "likeCount": 1080,
+      "publishedAt": "2020-08-15T10:46:59Z"
+    },
+    {
+      "author": "@조무래기-i1k",
+      "text": "용타입 서로 2배인 이유가 “용 용 죽겠지” 때문이라고 한 채팅 개웃겼는데 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 3642,
+      "publishedAt": "2020-08-15T13:02:09Z"
+    },
+    {
+      "author": "@sanam4112",
+      "text": "솔직히 얼음 vs 드래곤 이런건 포켓몬 하면서도 이해 못했는데 ‘빙하타고온 둘리’ 이걸로 한방에 납득함... 나만 유익했나",
+      "likeCount": 1037,
+      "publishedAt": "2020-08-15T11:38:59Z"
+    },
+    {
+      "author": "@kim_taek",
+      "text": "이제는 포국지까지...",
+      "likeCount": 421,
+      "publishedAt": "2020-08-15T10:05:33Z"
+    },
+    {
+      "author": "@소소화",
+      "text": "이렇게 자세하게 설명하면 포켓몬 프라이버시는 어떡하죠?",
+      "likeCount": 2951,
+      "publishedAt": "2020-08-15T10:17:51Z"
+    },
+    {
+      "author": "@h2208김철웅",
+      "text": "와 포알못 침맨이 상성강의까지 할 정도의 포잘알이 되었다니.. 눈물이 나옵니다",
+      "likeCount": 1308,
+      "publishedAt": "2020-08-15T10:05:29Z"
+    },
+    {
+      "author": "@이-x8b4b",
+      "text": "불과 물이 싸워봤자 구운물이 될 뿐이죠?",
+      "likeCount": 2965,
+      "publishedAt": "2020-08-15T10:10:09Z"
+    },
+    {
+      "author": "@hong-eo",
+      "text": "벼락 맞은 대추나무는 바둑판이 아니라 최고의 인감 재료가 되어서 보증 설때 사용되고 사람을 패가망신의 지름길로 인도합니다.",
+      "likeCount": 116,
+      "publishedAt": "2020-08-15T14:21:53Z"
+    },
+    {
+      "author": "@직언담당",
+      "text": "방장 해마다 느낌이 다르지만 이 때가 제일 텐션이 높았던거 같네 ㅋㅋㅋ 잼민이마냥 신나있네",
+      "likeCount": 18,
+      "publishedAt": "2023-05-15T11:06:54Z"
+    },
+    {
+      "author": "@WooGooning",
+      "text": "침착맨 설명회는 봐봤자 이해도 못하고 20분동안 웃은 시청자가 될 뿐이죠?",
+      "likeCount": 116,
+      "publishedAt": "2020-08-15T10:39:59Z"
+    },
+    {
+      "author": "@hbs4647",
+      "text": "영상 다 보고 기억나는거 :  헤겔은 변태다",
+      "likeCount": 723,
+      "publishedAt": "2020-08-15T10:31:18Z"
+    },
+    {
+      "author": "@InBeJuBLE",
+      "text": "침착맨님 이번 타입 강의 잘봤습니다. 다음에는 침펄토론에 나온 가위 불 바위 총 번개 악마 용 물 공기 보 스펀지 늑대 나무 사람 강의도 가능 할까요?",
+      "likeCount": 926,
+      "publishedAt": "2020-08-15T14:38:17Z"
+    },
+    {
+      "author": "@맛있으면짖는돼지",
+      "text": "ㅋㅋㅋㅋㅋ오랜만에 봐도 웃기네ㅋㅋㅋ 처음에는 제대로 설명하는듯 했으나 역시 지 입맛대로 설명하는 침착맨..",
+      "likeCount": 56,
+      "publishedAt": "2021-05-13T08:33:42Z"
+    },
+    {
+      "author": "@큰일은애니프사가한다",
+      "text": "삼국지 강의도 그렇고 포켓몬 강의도 그렇고 설명이 딱 트수눈높이에서 개맛깔나게 잘함ㅋㅋㅋ",
+      "likeCount": 35,
+      "publishedAt": "2020-08-18T09:25:18Z"
+    },
+    {
+      "author": "@음흉맨",
+      "text": "포켓몬 공식 설정을 믿지마!\n침착맨을 믿어!",
+      "likeCount": 774,
+      "publishedAt": "2020-08-15T10:19:34Z"
+    },
+    {
+      "author": "@miraak6220",
+      "text": "조커, 머레이, 배트맨 설명이 진짜 례전드네 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 121,
+      "publishedAt": "2020-08-15T12:25:41Z"
+    },
+    {
+      "author": "@따봉을드려요",
+      "text": "완전 찰떡 설명이다; 조커예시 둘리예시 ㄹㅇ천재 뒤로 갈수록 외우기식 속성이라 생각했는데 이렇게 자연스럽다니..",
+      "likeCount": 20,
+      "publishedAt": "2021-12-01T02:53:53Z"
+    },
+    {
+      "author": "@뜨거운감자-c3y",
+      "text": "수능에 헤겔의 변증법이 나온단 걸 예측한 그는 대체..",
+      "likeCount": 43,
+      "publishedAt": "2021-11-18T11:32:18Z"
+    },
+    {
+      "author": "@마음만급한박씨",
+      "text": "쏘영박사님 강의 수강신청때 놓쳐서..ㅜㅜ\n어쩔수 없이 침착맨님 강의 잘 들었습니다.",
+      "likeCount": 235,
+      "publishedAt": "2020-12-29T09:38:45Z"
+    },
+    {
+      "author": "@hoono5238",
+      "text": "이봐 이병건 너의 킹타입은 나에게 두배로 데미지를 주는군..",
+      "likeCount": 507,
+      "publishedAt": "2020-08-15T12:03:18Z"
+    },
+    {
+      "author": "@안우찬-c4e",
+      "text": "놀랍게도 상당히 쓸만한 공략영상",
+      "likeCount": 32,
+      "publishedAt": "2020-08-17T03:15:15Z"
+    },
+    {
+      "author": "@DepesKR",
+      "text": "엔딩볼때까지 상성표 안보고 자기만의 암기법으로 상성 이해하려는 침착맨의 게임방식이 진국이고 낭만임 ㅋㅋ 보기에도 재밌어서 포켓몬 소드는 특히 몇번씩이나 재주행했는데 딱 하나 단점은 틀리게 외우는 경우가 생긴다는 것.. \"개미나 지렁이가 땅을 다 헤집어놓잖아\"로 땅>벌레 이리 외웠건만 최근에 벌레가 방어상성만 밀리는거라는 사실을 알게되서 개헷갈림 ㅋㅋㅋㅋㅋ 그래도 침착맨처럼 끝까지 지독하게 상성표 안 봐야지",
+      "likeCount": 8,
+      "publishedAt": "2024-02-18T14:00:13Z"
+    },
+    {
+      "author": "@tardis_95",
+      "text": "배트맨 격투타입은 ㄹㅇ 어디서 튀어나온 발상이냨ㅋㅋㅋㅋㅋ 침소리 매번 들어도 질리지가 않네 어쨐ㅋㅋㅋ",
+      "likeCount": 14,
+      "publishedAt": "2020-08-15T16:40:42Z"
+    },
+    {
+      "author": "@keith_co",
+      "text": "쏘영이랑 포켓몬카드놀이하다가 상성까지 다 외워버린 침착맨... 그는 정말 좋은 아버지입니다.",
+      "likeCount": 692,
+      "publishedAt": "2020-08-15T10:08:48Z"
+    },
+    {
+      "author": "@shim3749",
+      "text": "와 개싸움 문화가 극도로 발달한 포켓몬 세계관이라니... 흥미롭네 참말로",
+      "likeCount": 412,
+      "publishedAt": "2020-08-15T10:21:12Z"
+    },
+    {
+      "author": "@Uneducated_Kim",
+      "text": "나무위키 상성표 믿지마!\n이병건식 상성표를 믿어!",
+      "likeCount": 204,
+      "publishedAt": "2020-08-15T10:17:26Z"
+    },
+    {
+      "author": "@흑심품은흑마법사",
+      "text": "나쁜놈은 벌레만도 못한다거에서 빵터짐ㅋㅋ",
+      "likeCount": 45,
+      "publishedAt": "2022-12-11T04:26:46Z"
+    },
+    {
+      "author": "@kwondohhoon",
+      "text": "병거니우스..어쩌면 너와 나.. 상성이 꽤나 맞을지도?",
+      "likeCount": 215,
+      "publishedAt": "2020-08-15T10:06:41Z"
+    },
+    {
+      "author": "@iceedamericanooo",
+      "text": "방구석 백수는 설명회를 들어도 포켓몬을 잘 아는 백수가 될 뿐이죠?",
+      "likeCount": 130,
+      "publishedAt": "2020-08-15T10:28:59Z"
+    },
+    {
+      "author": "@추지웅-w6c",
+      "text": "솔직히 이거 오박사가 와도 제대로 설명 못할듯",
+      "likeCount": 230,
+      "publishedAt": "2020-08-15T10:40:18Z"
+    },
+    {
+      "author": "@나는속죄할것이오",
+      "text": "13:30 아구몬 속성 아구찜이라서 물속성 시밬ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 미치겟네진짜ㅋㅋㅋㅋ",
+      "likeCount": 7,
+      "publishedAt": "2022-01-06T09:23:49Z"
+    },
+    {
+      "author": "@userIlilililiil",
+      "text": "포켓고 인생에 도움이 되었읍니다 고배리하다가 헷갈리면 항상 이영상으로 옵니다",
+      "likeCount": 5,
+      "publishedAt": "2023-02-01T08:03:58Z"
+    },
+    {
+      "author": "@deep-explorer",
+      "text": "예전에 하시기로 했던 헤라클레스 설명회,,,\n침착맨 역사시리즈도 존버하겠읍니다,,,",
+      "likeCount": 162,
+      "publishedAt": "2020-08-15T10:13:28Z"
+    },
+    {
+      "author": "@fghbeedvqf",
+      "text": "10:15 해병대 얘기 하다가 쌍베는 악, 벌레 타입이라고 한게 존나 웃겼는데 빠졌네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 59,
+      "publishedAt": "2020-08-15T17:46:52Z"
+    },
+    {
+      "author": "@이은총-f2r",
+      "text": "‘침착맨이 설명하는’이라는 말을 보자마자 가슴이 웅장해졌다",
+      "likeCount": 115,
+      "publishedAt": "2020-08-15T11:20:01Z"
+    },
+    {
+      "author": "@먹보펭귄",
+      "text": "진짜 침소리는 언제들어도 좋다",
+      "likeCount": 16,
+      "publishedAt": "2020-08-15T14:10:40Z"
+    },
+    {
+      "author": "@감비-t3o",
+      "text": "방장님은 설명만 하면 다재밌어ㅋㅋㅋㅋ\n침브르 곤충기처럼 곤충설명도 재밌을듯 저번 월드컵마냥",
+      "likeCount": 18,
+      "publishedAt": "2020-08-15T12:30:35Z"
+    },
+    {
+      "author": "@starradan9599",
+      "text": "상성설명도 좋지만 세대별 도감 펼쳐서 침착맨식 이름짓기 프로젝트 했으면 좋겠습니다.",
+      "likeCount": 486,
+      "publishedAt": "2020-08-15T10:10:10Z"
+    },
+    {
+      "author": "@실문이_silmoon466KOR",
+      "text": "진짜 악 에스퍼 격투 삼각관계는 9세대 하는 아직까지도 조커-머레이-배트맨의 관계로 외웁니다ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 47,
+      "publishedAt": "2022-12-12T00:47:22Z"
+    },
+    {
+      "author": "@dlahxpq",
+      "text": "뭔가 설명이 얼탱이 없는데 이해는 쏙쏙됨ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 20,
+      "publishedAt": "2020-08-15T10:48:17Z"
+    },
+    {
+      "author": "@ruBy-tw6ui",
+      "text": "포켓몬 상성생각할때 침착맨 영상이 고트임ㅋㅋㅋㅋㅋㅋ비행나오면 ? 전기구이통닭 이생각나고 에스퍼는 정신공격이죠? 정신공격하다 조커한테 총맞았다 이생각하면 바로 또생각나고 ㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2025-10-26T03:20:27Z"
+    },
+    {
+      "author": "@SUN_Game",
+      "text": "원피스:그건 프라이버시라 알려드릴수 없습니다.\n포켓몬:그건 여러분들이 생각하는 거고",
+      "likeCount": 279,
+      "publishedAt": "2020-08-15T10:19:45Z"
+    },
+    {
+      "author": "@user-ml4br2lx2f",
+      "text": "격투 악 에스퍼 삼각관계 설명은 진짜 대박이다. ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2025-10-19T16:21:42Z"
+    },
+    {
+      "author": "@겨엉남",
+      "text": "문득 생각 났는데 썸네일 깔끔하고 좋다 왠지 침착맨이랑 어울리기도 하고",
+      "likeCount": 37,
+      "publishedAt": "2020-08-15T10:58:57Z"
+    },
+    {
+      "author": "@galchix2",
+      "text": "강현이가 참 좋아해요",
+      "likeCount": 240,
+      "publishedAt": "2024-05-28T00:39:53Z"
+    },
+    {
+      "author": "@user-zk3dg5md5v",
+      "text": "포켓로그 무료 과외 영상",
+      "likeCount": 28,
+      "publishedAt": "2024-06-06T16:24:15Z"
+    },
+    {
+      "author": "@DoHanNam",
+      "text": "침착맨식 상성 정리를 보면 그저 구워진 땅이 될뿐이죠 밖에 생각이 안난다",
+      "likeCount": 67,
+      "publishedAt": "2020-08-15T10:43:49Z"
+    },
+    {
+      "author": "@kimmReno",
+      "text": "침피셜) 해병대는 격투, 악 타입이다",
+      "likeCount": 336,
+      "publishedAt": "2020-08-15T10:17:56Z"
+    },
+    {
+      "author": "@MagicalHBG",
+      "text": "얼음이랑 용 타입 상성 설명할때 둘리 빙하탄거 예시 들으니 바로 납득해버렸다 ㅋㅋㅋ",
+      "likeCount": 10,
+      "publishedAt": "2020-10-18T01:44:47Z"
+    },
+    {
+      "author": "@홍지호-v1p",
+      "text": "침선생님 설명 진짜 잘하시네 ㅋㅋㅋㅋㅋㅋㅋㅋ 진짜 학원강사했으면 무조건 1타강사다",
+      "likeCount": 41,
+      "publishedAt": "2020-08-16T06:41:40Z"
+    },
+    {
+      "author": "@user-rl5pz6py5v",
+      "text": "침착맨은 진짜 천재가 분명하다.\n저렇게 실시간으로 설명하면서 자연스러운 개드립을 친다는게 정말 놀랍다",
+      "likeCount": 56,
+      "publishedAt": "2023-03-23T20:18:56Z"
+    },
+    {
+      "author": "@간장맛막대기",
+      "text": "드래곤볼에서 나온 신룡을 몬스터볼로 포획하면 소환할때마다 1회 소원권을 받을 수 있지 않을까요?",
+      "likeCount": 54,
+      "publishedAt": "2020-08-15T13:57:33Z"
+    },
+    {
+      "author": "@김팡-o2j",
+      "text": "명강의 감사드립니다 선배님",
+      "likeCount": 1,
+      "publishedAt": "2025-09-18T23:37:50Z"
+    },
+    {
+      "author": "@kimkejangmania3708",
+      "text": "100만을 눈앞에둔 상성설명회 \n땅이 웅장해진다",
+      "likeCount": 6,
+      "publishedAt": "2023-09-14T01:51:40Z"
+    },
+    {
+      "author": "@이혜준이해준밥",
+      "text": "7:30 이건 좀 지렸읍니다.. 침착맨님",
+      "likeCount": 14,
+      "publishedAt": "2020-08-15T10:13:38Z"
+    },
+    {
+      "author": "@김종우-q9i",
+      "text": "미쳤다....이젠 뭐든 앞에 침착맨만 붙으면 설랜다 개인적인 바램으로 침착맨 에반게리온도 한번 나왔으면",
+      "likeCount": 42,
+      "publishedAt": "2020-08-15T13:44:22Z"
+    },
+    {
+      "author": "@낙법의달인",
+      "text": "포켓몬도 삼국지처럼 느껴지는 이상한 현상..",
+      "likeCount": 142,
+      "publishedAt": "2020-08-15T10:09:15Z"
+    },
+    {
+      "author": "@이윤율-l4w",
+      "text": "삼국지... 원피스에 이어서 포켓몬까지? 이건 못참지 ㅋㅋㅋㅋㅋ",
+      "likeCount": 21,
+      "publishedAt": "2020-08-15T10:06:53Z"
+    },
+    {
+      "author": "@kimddokddok",
+      "text": "침착맨 방송은 재밌는데 맘이 편해서 자기전에 틀어놓으면 잠이 잘옴",
+      "likeCount": 21,
+      "publishedAt": "2020-08-15T14:58:00Z"
+    },
+    {
+      "author": "@조동흠-f1d",
+      "text": "침박사: 오호! 그대는 '트수'라고 하는구나",
+      "likeCount": 49,
+      "publishedAt": "2020-08-15T10:52:07Z"
+    },
+    {
+      "author": "@oral3890",
+      "text": "07:27 사실상 이 영상을 함축해주는 파트. 얼마나 침소리인지 참....",
+      "likeCount": 52,
+      "publishedAt": "2020-08-15T10:39:25Z"
+    },
+    {
+      "author": "@하연0",
+      "text": "방장님 영상 잘 봤습니다. 앞으로 포켓몬 할 때 상성표 옆에 놓고 하겠습니다",
+      "likeCount": 9,
+      "publishedAt": "2020-08-15T15:28:16Z"
+    },
+    {
+      "author": "@Youcancallitlove31",
+      "text": "포덕 경력 14년인데요 포켓몬 1도 모르는 사람들한테 이해하기 쉽게 설명 잘하시네용 진짜 맞는말이긴한데 ㅋㅋㅋㅋ",
+      "likeCount": 30,
+      "publishedAt": "2021-02-28T09:49:04Z"
+    },
+    {
+      "author": "@jenbu_taberuno",
+      "text": "16:56 재벌집 막내아들 예견한 무친관통맨 ㄷㄷ",
+      "likeCount": 16,
+      "publishedAt": "2022-12-31T00:55:07Z"
+    },
+    {
+      "author": "@국멍-b4c",
+      "text": "상성 암기 까지는 되는데 심층 이해가 어려웠습니다 침교수님 설명 듣고나니 왜 상성이 그따구로 생겨먹었는 지 잘 알겠읍니다",
+      "likeCount": 9,
+      "publishedAt": "2020-08-15T13:17:33Z"
+    },
+    {
+      "author": "@우리는개돼지다",
+      "text": "어떻게든 딴지 걸어서 정복하고 싶어하는 트수들의 창과, 아득빠득 빠지는 머리털 쥐어짜면서 막아내는 침착맨의 방패...이것이 세계관최강자들의 싸움인가..",
+      "likeCount": 23,
+      "publishedAt": "2020-08-15T16:01:33Z"
+    },
+    {
+      "author": "@ldh2172",
+      "text": "역시 쏘영박사님의 조수라고 불리울만 하네요",
+      "likeCount": 6,
+      "publishedAt": "2021-10-28T02:20:44Z"
+    },
+    {
+      "author": "@Dominic_kimm",
+      "text": "드래곤이 얼음에 약한 이유는 둘리가 얼음에 갇혀서 수만년이 지나서 깨어난 사례를 보면 알 수 있죠.",
+      "likeCount": 67,
+      "publishedAt": "2020-08-15T14:56:53Z"
+    },
+    {
+      "author": "@ruidereun",
+      "text": "병건이 포케로그 보다가 뜬 알고리즘이면 개추",
+      "likeCount": 7,
+      "publishedAt": "2024-06-23T09:25:23Z"
+    },
+    {
+      "author": "@딥임팩트-h5b",
+      "text": "쉽게 설명하네 역시 1타강사",
+      "likeCount": 6,
+      "publishedAt": "2020-08-15T13:54:37Z"
+    },
+    {
+      "author": "@토북-h9f",
+      "text": "17:22 드래곤볼은 7개 모아야 신룡을 소환하지만 몬스터볼은 신룡을 잡으니까 몬스터볼이 더 쌥니다",
+      "likeCount": 25,
+      "publishedAt": "2020-08-15T11:15:50Z"
+    },
+    {
+      "author": "@금의환향0_0",
+      "text": "12:31 둘리 아가리 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 7,
+      "publishedAt": "2021-06-04T04:28:10Z"
+    },
+    {
+      "author": "@Nyang-t5i",
+      "text": "1:30 2022수능을 1년전부터 예상한 침착맨...",
+      "likeCount": 4,
+      "publishedAt": "2021-11-21T15:46:12Z"
+    },
+    {
+      "author": "@구름나무-b8w",
+      "text": "포케로그 때문에 또 보러 왔습니다",
+      "likeCount": 6,
+      "publishedAt": "2024-06-05T05:23:56Z"
+    },
+    {
+      "author": "@혼란한통대생",
+      "text": "16:59 재벌집 막내아들 사태랑 딱 들어맞네 ㅋㅋㅋ",
+      "likeCount": 12,
+      "publishedAt": "2023-01-06T08:39:48Z"
+    },
+    {
+      "author": "@oldjean_s2",
+      "text": "침아재 소녀 앞머리 기여엉 ~ ♡♡",
+      "likeCount": 6,
+      "publishedAt": "2020-08-15T10:07:26Z"
+    },
+    {
+      "author": "@kdhsmarto",
+      "text": "ㅋㅋㅋ이형 요새 설명해주는 컨텐츠 자리잡았네",
+      "likeCount": 4,
+      "publishedAt": "2020-08-15T13:38:24Z"
+    },
+    {
+      "author": "@304sus7",
+      "text": "10:20 침착맨님 덕분에 왜 UDT 대답이 악!인지 알았습니다 감사합니다",
+      "likeCount": 14,
+      "publishedAt": "2020-08-15T10:55:06Z"
+    },
+    {
+      "author": "@moongieee",
+      "text": "17:00 재벌집느그아들이 망한이유",
+      "likeCount": 4,
+      "publishedAt": "2023-06-01T06:52:43Z"
+    },
+    {
+      "author": "@luvu_luvu",
+      "text": "나중엔 페르마의 마지막 정리도 증명해서 쉽게 알려줄듯",
+      "likeCount": 107,
+      "publishedAt": "2020-08-15T12:24:09Z"
+    },
+    {
+      "author": "@Lazy_Chan",
+      "text": "16:55 재벌집 막내아들이 혹평 받는 이유를 여기서 찾았다",
+      "likeCount": 3,
+      "publishedAt": "2023-05-04T10:27:20Z"
+    },
+    {
+      "author": "@dsrd3323",
+      "text": "왜 그가 설명하면 모두 90년대 Dos게임처럼 보이는가...",
+      "likeCount": 61,
+      "publishedAt": "2020-08-15T10:31:46Z"
+    },
+    {
+      "author": "@Neptune90676",
+      "text": "이미 알고있는 내용이지만 침착맨이 어떻게 설명하는지 궁금해서 들어옴ㅋㅋㅋㅋㅋ",
+      "likeCount": 6,
+      "publishedAt": "2020-08-15T15:50:16Z"
+    },
+    {
+      "author": "@bdg9911",
+      "text": "오늘도 얼마나 침받는 설명을 하실지 기대되어 왔습니다.",
+      "likeCount": 5,
+      "publishedAt": "2020-08-15T10:14:43Z"
+    },
+    {
+      "author": "@reyden12",
+      "text": "이거랑 피카츄올림픽 도대체 몇 번째 보는건지 모르겠다ㅋㅋㅋㅋ\n침소리의 정수를 모아놓은것같음ㅋㅋㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2021-10-26T03:24:37Z"
+    },
+    {
+      "author": "@어쿠루브-r4e",
+      "text": "대학원생을 따뜻하게 안아주는 방장의 말에 눈물이 왈칵 날뻔한 순간 바로 포켓몬에 비유하려는거 보고 주먹을 꽉 쥐었읍니다",
+      "likeCount": 29,
+      "publishedAt": "2021-08-09T12:24:16Z"
+    },
+    {
+      "author": "@정동영-h1s",
+      "text": "14:26 가짜뉴스 ㅇㅈㄹ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 101,
+      "publishedAt": "2020-08-15T11:42:37Z"
+    },
+    {
+      "author": "@Donbangseok",
+      "text": "포켓몬 1타 강사!! 가장 잘 나가는 포켓몬 이름 작명소ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 8,
+      "publishedAt": "2020-08-15T10:06:30Z"
+    },
+    {
+      "author": "@Singsinghwalahwoe",
+      "text": "보는동안 진짜 배꼽잡고 뒤지게 웃었네 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 9,
+      "publishedAt": "2021-02-28T05:24:51Z"
+    },
+    {
+      "author": "@wachyorose4213",
+      "text": "여진구 말 듣고 왔다 개추",
+      "likeCount": 10,
+      "publishedAt": "2024-07-11T14:22:21Z"
+    },
+    {
+      "author": "@김피규",
+      "text": "스칼렛하는데 헷갈려서 이거 찾아온게 레전드네",
+      "likeCount": 2,
+      "publishedAt": "2023-10-04T10:29:02Z"
+    },
+    {
+      "author": "@cks9084",
+      "text": "다 큰 어른이 빡집중해서 포켓몬 설명하는 모습이 뭔가 웃기네ㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 7,
+      "publishedAt": "2021-11-11T15:59:51Z"
+    },
+    {
+      "author": "@gchalke8681",
+      "text": "포켓몬과 침착맨이라니 웅장이 가슴해진다",
+      "likeCount": 3,
+      "publishedAt": "2020-08-15T17:37:44Z"
+    },
+    {
+      "author": "@조성훈-t4n",
+      "text": "곰 방 와 곰 디~~",
+      "likeCount": 8,
+      "publishedAt": "2024-06-04T04:26:49Z"
+    },
+    {
+      "author": "@sjcho3691",
+      "text": "침착맨 이런 컨텐츠 많이해주세요!!  포켓몬,삼국지, 원피스 다 재밌게 보고있네요 ㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2020-08-15T23:57:17Z"
+    },
+    {
+      "author": "@KK-fe2cr",
+      "text": "현직 머학원생입니다.\n만연한 머학원생 조롱 속에서 침조씨 말씀에 감동 받고갑니다 ㅠㅜ",
+      "likeCount": 11,
+      "publishedAt": "2020-08-16T02:55:31Z"
+    },
+    {
+      "author": "@RapperSongwriterDetempo",
+      "text": "정주행하지 않을 수가 없었다",
+      "likeCount": 0,
+      "publishedAt": "2020-08-20T22:27:32Z"
+    },
+    {
+      "author": "@limeunyoung",
+      "text": "다 알고있었지만 침선생이 침소리와함께 가르쳐주시니 존잼",
+      "likeCount": 3,
+      "publishedAt": "2020-08-15T16:40:42Z"
+    },
+    {
+      "author": "@김쫑-r3c",
+      "text": "아닠 ㅋㅋㅋㅋㅋ해병대가\n\n악! 악!  하는게 악  타입이라  그런거였어요???? ㅋㅋㄲㅋㅋㅋㄲㅋ ㅋ",
+      "likeCount": 2,
+      "publishedAt": "2023-08-27T06:54:14Z"
+    }
+  ]
 }

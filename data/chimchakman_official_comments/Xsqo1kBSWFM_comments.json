@@ -1,5 +1,18 @@
 {
   "video_id": "Xsqo1kBSWFM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@곰시더말티푸",
+      "text": "댓글 3개짜리 침영상이라니 이것은 귀하군요...",
+      "likeCount": 1,
+      "publishedAt": "2021-02-19T12:04:31Z"
+    },
+    {
+      "author": "@치킨떡",
+      "text": "암탈!",
+      "likeCount": 0,
+      "publishedAt": "2016-10-08T20:03:55Z"
+    }
+  ]
 }

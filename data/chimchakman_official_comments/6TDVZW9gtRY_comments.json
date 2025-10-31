@@ -1,5 +1,36 @@
 {
   "video_id": "6TDVZW9gtRY",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@antique_key",
+      "text": "세계3대무라딘 잘보고갑니다~~",
+      "likeCount": 3,
+      "publishedAt": "2017-06-08T10:03:42Z"
+    },
+    {
+      "author": "@김진영-c4w",
+      "text": "침라딘...당신은 도데체...",
+      "likeCount": 0,
+      "publishedAt": "2017-06-08T12:24:23Z"
+    },
+    {
+      "author": "@makpoo148",
+      "text": "꺄울ㅋㅋㅋㅋ무라할베넹 ",
+      "likeCount": 1,
+      "publishedAt": "2017-06-08T09:54:22Z"
+    },
+    {
+      "author": "@dgk3946",
+      "text": "아즈가 에바네",
+      "likeCount": 0,
+      "publishedAt": "2018-09-01T13:11:27Z"
+    },
+    {
+      "author": "@전자레인저",
+      "text": "이걸 지네;;;",
+      "likeCount": 0,
+      "publishedAt": "2017-06-11T10:40:04Z"
+    }
+  ]
 }

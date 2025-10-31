@@ -1,5 +1,24 @@
 {
   "video_id": "FKZw4rG8zdU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@에넬충",
+      "text": "침자죽",
+      "likeCount": 0,
+      "publishedAt": "2017-02-14T07:18:44Z"
+    },
+    {
+      "author": "@장승민-w3c",
+      "text": "캬캬캬캬",
+      "likeCount": 0,
+      "publishedAt": "2017-02-13T10:00:04Z"
+    },
+    {
+      "author": "@전진성-y4i",
+      "text": "히 ㅡ 오 ㅡ 스",
+      "likeCount": 0,
+      "publishedAt": "2017-02-13T15:15:59Z"
+    }
+  ]
 }

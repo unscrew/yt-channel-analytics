@@ -1,5 +1,36 @@
 {
   "video_id": "MZy6VlklOwE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@Bombardeo_",
+      "text": "와 마지막 진짜 미친놈이였네 ㅋㅋ",
+      "likeCount": 4,
+      "publishedAt": "2017-05-12T11:38:55Z"
+    },
+    {
+      "author": "@개건강",
+      "text": "댓글아무도 없어서 렉걸린줄 알았는데 방금올라온거였넹",
+      "likeCount": 0,
+      "publishedAt": "2017-05-12T10:33:45Z"
+    },
+    {
+      "author": "@dorothy6532",
+      "text": "흑마법싸다!",
+      "likeCount": 0,
+      "publishedAt": "2017-05-13T03:50:55Z"
+    },
+    {
+      "author": "@구름구름-f7r",
+      "text": "아무껏또 모탯죠?",
+      "likeCount": 0,
+      "publishedAt": "2017-05-13T03:34:51Z"
+    },
+    {
+      "author": "@김재훈-l6t6n",
+      "text": "실패!",
+      "likeCount": 1,
+      "publishedAt": "2017-05-12T13:37:57Z"
+    }
+  ]
 }

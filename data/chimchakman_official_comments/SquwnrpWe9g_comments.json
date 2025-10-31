@@ -1,5 +1,24 @@
 {
   "video_id": "SquwnrpWe9g",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@라태-i3y",
+      "text": "14:30 말하는 대로 실력스톤\n15:55 아!",
+      "likeCount": 0,
+      "publishedAt": "2017-08-01T10:19:21Z"
+    },
+    {
+      "author": "@imyourpsm",
+      "text": "아조시 멋져요!",
+      "likeCount": 0,
+      "publishedAt": "2017-08-01T09:16:51Z"
+    },
+    {
+      "author": "@라태-i3y",
+      "text": "오....오..오른쪽!",
+      "likeCount": 0,
+      "publishedAt": "2017-08-01T10:06:02Z"
+    }
+  ]
 }

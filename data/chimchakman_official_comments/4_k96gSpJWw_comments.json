@@ -1,5 +1,24 @@
 {
   "video_id": "4_k96gSpJWw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@junkistar",
+      "text": "얼방 뻔뻔ㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-09-04T02:42:50Z"
+    },
+    {
+      "author": "@hak599",
+      "text": "침착맨님 리치왕 안깨시나요?",
+      "likeCount": 0,
+      "publishedAt": "2017-09-03T13:10:21Z"
+    },
+    {
+      "author": "@rooftop_star",
+      "text": "피빨먹",
+      "likeCount": 0,
+      "publishedAt": "2017-09-03T11:39:12Z"
+    }
+  ]
 }

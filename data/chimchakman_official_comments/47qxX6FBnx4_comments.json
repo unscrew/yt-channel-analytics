@@ -1,5 +1,30 @@
 {
   "video_id": "47qxX6FBnx4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@sorasi-1",
+      "text": "사랑해요 치무차쿠맨",
+      "likeCount": 0,
+      "publishedAt": "2017-01-21T15:20:27Z"
+    },
+    {
+      "author": "@gml7814",
+      "text": "아홉개나 올려서 봤는데 다 히오스네 질려버려;;",
+      "likeCount": 0,
+      "publishedAt": "2017-01-21T17:50:57Z"
+    },
+    {
+      "author": "@김바보",
+      "text": "궁 미쳐",
+      "likeCount": 0,
+      "publishedAt": "2017-01-22T03:43:10Z"
+    },
+    {
+      "author": "@はるか-q1y",
+      "text": "갓보기 가족 사진 짤려버림 ㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-21T21:55:31Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "20VLevvlHnA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@koreankidkoki7194",
+      "text": "갓착맨",
+      "likeCount": 0,
+      "publishedAt": "2016-04-30T13:53:40Z"
+    },
+    {
+      "author": "@jeonju25",
+      "text": "맑은 공기 마시면서 모닝 유튜브 합니다ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T22:44:18Z"
+    },
+    {
+      "author": "@멜뤼진",
+      "text": "요그님 요그 쓰신다",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T04:01:28Z"
+    },
+    {
+      "author": "@고릴라-c3d",
+      "text": "2덱 1티어?",
+      "likeCount": 0,
+      "publishedAt": "2016-05-07T13:01:59Z"
+    }
+  ]
 }

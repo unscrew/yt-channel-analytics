@@ -1,5 +1,18 @@
 {
   "video_id": "ZNmFjEDEhZ0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@mckimsinfire",
+      "text": "4번 누락되었어요",
+      "likeCount": 0,
+      "publishedAt": "2017-06-09T02:26:53Z"
+    },
+    {
+      "author": "@이승현-b3w",
+      "text": "11111",
+      "likeCount": 0,
+      "publishedAt": "2017-06-06T08:05:24Z"
+    }
+  ]
 }

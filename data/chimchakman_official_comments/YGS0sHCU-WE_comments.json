@@ -1,5 +1,30 @@
 {
   "video_id": "YGS0sHCU-WE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "10:30 울지마요 침착하게 갑시다 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-03-24T10:09:01Z"
+    },
+    {
+      "author": "@yedamsong8092",
+      "text": "1회차인데 아슬아슬하게 길게 사시네요 ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2016-12-18T11:46:22Z"
+    },
+    {
+      "author": "@buku9912",
+      "text": "세상에 타락하셨군요",
+      "likeCount": 0,
+      "publishedAt": "2016-11-24T13:56:06Z"
+    },
+    {
+      "author": "@kida207",
+      "text": "무기도 들지 않는 죄 없는 사람을 저렇게 죽여 되면서 뭐? GTA에서 사람 때리는건 못하겠다고 하셨네",
+      "likeCount": 0,
+      "publishedAt": "2016-11-24T10:48:11Z"
+    }
+  ]
 }

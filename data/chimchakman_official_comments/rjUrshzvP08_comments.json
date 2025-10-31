@@ -1,5 +1,30 @@
 {
   "video_id": "rjUrshzvP08",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@현잼민",
+      "text": "너무 재밌네요 꺌꺌",
+      "likeCount": 2,
+      "publishedAt": "2017-05-08T15:36:55Z"
+    },
+    {
+      "author": "@ajjstone",
+      "text": "본격 스트리머 혼자만 재밌는방송",
+      "likeCount": 3,
+      "publishedAt": "2017-05-08T16:09:57Z"
+    },
+    {
+      "author": "@golantrevize2626",
+      "text": "한조 두조 세조 네조 십조 백조 천조 억조 조조 ㅋㅋㅋ 터졌다",
+      "likeCount": 0,
+      "publishedAt": "2017-05-10T23:34:28Z"
+    },
+    {
+      "author": "@네네치",
+      "text": "지글지글",
+      "likeCount": 0,
+      "publishedAt": "2017-05-08T21:57:42Z"
+    }
+  ]
 }

@@ -1,5 +1,42 @@
 {
   "video_id": "IDudNei5p6Y",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 6,
+  "comments": [
+    {
+      "author": "@jongbeomjeong",
+      "text": "갑자기알고리즘뜨네 재밌게볼게요😊",
+      "likeCount": 1,
+      "publishedAt": "2025-10-25T10:48:56Z"
+    },
+    {
+      "author": "@Jinwoo_Jun",
+      "text": "옥냥이 계속 번트대고 '뛰어요!' 하는거 개웃기네 ㅋㅋㅋㅋ",
+      "likeCount": 6,
+      "publishedAt": "2017-10-24T17:20:42Z"
+    },
+    {
+      "author": "@기씨가문",
+      "text": "여기가 더 재밌네요 ㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2025-03-29T16:01:07Z"
+    },
+    {
+      "author": "@허북이-w3v",
+      "text": "마구마구 정주행중인데 여긴 댓글이 없네요",
+      "likeCount": 2,
+      "publishedAt": "2023-01-04T00:37:36Z"
+    },
+    {
+      "author": "@mt_rescue",
+      "text": "코말년갑 이제다시 호갱의반열에 돌아오신건갘ㅋㅋㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2017-10-28T16:46:54Z"
+    },
+    {
+      "author": "@psy0441234able",
+      "text": "왜댓글이없지여긴",
+      "likeCount": 2,
+      "publishedAt": "2017-10-24T16:28:34Z"
+    }
+  ]
 }

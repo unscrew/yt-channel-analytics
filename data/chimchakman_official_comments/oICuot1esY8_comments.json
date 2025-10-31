@@ -1,5 +1,24 @@
 {
   "video_id": "oICuot1esY8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김정호-f5t",
+      "text": "오잉 다음편 어딨습니까",
+      "likeCount": 0,
+      "publishedAt": "2017-07-24T11:33:28Z"
+    },
+    {
+      "author": "@정찬은-g4o",
+      "text": "역시 투기장 씹서",
+      "likeCount": 0,
+      "publishedAt": "2017-07-25T10:34:57Z"
+    },
+    {
+      "author": "@김수민-g3x1q",
+      "text": "제이나 이악물고 버티다가 소고스 나가니까 빡종한거 개꼬시다 ㄹㅇ",
+      "likeCount": 2,
+      "publishedAt": "2017-07-24T11:58:53Z"
+    }
+  ]
 }

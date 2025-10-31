@@ -1,5 +1,30 @@
 {
   "video_id": "il0l5XC0tBU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@김민규-f3l",
+      "text": "아재 스타2  해주세요",
+      "likeCount": 0,
+      "publishedAt": "2016-03-02T06:55:59Z"
+    },
+    {
+      "author": "@Zino_H",
+      "text": "정규전 발리라..",
+      "likeCount": 0,
+      "publishedAt": "2016-03-01T10:30:59Z"
+    },
+    {
+      "author": "@rjsdn8511",
+      "text": "돌숭작가님아 왜 12승아닌데 재생목록에 있나오??",
+      "likeCount": 1,
+      "publishedAt": "2016-03-01T13:33:23Z"
+    },
+    {
+      "author": "@루나마리아-y6k",
+      "text": "고급시계는 안하시나봐요?  컨이힘드실까?",
+      "likeCount": 0,
+      "publishedAt": "2016-03-01T11:46:17Z"
+    }
+  ]
 }

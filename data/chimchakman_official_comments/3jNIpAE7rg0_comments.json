@@ -1,5 +1,24 @@
 {
   "video_id": "3jNIpAE7rg0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@EACVrQ3xwcx",
+      "text": "굴필패를 데리고 이기시네",
+      "likeCount": 0,
+      "publishedAt": "2016-09-16T15:32:58Z"
+    },
+    {
+      "author": "@장승민-w3c",
+      "text": "홍ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2016-09-16T11:08:19Z"
+    },
+    {
+      "author": "@shhan774",
+      "text": "짐-짝",
+      "likeCount": 0,
+      "publishedAt": "2016-09-17T03:03:03Z"
+    }
+  ]
 }

@@ -1,5 +1,36 @@
 {
   "video_id": "6lPiVNVcycM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@dakkadakka236",
+      "text": "게임은 이겼으나 컴라딘에게도 여러 번 죽은 스랄과의 막고라에서 패배했으니 사실상 진거나 진배없다",
+      "likeCount": 6,
+      "publishedAt": "2017-01-10T14:33:10Z"
+    },
+    {
+      "author": "@함종완-t9m",
+      "text": "탱굴단에 지려버렸다.",
+      "likeCount": 1,
+      "publishedAt": "2017-01-10T15:13:49Z"
+    },
+    {
+      "author": "@dmongtan1551",
+      "text": "와 진짜 '재밌는' 게임이었다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-10T17:20:57Z"
+    },
+    {
+      "author": "@AA-eq4qu",
+      "text": "이참에 전사 버리고 침단 쭉 파시는 거 어떻습니까",
+      "likeCount": 0,
+      "publishedAt": "2017-01-10T11:03:47Z"
+    },
+    {
+      "author": "@lesu7649",
+      "text": "저거 탈주하면 인공지능 고수로 바뀜",
+      "likeCount": 0,
+      "publishedAt": "2017-01-10T16:32:23Z"
+    }
+  ]
 }

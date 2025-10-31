@@ -1,5 +1,30 @@
 {
   "video_id": "4rrZQqkIkHs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@Olorine",
+      "text": "히오스의 MVP 시스템 왠만하면 잘 맞는다고 생각했는데 완전 틀릴 때도 있긴 하군..",
+      "likeCount": 0,
+      "publishedAt": "2016-10-06T01:09:20Z"
+    },
+    {
+      "author": "@박진형-x2e",
+      "text": "2은신 조합;;;",
+      "likeCount": 0,
+      "publishedAt": "2016-10-05T12:52:31Z"
+    },
+    {
+      "author": "@MInas-cz9jz",
+      "text": "미리보기 돌겜우서라서 실수로 클릭했네ㅡㅡ",
+      "likeCount": 0,
+      "publishedAt": "2016-10-05T11:06:50Z"
+    },
+    {
+      "author": "@멜뤼진",
+      "text": "우서는 보는맛이 없서",
+      "likeCount": 0,
+      "publishedAt": "2016-10-05T11:21:57Z"
+    }
+  ]
 }

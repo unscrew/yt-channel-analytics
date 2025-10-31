@@ -1,5 +1,36 @@
 {
   "video_id": "awdbvbvoFRQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@톱니고래",
+      "text": "죽었으니 저 세상의 데하카다",
+      "likeCount": 2,
+      "publishedAt": "2017-01-19T13:42:50Z"
+    },
+    {
+      "author": "@Mi_Jool_Bok",
+      "text": "이젠 저세상 데하카..",
+      "likeCount": 0,
+      "publishedAt": "2023-12-28T16:18:22Z"
+    },
+    {
+      "author": "@리롤인생",
+      "text": "알타 ㅈㄴ 입터네\n꼭저런애들이 지실수할때 뭐라그러면 ㅂㄷㅂㄷ댄다",
+      "likeCount": 1,
+      "publishedAt": "2017-01-21T10:17:23Z"
+    },
+    {
+      "author": "@Fondue_S",
+      "text": "평범한 데하카는 가라...!",
+      "likeCount": 0,
+      "publishedAt": "2017-01-19T12:02:43Z"
+    },
+    {
+      "author": "@stu-min",
+      "text": "픽하지 않은 데하카가 좋은 데하카다",
+      "likeCount": 0,
+      "publishedAt": "2017-01-20T03:42:11Z"
+    }
+  ]
 }

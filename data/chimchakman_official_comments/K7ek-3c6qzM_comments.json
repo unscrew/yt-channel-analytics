@@ -1,5 +1,24 @@
 {
   "video_id": "K7ek-3c6qzM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@란파-y1w",
+      "text": "고인물은 시간이 지나면 썩는법이죠 ㅠㅠ",
+      "likeCount": 2,
+      "publishedAt": "2017-10-25T16:12:11Z"
+    },
+    {
+      "author": "@superstrongsans",
+      "text": "와 샌즈!",
+      "likeCount": 4,
+      "publishedAt": "2017-10-25T14:58:40Z"
+    },
+    {
+      "author": "@zzizonegae0403",
+      "text": "아 침착맨 당신은대체",
+      "likeCount": 0,
+      "publishedAt": "2017-10-25T14:44:01Z"
+    }
+  ]
 }

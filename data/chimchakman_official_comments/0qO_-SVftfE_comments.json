@@ -1,5 +1,30 @@
 {
   "video_id": "0qO_-SVftfE",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@buchujeon6008",
+      "text": "6:58",
+      "likeCount": 5,
+      "publishedAt": "2017-07-26T14:45:55Z"
+    },
+    {
+      "author": "@CJholic",
+      "text": "1:07 역시 하스스톤 공식 창남",
+      "likeCount": 9,
+      "publishedAt": "2017-07-26T22:03:17Z"
+    },
+    {
+      "author": "@topaz4150",
+      "text": "무국물 축하드립니다.",
+      "likeCount": 2,
+      "publishedAt": "2017-07-26T13:29:44Z"
+    },
+    {
+      "author": "@dps_331",
+      "text": "아 막판 센진으로 쳐야 딱뎀이자너",
+      "likeCount": 0,
+      "publishedAt": "2017-07-26T23:50:20Z"
+    }
+  ]
 }

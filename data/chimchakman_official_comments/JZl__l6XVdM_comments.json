@@ -1,5 +1,24 @@
 {
   "video_id": "JZl__l6XVdM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@정베디",
+      "text": "말퓨리온 좌측 하단 보고 순간 아바투르인 줄 알았네",
+      "likeCount": 0,
+      "publishedAt": "2017-01-12T14:07:28Z"
+    },
+    {
+      "author": "@슬립냥",
+      "text": "으어 시작부터 귀갱이라니",
+      "likeCount": 0,
+      "publishedAt": "2017-01-11T01:34:04Z"
+    },
+    {
+      "author": "@톱니고래",
+      "text": "캐릭폭이 좁아..",
+      "likeCount": 0,
+      "publishedAt": "2017-01-10T10:04:55Z"
+    }
+  ]
 }

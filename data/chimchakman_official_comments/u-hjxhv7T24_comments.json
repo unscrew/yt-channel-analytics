@@ -1,5 +1,24 @@
 {
   "video_id": "u-hjxhv7T24",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김민찬-y8c",
+      "text": "공포게임 했으면 좋겠다",
+      "likeCount": 2,
+      "publishedAt": "2017-03-16T09:31:00Z"
+    },
+    {
+      "author": "@hwangyi5052",
+      "text": "침착맨방송 잘봄 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-03-16T02:45:09Z"
+    },
+    {
+      "author": "@AA-eq4qu",
+      "text": "이날 뭔 일 있었음?? 채팅창 훈수질이 평소 몇 배는 심해 보이는데;;",
+      "likeCount": 3,
+      "publishedAt": "2017-03-16T08:11:14Z"
+    }
+  ]
 }

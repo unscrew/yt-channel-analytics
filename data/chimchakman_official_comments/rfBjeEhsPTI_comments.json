@@ -1,5 +1,24 @@
 {
   "video_id": "rfBjeEhsPTI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@shwang2247",
+      "text": "무도재밌던데요!",
+      "likeCount": 0,
+      "publishedAt": "2016-06-12T10:30:18Z"
+    },
+    {
+      "author": "@김민태-n6y",
+      "text": "마지막 상대전사 킬각아니었음?",
+      "likeCount": 0,
+      "publishedAt": "2016-06-13T15:03:43Z"
+    },
+    {
+      "author": "@123jemini",
+      "text": "첫댓글",
+      "likeCount": 0,
+      "publishedAt": "2016-06-12T10:07:05Z"
+    }
+  ]
 }

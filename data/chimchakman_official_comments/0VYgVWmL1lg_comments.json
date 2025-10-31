@@ -1,5 +1,24 @@
 {
   "video_id": "0VYgVWmL1lg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@박상-k7t",
+      "text": "갓치범 재평가..",
+      "likeCount": 1,
+      "publishedAt": "2017-10-03T11:18:48Z"
+    },
+    {
+      "author": "@김민서-h6z7g",
+      "text": "요즘 침착맨님 왜이리 칙칙해요? 옛날에 히트다 히트 할 때는 디게 밝아보이셨는데... 궁금해서요 피곤해서 그러시나?",
+      "likeCount": 2,
+      "publishedAt": "2017-10-03T16:24:27Z"
+    },
+    {
+      "author": "@SWBaek117",
+      "text": "침수자님 요즘 영상 시작에 클립 계속 안달아주시는거 같아요... 개꿀잼인데 달아주시면 안될까요?",
+      "likeCount": 0,
+      "publishedAt": "2017-10-03T10:55:22Z"
+    }
+  ]
 }

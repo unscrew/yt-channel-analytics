@@ -1,5 +1,24 @@
 {
   "video_id": "2m_ZkvTHheA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@가로쉬헬스크림-s3n",
+      "text": "쏘오영이 기여우니까 하이라이트 가죠 ㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2016-10-29T07:22:07Z"
+    },
+    {
+      "author": "@miyukzhulgi",
+      "text": "가져가도 침.알 가져가내",
+      "likeCount": 1,
+      "publishedAt": "2016-11-01T07:49:09Z"
+    },
+    {
+      "author": "@TiTi-ff5qs",
+      "text": "흐---뭇",
+      "likeCount": 0,
+      "publishedAt": "2016-10-27T13:22:14Z"
+    }
+  ]
 }

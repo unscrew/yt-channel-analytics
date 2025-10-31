@@ -1,5 +1,18 @@
 {
   "video_id": "TBfP_lmZaRo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@user-xs6ns4wv8d",
+      "text": "눈앞이 침침하다",
+      "likeCount": 1,
+      "publishedAt": "2017-05-06T12:48:52Z"
+    },
+    {
+      "author": "@floatinginuniverse_",
+      "text": "안녕하세요?",
+      "likeCount": 0,
+      "publishedAt": "2023-03-21T14:53:13Z"
+    }
+  ]
 }

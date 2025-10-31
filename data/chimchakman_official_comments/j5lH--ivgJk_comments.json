@@ -1,5 +1,18 @@
 {
   "video_id": "j5lH--ivgJk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@after2215",
+      "text": "도스게임안하면 컴퓨터 왜 해 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2019-07-03T16:58:59Z"
+    },
+    {
+      "author": "@halur3479",
+      "text": "맵 너무넓다...",
+      "likeCount": 0,
+      "publishedAt": "2020-07-22T07:30:45Z"
+    }
+  ]
 }

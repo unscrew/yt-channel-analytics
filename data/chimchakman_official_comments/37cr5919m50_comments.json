@@ -1,5 +1,24 @@
 {
   "video_id": "37cr5919m50",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@짱짱맨-x6c",
+      "text": "아돈 빠가돈나!",
+      "likeCount": 1,
+      "publishedAt": "2016-10-17T11:06:54Z"
+    },
+    {
+      "author": "@ecus9665",
+      "text": "와 궁 쩔었는데 노바 정치질 ㅎ 쩔레 쩔레...",
+      "likeCount": 2,
+      "publishedAt": "2016-10-19T12:07:16Z"
+    },
+    {
+      "author": "@harryhan4975",
+      "text": "이거 히오스 영상 너무 올려서 또 한 소리 들으시겠구만 ㅋ.ㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-10-17T12:12:38Z"
+    }
+  ]
 }

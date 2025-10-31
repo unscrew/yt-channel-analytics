@@ -1,5 +1,18 @@
 {
   "video_id": "fMtDXYuqyG8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@에너지바-j3w",
+      "text": "부서나눠서 평가하는거 좋다",
+      "likeCount": 1,
+      "publishedAt": "2017-04-06T09:02:29Z"
+    },
+    {
+      "author": "@KISBasketBall",
+      "text": "옥청자는 예능부를 지지합니다",
+      "likeCount": 1,
+      "publishedAt": "2017-04-06T06:29:35Z"
+    }
+  ]
 }

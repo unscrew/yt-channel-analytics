@@ -1,5 +1,30 @@
 {
   "video_id": "rreYxgfISVw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@나타라",
+      "text": "10:25 인트로",
+      "likeCount": 1,
+      "publishedAt": "2017-02-06T09:50:46Z"
+    },
+    {
+      "author": "@sonubin3494",
+      "text": "인트로부터 터졌읍니다 ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-02-04T10:10:31Z"
+    },
+    {
+      "author": "@TaeJun_Kee",
+      "text": "팀원들이 사서 지려는거 소가 멱살 캐리ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-02-04T23:46:59Z"
+    },
+    {
+      "author": "@전승민-u6n",
+      "text": "저맵..... 그립습니다........",
+      "likeCount": 0,
+      "publishedAt": "2019-08-09T10:37:26Z"
+    }
+  ]
 }

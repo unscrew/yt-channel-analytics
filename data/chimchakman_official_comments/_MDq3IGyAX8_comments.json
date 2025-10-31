@@ -1,5 +1,36 @@
 {
   "video_id": "_MDq3IGyAX8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@Major_Tom_Oddity",
+      "text": "조회수가 왤케 낮지?? 꿀잼인데 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-04-03T10:31:12Z"
+    },
+    {
+      "author": "@고영준-o7s",
+      "text": "오랜만에 한판에 영상3개네 ㄷㄷㄷㄷ",
+      "likeCount": 1,
+      "publishedAt": "2018-05-15T17:06:08Z"
+    },
+    {
+      "author": "@adrenalinelauvmusic993",
+      "text": "형님.. 머리 자르셨군요. 왠지 ear head가 생각납니다",
+      "likeCount": 1,
+      "publishedAt": "2018-05-15T10:21:48Z"
+    },
+    {
+      "author": "@WooseokKo",
+      "text": "역시 침착맨~",
+      "likeCount": 0,
+      "publishedAt": "2018-05-15T10:34:58Z"
+    },
+    {
+      "author": "@방실제과",
+      "text": "해골비룡 실력이 부족하셨네요",
+      "likeCount": 0,
+      "publishedAt": "2018-05-18T04:38:03Z"
+    }
+  ]
 }

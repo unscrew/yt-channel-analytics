@@ -1,5 +1,24 @@
 {
   "video_id": "VQ4T4xiZkjI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@turufusu",
+      "text": "침착맨 사랑해",
+      "likeCount": 0,
+      "publishedAt": "2020-07-22T10:49:30Z"
+    },
+    {
+      "author": "@kpc147",
+      "text": "북벌의 시작",
+      "likeCount": 0,
+      "publishedAt": "2020-07-21T10:00:36Z"
+    },
+    {
+      "author": "@byadd9859",
+      "text": "조자룡의 아들들 불쌍...확실히 아버지대가 쎄서그런가 잘난자식은 안보이네",
+      "likeCount": 0,
+      "publishedAt": "2019-09-28T14:01:13Z"
+    }
+  ]
 }

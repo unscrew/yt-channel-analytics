@@ -1,5 +1,24 @@
 {
   "video_id": "3bbNcB6neAQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@digidigimonmon",
+      "text": "역시 옥냥님 목소리 들어야 꿀",
+      "likeCount": 0,
+      "publishedAt": "2017-07-17T17:59:31Z"
+    },
+    {
+      "author": "@Doodd980",
+      "text": "파인이 그 파인인가",
+      "likeCount": 0,
+      "publishedAt": "2017-07-08T23:59:06Z"
+    },
+    {
+      "author": "@김찬진-x5h",
+      "text": "왜 댓글이 없즹...",
+      "likeCount": 0,
+      "publishedAt": "2017-07-08T11:49:58Z"
+    }
+  ]
 }

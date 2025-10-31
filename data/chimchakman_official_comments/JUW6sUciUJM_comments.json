@@ -1,5 +1,18 @@
 {
   "video_id": "JUW6sUciUJM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@wjddls0230",
+      "text": "우찬이가 아조씨랑 잘 놀아주네",
+      "likeCount": 1,
+      "publishedAt": "2017-08-25T03:15:37Z"
+    },
+    {
+      "author": "@LINE22-m5o",
+      "text": "한판만 한판만 추하다 추해ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-21T15:26:52Z"
+    }
+  ]
 }

@@ -1,5 +1,18 @@
 {
   "video_id": "f4yJl0NkESw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@잡다한하루-k",
+      "text": "하잘알 침착맨",
+      "likeCount": 0,
+      "publishedAt": "2018-09-05T14:01:51Z"
+    },
+    {
+      "author": "@원재연-m8z",
+      "text": "1등데스",
+      "likeCount": 0,
+      "publishedAt": "2017-08-19T03:45:47Z"
+    }
+  ]
 }

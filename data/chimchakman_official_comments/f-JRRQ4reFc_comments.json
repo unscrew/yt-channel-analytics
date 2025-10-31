@@ -1,5 +1,18 @@
 {
   "video_id": "f-JRRQ4reFc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@RainfallCloud",
+      "text": "폭풍전야.. 내가 매직맨인지 침착맨인지는 결과가 알려줄 것이다..",
+      "likeCount": 7,
+      "publishedAt": "2018-01-15T12:06:15Z"
+    },
+    {
+      "author": "@mapohoneyfist",
+      "text": "쑤심이형 살살 해주세요.",
+      "likeCount": 1,
+      "publishedAt": "2018-01-15T11:25:09Z"
+    }
+  ]
 }

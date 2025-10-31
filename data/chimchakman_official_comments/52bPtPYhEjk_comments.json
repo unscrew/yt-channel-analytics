@@ -1,5 +1,18 @@
 {
   "video_id": "52bPtPYhEjk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@제발너프좀",
+      "text": "방망파 불쑈",
+      "likeCount": 0,
+      "publishedAt": "2019-05-21T23:46:07Z"
+    },
+    {
+      "author": "@lizel3158",
+      "text": "여기까지 오니까 댓글이 확 줄어드네ㅠㅋㅋ 그립다 쬬져뉴ㅠ",
+      "likeCount": 0,
+      "publishedAt": "2020-08-10T05:21:11Z"
+    }
+  ]
 }

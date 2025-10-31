@@ -1,5 +1,36 @@
 {
   "video_id": "BjO-A9mY6Nc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@김수인-t4g",
+      "text": "초록내시",
+      "likeCount": 2,
+      "publishedAt": "2017-06-15T15:30:51Z"
+    },
+    {
+      "author": "@짐짝맨",
+      "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ 급사로 고통이랑 불땅차 찾자마자 싱글벙글행ㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-06-18T17:10:55Z"
+    },
+    {
+      "author": "@카레돈가스-q3d",
+      "text": "결국 고추를 뽑혔다고 한다",
+      "likeCount": 0,
+      "publishedAt": "2017-06-15T18:33:42Z"
+    },
+    {
+      "author": "@양진영-j6k",
+      "text": "X",
+      "likeCount": 0,
+      "publishedAt": "2017-06-15T20:06:25Z"
+    },
+    {
+      "author": "@신준기-y4h",
+      "text": "헤헷★",
+      "likeCount": 0,
+      "publishedAt": "2017-06-15T08:46:45Z"
+    }
+  ]
 }

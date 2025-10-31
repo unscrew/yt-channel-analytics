@@ -1,5 +1,24 @@
 {
   "video_id": "HzvCW1nsN3U",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@finandmin",
+      "text": "갓포기..치킨..성공적..",
+      "likeCount": 0,
+      "publishedAt": "2018-01-21T17:26:11Z"
+    },
+    {
+      "author": "@mapohoneyfist",
+      "text": "매직했다",
+      "likeCount": 0,
+      "publishedAt": "2018-01-21T11:01:44Z"
+    },
+    {
+      "author": "@소혁진-g2z",
+      "text": "처음이네요",
+      "likeCount": 1,
+      "publishedAt": "2018-01-21T10:04:36Z"
+    }
+  ]
 }

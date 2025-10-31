@@ -1,5 +1,30 @@
 {
   "video_id": "fjAJZDnkdqs",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@thoth1013",
+      "text": "담껀 언제 올라오나요??",
+      "likeCount": 2,
+      "publishedAt": "2017-04-06T15:23:18Z"
+    },
+    {
+      "author": "@sjk9020",
+      "text": "다음거 엄나욘 .. 궁금",
+      "likeCount": 0,
+      "publishedAt": "2021-05-14T18:50:17Z"
+    },
+    {
+      "author": "@빵떡챤러브",
+      "text": "기장잡기로 엑스컴2 조선전쟁 해주세요",
+      "likeCount": 0,
+      "publishedAt": "2019-03-06T07:50:26Z"
+    },
+    {
+      "author": "@s__c___p___",
+      "text": "응애라서 살았다",
+      "likeCount": 0,
+      "publishedAt": "2017-03-25T21:06:28Z"
+    }
+  ]
 }

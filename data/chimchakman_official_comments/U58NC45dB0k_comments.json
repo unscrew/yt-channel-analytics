@@ -1,5 +1,24 @@
 {
   "video_id": "U58NC45dB0k",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@htst-c1x",
+      "text": "7연승을 하는 와중에 퍼역을 한번도 안쓰네ㄷㄷ",
+      "likeCount": 1,
+      "publishedAt": "2020-03-21T21:22:40Z"
+    },
+    {
+      "author": "@SC2오혜민",
+      "text": "나가! 그 카드 아니였으면 내가 이긴거자나",
+      "likeCount": 2,
+      "publishedAt": "2017-09-28T16:58:59Z"
+    },
+    {
+      "author": "@AAA-tl8gj",
+      "text": "근데 왜 치고 별똥별임?\n들어가는 데미지나 방어도 쌓이는건 똑같지 않나?",
+      "likeCount": 1,
+      "publishedAt": "2017-09-29T09:41:08Z"
+    }
+  ]
 }

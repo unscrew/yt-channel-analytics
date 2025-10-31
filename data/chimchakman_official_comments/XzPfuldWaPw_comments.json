@@ -1,5 +1,24 @@
 {
   "video_id": "XzPfuldWaPw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@윤종서-k6u",
+      "text": "뉴클리어맨ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-05-04T09:54:58Z"
+    },
+    {
+      "author": "@92adoji",
+      "text": "ha ak",
+      "likeCount": 0,
+      "publishedAt": "2016-03-17T10:23:50Z"
+    },
+    {
+      "author": "@92adoji",
+      "text": "ha ak",
+      "likeCount": 0,
+      "publishedAt": "2016-03-17T10:23:57Z"
+    }
+  ]
 }

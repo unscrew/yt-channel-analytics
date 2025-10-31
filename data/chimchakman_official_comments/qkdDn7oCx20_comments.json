@@ -1,5 +1,24 @@
 {
   "video_id": "qkdDn7oCx20",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@DDingstar",
+      "text": "1편여디감...",
+      "likeCount": 1,
+      "publishedAt": "2016-12-06T09:49:28Z"
+    },
+    {
+      "author": "@1q2w3r",
+      "text": "인성승리 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-12-07T06:53:29Z"
+    },
+    {
+      "author": "@ETCmusicproducer",
+      "text": "블러핑ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-12-08T09:11:37Z"
+    }
+  ]
 }

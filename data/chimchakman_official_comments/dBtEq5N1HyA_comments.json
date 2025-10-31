@@ -1,5 +1,24 @@
 {
   "video_id": "dBtEq5N1HyA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@stealigist",
+      "text": "무친...",
+      "likeCount": 0,
+      "publishedAt": "2020-09-14T23:10:33Z"
+    },
+    {
+      "author": "@davidjunghan91",
+      "text": "ㅋㅋㅋㅋ 재밌네  ~~하지말지.",
+      "likeCount": 1,
+      "publishedAt": "2017-09-10T19:30:33Z"
+    },
+    {
+      "author": "@rmxz433",
+      "text": "침착맨 우승!",
+      "likeCount": 0,
+      "publishedAt": "2017-09-10T09:57:01Z"
+    }
+  ]
 }

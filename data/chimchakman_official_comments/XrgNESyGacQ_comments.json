@@ -1,5 +1,30 @@
 {
   "video_id": "XrgNESyGacQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@sogogi100",
+      "text": "이덱... 12승 덱이다..",
+      "likeCount": 0,
+      "publishedAt": "2016-05-20T18:46:21Z"
+    },
+    {
+      "author": "@준혁오-p9m",
+      "text": "다른서버가면 저런거초기회됨?",
+      "likeCount": 0,
+      "publishedAt": "2016-05-20T11:06:34Z"
+    },
+    {
+      "author": "@user-in4px9dr4d",
+      "text": "침하! (침착맨 하이라는 뜻ㅎ)",
+      "likeCount": 0,
+      "publishedAt": "2016-05-20T13:41:37Z"
+    },
+    {
+      "author": "@파란오리-j3i",
+      "text": "방플 겁나하네... 왜 사냐?",
+      "likeCount": 0,
+      "publishedAt": "2016-05-22T02:00:21Z"
+    }
+  ]
 }

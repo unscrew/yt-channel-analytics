@@ -1,5 +1,30 @@
 {
   "video_id": "Hjn54lT6dE4",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@김모씨-p5y",
+      "text": "14:30 진짜 숨 턱턱막히겠다.",
+      "likeCount": 0,
+      "publishedAt": "2016-09-21T15:22:51Z"
+    },
+    {
+      "author": "@MKS1221",
+      "text": "땅 소리 경쾌한거봐",
+      "likeCount": 0,
+      "publishedAt": "2016-09-22T10:31:00Z"
+    },
+    {
+      "author": "@류영재-x1h",
+      "text": "이덱...1티어다..",
+      "likeCount": 0,
+      "publishedAt": "2016-09-23T06:23:19Z"
+    },
+    {
+      "author": "@매운짬뽕-v2x",
+      "text": "침하!",
+      "likeCount": 0,
+      "publishedAt": "2016-12-18T12:32:49Z"
+    }
+  ]
 }

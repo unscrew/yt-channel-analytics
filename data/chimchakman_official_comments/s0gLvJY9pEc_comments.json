@@ -1,5 +1,36 @@
 {
   "video_id": "s0gLvJY9pEc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@TaeJun_Kee",
+      "text": "??: 탱커는~ 줘 터지면 된다 ^^",
+      "likeCount": 1,
+      "publishedAt": "2017-02-05T07:28:03Z"
+    },
+    {
+      "author": "@박복남-m9s",
+      "text": "히오스 공식 인트로 줘터지다가 비명횡사",
+      "likeCount": 5,
+      "publishedAt": "2017-02-04T10:40:44Z"
+    },
+    {
+      "author": "@はるか-q1y",
+      "text": "공중부양 세레모니 오졌따리",
+      "likeCount": 4,
+      "publishedAt": "2017-02-04T12:53:00Z"
+    },
+    {
+      "author": "@노올걀라거",
+      "text": "세계 3대 무라딘: 이말년. 요그. 침착맨",
+      "likeCount": 2,
+      "publishedAt": "2017-02-04T19:30:50Z"
+    },
+    {
+      "author": "@가위핑킹",
+      "text": "수장님 궁금한게 있는데 왜 인트로는 맨날 죽는거만 나와요",
+      "likeCount": 10,
+      "publishedAt": "2017-02-04T10:29:41Z"
+    }
+  ]
 }

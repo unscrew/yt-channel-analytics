@@ -1,5 +1,24 @@
 {
   "video_id": "3S2LpKau6ts",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@cyber-goose",
+      "text": "시간의 흐름을 거슬러 여기까지 왔다",
+      "likeCount": 0,
+      "publishedAt": "2021-01-22T21:18:22Z"
+    },
+    {
+      "author": "@리딩봇-m6t",
+      "text": "인사 잘~ 한다~",
+      "likeCount": 0,
+      "publishedAt": "2017-08-16T14:06:07Z"
+    },
+    {
+      "author": "@holdenbelzer2130",
+      "text": "인트로 화면 안보이는건 인코딩 오류인가요?",
+      "likeCount": 0,
+      "publishedAt": "2017-08-16T23:00:27Z"
+    }
+  ]
 }

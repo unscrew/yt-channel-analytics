@@ -1,5 +1,24 @@
 {
   "video_id": "H4MLdP2Nf6E",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@minkb0606",
+      "text": "네 역겨워요",
+      "likeCount": 6,
+      "publishedAt": "2017-09-22T11:06:16Z"
+    },
+    {
+      "author": "@Yumiri2",
+      "text": "너도노루 나도노루 신난다",
+      "likeCount": 0,
+      "publishedAt": "2017-09-22T13:03:56Z"
+    },
+    {
+      "author": "@FannyWang02",
+      "text": "45초전 ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-22T09:22:23Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "7NKMDvwmN0M",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@COYAMERRY_Captain",
+      "text": "하스고수의 느낌이 난다...",
+      "likeCount": 2,
+      "publishedAt": "2018-08-30T03:06:50Z"
+    },
+    {
+      "author": "@욕하지않기",
+      "text": "옥침듀오는 언제올라와여",
+      "likeCount": 2,
+      "publishedAt": "2018-08-30T12:35:02Z"
+    },
+    {
+      "author": "@yoongy2",
+      "text": "침교수 자격 박탈",
+      "likeCount": 3,
+      "publishedAt": "2018-08-30T05:53:28Z"
+    },
+    {
+      "author": "@spiritor85",
+      "text": "이른시간이라 그런가 시청자 수준 왜 저래..",
+      "likeCount": 2,
+      "publishedAt": "2018-09-10T16:14:09Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "mG-fYfu8Zpc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@발가보스",
+      "text": "침착맨님 목소리 좋아요 ㅎㅎ",
+      "likeCount": 1,
+      "publishedAt": "2017-09-23T13:36:56Z"
+    },
+    {
+      "author": "@갈아만든배-p9s",
+      "text": "방송 채팅창에서는 방송 얘기를 해야지 ㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-23T13:48:51Z"
+    },
+    {
+      "author": "@oh6637",
+      "text": "아니 근데 존나잘생기셨네",
+      "likeCount": 0,
+      "publishedAt": "2017-09-24T02:41:47Z"
+    },
+    {
+      "author": "@서지훈-s2b",
+      "text": "게임에 집중 안하는 돌겜러가 있네 ㄸ",
+      "likeCount": 0,
+      "publishedAt": "2020-09-16T03:31:51Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "jN6iwtNSW6U",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@강태훈-f9b",
+      "text": "노양심 금수저흑마에게 정의구현..",
+      "likeCount": 2,
+      "publishedAt": "2017-04-15T16:41:58Z"
+    },
+    {
+      "author": "@Kibric",
+      "text": "14:35 엥 이거 완전 데자뷰 아니냐",
+      "likeCount": 1,
+      "publishedAt": "2017-03-26T14:47:27Z"
+    },
+    {
+      "author": "@내안에하늘과숲과슬기",
+      "text": "흑마 잡기 힘드네ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2017-03-26T19:17:08Z"
+    }
+  ]
 }

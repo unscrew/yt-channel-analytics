@@ -1,5 +1,18 @@
 {
   "video_id": "N99yrptpdAQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@최치윤-i7e",
+      "text": "상병 진용원... 그의 실명을 파악했다.",
+      "likeCount": 1,
+      "publishedAt": "2017-03-11T12:40:53Z"
+    },
+    {
+      "author": "@kjjjkkhnjh87",
+      "text": "정보) RGB는 빨강, 초록, 파랑이다 노랑...?",
+      "likeCount": 0,
+      "publishedAt": "2020-01-28T16:01:32Z"
+    }
+  ]
 }

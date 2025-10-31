@@ -1,5 +1,24 @@
 {
   "video_id": "2mkGSYh8IaQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@기강게임수호자",
+      "text": "댓글 거의 없는거 실화냐",
+      "likeCount": 3,
+      "publishedAt": "2020-06-03T16:13:49Z"
+    },
+    {
+      "author": "@미팩",
+      "text": "ㅋㅋㅋㅋㅋㅋ 1400회네 진짜였구나 ㅋㅋㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2020-01-05T07:25:15Z"
+    },
+    {
+      "author": "@Bedoraze",
+      "text": "메뚜기랑 산월은 못 때려잡고 주치는 때려잡는 갓백호 ㄷㄷ",
+      "likeCount": 0,
+      "publishedAt": "2023-01-09T21:48:37Z"
+    }
+  ]
 }

@@ -1,5 +1,18 @@
 {
   "video_id": "oyfRuMhpF5I",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@Bulgomsteak",
+      "text": "갓라딘 오졌다",
+      "likeCount": 0,
+      "publishedAt": "2016-11-21T01:32:52Z"
+    },
+    {
+      "author": "@Helith",
+      "text": "머머리 리메이크되더니 메아리가 16렙으로 가버려서 초월의 조절 안되는 힐조차 너무 소중해지고 철권이나 통찰 하기가 힘듬",
+      "likeCount": 0,
+      "publishedAt": "2016-11-20T10:15:24Z"
+    }
+  ]
 }

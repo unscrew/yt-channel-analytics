@@ -1,5 +1,24 @@
 {
   "video_id": "qMpece6ipuo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@당신은나에게죽을수도",
+      "text": "왤캐 댓글이 없어 쏘영님 섭섭하게 늙은 스트리퍼까지 대동해서 꾸역꾸역 방송하시자너..",
+      "likeCount": 1,
+      "publishedAt": "2017-08-16T23:55:43Z"
+    },
+    {
+      "author": "@까리안",
+      "text": "이 게임 연출은 정말 멋진데 너무 어려움 ㅠㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-13T22:52:59Z"
+    },
+    {
+      "author": "@이성윤-f3m",
+      "text": "??? : 게이머들은 인간 중에서 가장 쓰레기다",
+      "likeCount": 0,
+      "publishedAt": "2017-08-15T20:31:39Z"
+    }
+  ]
 }

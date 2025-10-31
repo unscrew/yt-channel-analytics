@@ -1,5 +1,24 @@
 {
   "video_id": "I5YmwG8MgdA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@김도엽-c7t",
+      "text": "아조씨 요새 하스 넘 많이올라와서 행복캐여!히히",
+      "likeCount": 0,
+      "publishedAt": "2016-05-08T12:46:16Z"
+    },
+    {
+      "author": "@velocity7678",
+      "text": "늘 투기장은 옳다!",
+      "likeCount": 0,
+      "publishedAt": "2016-05-08T10:45:45Z"
+    },
+    {
+      "author": "@foot_taste",
+      "text": "핰 요그띠",
+      "likeCount": 0,
+      "publishedAt": "2016-05-08T11:06:22Z"
+    }
+  ]
 }

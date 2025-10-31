@@ -1,5 +1,24 @@
 {
   "video_id": "3_lO644qvc0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@jonghyunsung1205",
+      "text": "5:30 ?????",
+      "likeCount": 0,
+      "publishedAt": "2016-10-02T05:20:10Z"
+    },
+    {
+      "author": "@나래리링",
+      "text": "야래야래 곤란해~ ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 리치침가 본버전 ㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2016-12-14T22:17:47Z"
+    },
+    {
+      "author": "@ddddsdasdas",
+      "text": "머원결의 미쳤다 미쳤어",
+      "likeCount": 0,
+      "publishedAt": "2016-09-25T03:59:54Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "8NrViU1NqEQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@David-y8q5j",
+      "text": "반갑네",
+      "likeCount": 1,
+      "publishedAt": "2017-07-24T07:27:28Z"
+    },
+    {
+      "author": "@크툰-y6u",
+      "text": "갈락까~",
+      "likeCount": 0,
+      "publishedAt": "2017-07-24T09:09:38Z"
+    },
+    {
+      "author": "@1.gun2",
+      "text": "음부풍 ㅋㅋㅋㅋ ㅁㅊ",
+      "likeCount": 0,
+      "publishedAt": "2017-08-01T03:00:54Z"
+    },
+    {
+      "author": "@brianchang1235",
+      "text": "아재..머리 전보다 많이 빠졌네여",
+      "likeCount": 1,
+      "publishedAt": "2017-07-25T02:23:32Z"
+    }
+  ]
 }

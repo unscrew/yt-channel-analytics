@@ -1,5 +1,24 @@
 {
   "video_id": "ghDrk0IdXDw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@비오는날여우비",
+      "text": "너무 멀록비취인데...",
+      "likeCount": 0,
+      "publishedAt": "2017-04-15T01:58:13Z"
+    },
+    {
+      "author": "@MonsterRepublic",
+      "text": "잘보고갑니다 : ) 관심있으시면 저희채널 구독도 부탁드릴게요~",
+      "likeCount": 0,
+      "publishedAt": "2017-04-18T22:45:02Z"
+    },
+    {
+      "author": "@시니로15",
+      "text": "55 드립 씨팔 지겹지도 않나",
+      "likeCount": 1,
+      "publishedAt": "2017-04-18T06:12:04Z"
+    }
+  ]
 }

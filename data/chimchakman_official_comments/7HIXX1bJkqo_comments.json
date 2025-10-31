@@ -1,5 +1,30 @@
 {
   "video_id": "7HIXX1bJkqo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@wkddncjd",
+      "text": "모어쌍 플리즈",
+      "likeCount": 1,
+      "publishedAt": "2021-09-20T13:01:30Z"
+    },
+    {
+      "author": "@impdg1362",
+      "text": "ㅋㅋㅋㅋㅋ 다시보니 웃기네 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-07-10T05:05:04Z"
+    },
+    {
+      "author": "@KWJHIMB",
+      "text": "시.공.좋.아",
+      "likeCount": 0,
+      "publishedAt": "2017-02-11T14:34:19Z"
+    },
+    {
+      "author": "@나봉스",
+      "text": "노르웨이발음?????",
+      "likeCount": 0,
+      "publishedAt": "2017-02-14T01:31:29Z"
+    }
+  ]
 }

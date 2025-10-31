@@ -1,5 +1,24 @@
 {
   "video_id": "L9ddhHI2lBg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@메원소",
+      "text": "아재 캠돌때 그냥 거강 박아요",
+      "likeCount": 0,
+      "publishedAt": "2017-08-03T15:12:29Z"
+    },
+    {
+      "author": "@자히아",
+      "text": "한타때만 침착하면될텐데",
+      "likeCount": 0,
+      "publishedAt": "2017-08-03T13:01:16Z"
+    },
+    {
+      "author": "@이현민-j8j",
+      "text": "난히오스 적당히하는줄알앗는데 노란색깔이몇개여 나보다더하네",
+      "likeCount": 0,
+      "publishedAt": "2017-08-03T12:20:00Z"
+    }
+  ]
 }

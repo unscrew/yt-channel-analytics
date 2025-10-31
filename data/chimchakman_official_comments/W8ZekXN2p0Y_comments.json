@@ -1,5 +1,18 @@
 {
   "video_id": "W8ZekXN2p0Y",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@CieldeHiver",
+      "text": "오늘도 침투부는 재밌군 ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2016-06-02T10:24:30Z"
+    },
+    {
+      "author": "@Eldordo",
+      "text": "안보지만 안쓸꺼지만 광고눌러줍시다 ㅎㅎ",
+      "likeCount": 0,
+      "publishedAt": "2016-06-03T00:32:44Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "lnK4uhPKsuA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@moptophairman",
+      "text": "탈주하고 자기가 승리했다는 덕왕",
+      "likeCount": 1,
+      "publishedAt": "2020-01-06T06:45:15Z"
+    },
+    {
+      "author": "@족친",
+      "text": "ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-04-25T23:15:11Z"
+    },
+    {
+      "author": "@0223_kim_j",
+      "text": "좋아요 9개 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2020-10-03T13:20:19Z"
+    }
+  ]
 }

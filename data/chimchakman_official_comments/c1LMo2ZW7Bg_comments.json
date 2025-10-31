@@ -1,5 +1,36 @@
 {
   "video_id": "c1LMo2ZW7Bg",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@김도엽-c7t",
+      "text": "아저씨 하스 항상 재밌게 보고있습니다. 꾸벅",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T15:02:24Z"
+    },
+    {
+      "author": "@norio7893",
+      "text": "침착맨님 흑마도 열심히 하셨었나요? 금색이네",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T11:51:17Z"
+    },
+    {
+      "author": "@현호-n3j",
+      "text": "오아ㅜ우",
+      "likeCount": 0,
+      "publishedAt": "2023-07-13T06:08:27Z"
+    },
+    {
+      "author": "@황동하-v9s",
+      "text": "아재 선댓후 감상할개요",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T11:36:44Z"
+    },
+    {
+      "author": "@kangran12",
+      "text": "호홍",
+      "likeCount": 0,
+      "publishedAt": "2016-05-01T12:06:24Z"
+    }
+  ]
 }

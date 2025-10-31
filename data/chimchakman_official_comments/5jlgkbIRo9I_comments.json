@@ -1,5 +1,30 @@
 {
   "video_id": "5jlgkbIRo9I",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@PeterWinter-YHW",
+      "text": "신정민 해설 예전 스타할 때는 몰랐는데 실력도 좋고 목소리나 말하는 것도 정말 괜찮은 분이었네요",
+      "likeCount": 3,
+      "publishedAt": "2016-10-02T06:52:26Z"
+    },
+    {
+      "author": "@gibeumkim6869",
+      "text": "아조씨 히오스 하면서 웃는거 보니까 오늘 밤엔 잠 잘오겠다",
+      "likeCount": 1,
+      "publishedAt": "2016-09-30T14:30:41Z"
+    },
+    {
+      "author": "@haunt1451",
+      "text": "아재 탈것 맞추고 진짜 좋아한다 ㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2016-09-30T10:35:55Z"
+    },
+    {
+      "author": "@김성민-n5k6r",
+      "text": "폭풍의 중심에 침착맨이 있다",
+      "likeCount": 1,
+      "publishedAt": "2016-09-30T09:44:00Z"
+    }
+  ]
 }

@@ -1,5 +1,30 @@
 {
   "video_id": "H_4YgHaQJUk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@Ahdnskwidnsqieudnsoqnd",
+      "text": "내 친구 파타퐁 자랑스럽다",
+      "likeCount": 0,
+      "publishedAt": "2024-05-07T23:43:59Z"
+    },
+    {
+      "author": "@류영재-x1h",
+      "text": "혓바닥 써 ㅋㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-01-18T16:23:34Z"
+    },
+    {
+      "author": "@laucournet3724",
+      "text": "막이래",
+      "likeCount": 1,
+      "publishedAt": "2017-01-16T18:34:16Z"
+    },
+    {
+      "author": "@mariac870",
+      "text": "제라툴 임빡이네",
+      "likeCount": 0,
+      "publishedAt": "2017-01-17T02:49:47Z"
+    }
+  ]
 }

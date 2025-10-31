@@ -1,5 +1,24 @@
 {
   "video_id": "Al3NmVoW3Fw",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@TaeJun_Kee",
+      "text": "천공기가 본체 ㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-11-06T04:35:09Z"
+    },
+    {
+      "author": "@배히모스",
+      "text": "뱅붕사랑해주세요",
+      "likeCount": 0,
+      "publishedAt": "2016-11-05T12:45:54Z"
+    },
+    {
+      "author": "@고건희",
+      "text": "찐막 어디갔어요...",
+      "likeCount": 0,
+      "publishedAt": "2023-05-21T13:37:43Z"
+    }
+  ]
 }

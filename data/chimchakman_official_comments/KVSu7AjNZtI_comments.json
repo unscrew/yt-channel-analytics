@@ -1,5 +1,18 @@
 {
   "video_id": "KVSu7AjNZtI",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 2,
+  "comments": [
+    {
+      "author": "@bigdarknose-3000",
+      "text": "숨겨진 보물 발견.",
+      "likeCount": 0,
+      "publishedAt": "2022-09-18T07:10:09Z"
+    },
+    {
+      "author": "@polkm6633",
+      "text": "나도 못하는데 저보다 못하는 사람이 많은것 같아서 정말 안심이되네요...",
+      "likeCount": 0,
+      "publishedAt": "2017-03-21T01:41:41Z"
+    }
+  ]
 }

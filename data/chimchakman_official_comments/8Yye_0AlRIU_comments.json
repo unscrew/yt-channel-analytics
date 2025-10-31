@@ -1,5 +1,24 @@
 {
   "video_id": "8Yye_0AlRIU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Qydb",
+      "text": "자이언트가 어그로용이네",
+      "likeCount": 0,
+      "publishedAt": "2025-02-17T05:41:53Z"
+    },
+    {
+      "author": "@korealilu",
+      "text": "좋아요 좀 누릅시다",
+      "likeCount": 0,
+      "publishedAt": "2016-04-20T10:11:29Z"
+    },
+    {
+      "author": "@조용훈-m4x",
+      "text": "이말년임????",
+      "likeCount": 0,
+      "publishedAt": "2016-12-26T02:52:17Z"
+    }
+  ]
 }

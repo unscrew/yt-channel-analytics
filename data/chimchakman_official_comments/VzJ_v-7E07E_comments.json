@@ -1,5 +1,30 @@
 {
   "video_id": "VzJ_v-7E07E",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@조산명-n3z",
+      "text": "답은 '맞딜'이다!",
+      "likeCount": 0,
+      "publishedAt": "2017-01-09T14:28:40Z"
+    },
+    {
+      "author": "@낙타-d6h",
+      "text": "침아재 갓지컬 미쳣다 다음게임은 닼소인가",
+      "likeCount": 0,
+      "publishedAt": "2017-02-25T14:47:18Z"
+    },
+    {
+      "author": "@치킨떡",
+      "text": "이거 어렵던데 끝 보셨네",
+      "likeCount": 0,
+      "publishedAt": "2019-05-01T00:49:17Z"
+    },
+    {
+      "author": "@내안에하늘과숲과슬기",
+      "text": "허무하네 먼가",
+      "likeCount": 0,
+      "publishedAt": "2018-01-26T09:44:25Z"
+    }
+  ]
 }

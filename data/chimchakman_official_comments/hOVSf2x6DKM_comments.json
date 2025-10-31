@@ -1,5 +1,24 @@
 {
   "video_id": "hOVSf2x6DKM",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@잼노-v5g",
+      "text": "수면맛집",
+      "likeCount": 1,
+      "publishedAt": "2023-06-08T09:51:37Z"
+    },
+    {
+      "author": "@가위핑킹",
+      "text": "너무 준하한다면 시청자들이 불편할수있읍니다",
+      "likeCount": 0,
+      "publishedAt": "2017-04-06T14:12:24Z"
+    },
+    {
+      "author": "@wiwidfkd",
+      "text": "침착맨이 하잘알이고 철판수심은 자꾸 엉뚱한말하면서 설명충임",
+      "likeCount": 0,
+      "publishedAt": "2017-07-08T07:53:14Z"
+    }
+  ]
 }

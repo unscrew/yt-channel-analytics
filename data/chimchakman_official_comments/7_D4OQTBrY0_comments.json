@@ -1,5 +1,24 @@
 {
   "video_id": "7_D4OQTBrY0",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@류영재-x1h",
+      "text": "와 갓착맨",
+      "likeCount": 0,
+      "publishedAt": "2016-02-10T11:23:45Z"
+    },
+    {
+      "author": "@pourhommeyohji8805",
+      "text": "침형 히오스더 많이 올리세요",
+      "likeCount": 0,
+      "publishedAt": "2016-02-10T17:07:37Z"
+    },
+    {
+      "author": "@저저장-j2l",
+      "text": "침형 레스토랑좀그만해요 유튜브볼거없어서지루해요",
+      "likeCount": 0,
+      "publishedAt": "2016-02-10T12:49:03Z"
+    }
+  ]
 }

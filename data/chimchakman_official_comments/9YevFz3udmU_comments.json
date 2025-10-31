@@ -1,5 +1,24 @@
 {
   "video_id": "9YevFz3udmU",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Olorine",
+      "text": "캬~ 깔끔하다",
+      "likeCount": 0,
+      "publishedAt": "2016-12-30T12:25:23Z"
+    },
+    {
+      "author": "@짐짝맨",
+      "text": "최소 -3암 보장드리는 띵작입니다",
+      "likeCount": 0,
+      "publishedAt": "2016-12-28T16:34:03Z"
+    },
+    {
+      "author": "@거북이-o7i",
+      "text": "금연이 이렇게 위험합니다 짜짜라짜라짜짜짜",
+      "likeCount": 0,
+      "publishedAt": "2016-12-28T13:29:19Z"
+    }
+  ]
 }

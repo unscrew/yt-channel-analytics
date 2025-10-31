@@ -1,5 +1,24 @@
 {
   "video_id": "hRRI6U6QY34",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@theviking892",
+      "text": "아수라발발타!",
+      "likeCount": 3,
+      "publishedAt": "2017-05-21T14:47:40Z"
+    },
+    {
+      "author": "@sangjunchung9569",
+      "text": "이게 무슨 음지의 영상이지 하고 봤는데 침착맨님이네",
+      "likeCount": 0,
+      "publishedAt": "2021-07-02T08:30:45Z"
+    },
+    {
+      "author": "@김정윤-c9s",
+      "text": "혼절이ㄹ거같은데 ㅋㅋㅋㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2017-05-21T14:41:36Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "63Ul2mVn7cc",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@팜팜밍",
+      "text": "와 희귀한 영상!",
+      "likeCount": 1,
+      "publishedAt": "2022-05-26T14:30:00Z"
+    },
+    {
+      "author": "@terrapin-y",
+      "text": "17:04",
+      "likeCount": 0,
+      "publishedAt": "2024-07-22T13:34:11Z"
+    },
+    {
+      "author": "@paretoe1223",
+      "text": "쏘영이 훈수요정ㅋㅋㅋㅋㅋㅋ",
+      "likeCount": 2,
+      "publishedAt": "2017-08-13T14:00:38Z"
+    }
+  ]
 }

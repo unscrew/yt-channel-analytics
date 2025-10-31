@@ -1,5 +1,30 @@
 {
   "video_id": "C7qQSsbNr0g",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@Pollolo-m5w",
+      "text": "코딱지 무단투기;;",
+      "likeCount": 1,
+      "publishedAt": "2017-08-10T08:01:17Z"
+    },
+    {
+      "author": "@나폴레옹-f2o",
+      "text": "2걸 침라툴이...",
+      "likeCount": 0,
+      "publishedAt": "2017-08-10T11:21:13Z"
+    },
+    {
+      "author": "@MrAeternum1009",
+      "text": "역시 쑤심..",
+      "likeCount": 0,
+      "publishedAt": "2017-08-10T16:33:47Z"
+    },
+    {
+      "author": "@LotteryAnalist",
+      "text": "팀리인가요?",
+      "likeCount": 0,
+      "publishedAt": "2017-08-10T11:25:56Z"
+    }
+  ]
 }

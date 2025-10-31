@@ -1,5 +1,24 @@
 {
   "video_id": "bylk7CduBfQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Olorine",
+      "text": "아.. 고통 받는 피유.. 안스럽다.",
+      "likeCount": 0,
+      "publishedAt": "2016-10-25T18:00:02Z"
+    },
+    {
+      "author": "@danielsung7825",
+      "text": "말퓨 요새도 밴 먹나요?",
+      "likeCount": 0,
+      "publishedAt": "2017-04-22T10:25:27Z"
+    },
+    {
+      "author": "@EACVrQ3xwcx",
+      "text": "말퓨 어차피 밴될텐데 왜연습해요 ㅋㅋ",
+      "likeCount": 0,
+      "publishedAt": "2016-10-23T10:59:58Z"
+    }
+  ]
 }

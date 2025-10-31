@@ -1,5 +1,24 @@
 {
   "video_id": "BTJuRciGK_o",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Takcho129",
+      "text": "어게이~",
+      "likeCount": 0,
+      "publishedAt": "2016-03-07T16:47:00Z"
+    },
+    {
+      "author": "@김현철-l6x",
+      "text": "앞부분 짤림?",
+      "likeCount": 0,
+      "publishedAt": "2016-03-07T14:37:25Z"
+    },
+    {
+      "author": "@jungyoonkim5668",
+      "text": "극혐팬더..",
+      "likeCount": 0,
+      "publishedAt": "2016-03-13T05:23:00Z"
+    }
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "video_id": "g-596szEIx8",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@Hsjajaibh",
+      "text": "난 심해로 왔다...",
+      "likeCount": 2,
+      "publishedAt": "2022-05-10T14:46:57Z"
+    },
+    {
+      "author": "@고고학자",
+      "text": "다녀감",
+      "likeCount": 0,
+      "publishedAt": "2024-12-30T11:51:14Z"
+    },
+    {
+      "author": "@sejin9894",
+      "text": "겜이름 뭐에요",
+      "likeCount": 0,
+      "publishedAt": "2017-07-15T09:58:44Z"
+    }
+  ]
 }

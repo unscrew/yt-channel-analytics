@@ -1,5 +1,36 @@
 {
   "video_id": "GDIDmQwpXuA",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 5,
+  "comments": [
+    {
+      "author": "@night_raven",
+      "text": "전설 픽까지 얻어놓고 뭐가 나왔길래 노즈를 고른 걸까.",
+      "likeCount": 2,
+      "publishedAt": "2016-12-18T13:38:35Z"
+    },
+    {
+      "author": "@1q2w3r",
+      "text": "와 저기봐 침착맨이야 ㅋㅋㅋㅋ",
+      "likeCount": 1,
+      "publishedAt": "2016-12-21T03:50:21Z"
+    },
+    {
+      "author": "@Garden_Hot",
+      "text": "3승맨..",
+      "likeCount": 0,
+      "publishedAt": "2016-12-18T12:23:38Z"
+    },
+    {
+      "author": "@hunji_man",
+      "text": "갓-승",
+      "likeCount": 0,
+      "publishedAt": "2016-12-18T23:40:08Z"
+    },
+    {
+      "author": "@holycow_pb",
+      "text": "안일맨",
+      "likeCount": 0,
+      "publishedAt": "2017-01-08T15:11:04Z"
+    }
+  ]
 }

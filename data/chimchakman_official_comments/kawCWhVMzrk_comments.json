@@ -1,5 +1,24 @@
 {
   "video_id": "kawCWhVMzrk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@bit3905",
+      "text": "여몽펀치 보고왔습니다.",
+      "likeCount": 4,
+      "publishedAt": "2018-11-17T18:07:10Z"
+    },
+    {
+      "author": "@제발너프좀",
+      "text": "조온 좋아",
+      "likeCount": 0,
+      "publishedAt": "2020-01-29T12:50:20Z"
+    },
+    {
+      "author": "@seafoodrisotto665",
+      "text": "겁내 안보넹",
+      "likeCount": 2,
+      "publishedAt": "2017-07-11T10:30:00Z"
+    }
+  ]
 }

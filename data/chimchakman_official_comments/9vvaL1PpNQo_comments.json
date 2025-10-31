@@ -1,5 +1,30 @@
 {
   "video_id": "9vvaL1PpNQo",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@고건희",
+      "text": "가좌규과규",
+      "likeCount": 0,
+      "publishedAt": "2023-05-21T18:07:32Z"
+    },
+    {
+      "author": "@김수한-i9x",
+      "text": "붕짱 좋아~~~",
+      "likeCount": 0,
+      "publishedAt": "2017-03-06T10:31:20Z"
+    },
+    {
+      "author": "@이치-q8h",
+      "text": "붕.",
+      "likeCount": 0,
+      "publishedAt": "2017-03-06T10:33:45Z"
+    },
+    {
+      "author": "@M4TCH",
+      "text": "가갸기갸규",
+      "likeCount": 0,
+      "publishedAt": "2017-03-06T13:09:50Z"
+    }
+  ]
 }

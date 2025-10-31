@@ -1,5 +1,30 @@
 {
   "video_id": "Y3PkpvX5cTQ",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 4,
+  "comments": [
+    {
+      "author": "@삐깨삐갯피캐쮸-i4k",
+      "text": "와 인트로 미친거아닙니까??",
+      "likeCount": 2,
+      "publishedAt": "2017-03-31T16:18:44Z"
+    },
+    {
+      "author": "@이치-q8h",
+      "text": "짜릿",
+      "likeCount": 0,
+      "publishedAt": "2017-04-01T03:28:00Z"
+    },
+    {
+      "author": "@josephkang6513",
+      "text": "치도리 쓰랄",
+      "likeCount": 0,
+      "publishedAt": "2017-03-31T17:24:40Z"
+    },
+    {
+      "author": "@yjk3308",
+      "text": "첫코?",
+      "likeCount": 0,
+      "publishedAt": "2017-03-31T14:24:48Z"
+    }
+  ]
 }

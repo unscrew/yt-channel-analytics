@@ -1,5 +1,24 @@
 {
   "video_id": "yPWXHsio3xk",
-  "comment_count": 0,
-  "comments": []
+  "comment_count": 3,
+  "comments": [
+    {
+      "author": "@정찬은-g4o",
+      "text": "게임 진짜 잘 만들었다",
+      "likeCount": 1,
+      "publishedAt": "2017-09-21T16:53:33Z"
+    },
+    {
+      "author": "@user-ih7ny6qx9x",
+      "text": "애니메이션으로 만들었으면 인기많았을텐데 워낙 게임이라고 하면 싫어하는 사람이 많으니까",
+      "likeCount": 0,
+      "publishedAt": "2017-09-22T08:45:52Z"
+    },
+    {
+      "author": "@똥겜만보면짖는개돼지",
+      "text": "강아지 먹을것좀 챙겨주면서 하지\n진짜 가스 밑을 구르고 사람 구출하고 물건나르고 기계조작하고 할거 다하는데 사과도 못먹음 ㅠㅠ",
+      "likeCount": 0,
+      "publishedAt": "2017-09-21T13:12:57Z"
+    }
+  ]
 }
