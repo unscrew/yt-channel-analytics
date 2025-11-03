@@ -134,10 +134,10 @@ python youtube_data_collector.py
 
 ```bash
 # 기본 (base 모델)
-python sst_whisper.py VIDEO_ID
+python stt_whisper.py VIDEO_ID
 
 # 다른 모델 사용
-python sst_whisper.py VIDEO_ID --model small
+python stt_whisper.py VIDEO_ID --model small
 ```
 
 **모델 크기:**
@@ -282,8 +282,8 @@ youtube-video-preference-predictor/
 │       └── {video_id}_whisper_transcript.txt
 │
 ├── youtube_data_collector.py    # 비디오/통계/댓글 수집
-├── sst_whisper.py               # 단일 비디오 자막 생성
-├── batch_whisper.py             # 배치 자막 생성 (병렬)
+├── stt_whisper.py               # 단일 비디오 자막 생성
+├── batch_stt.py                 # 배치 자막 생성 (병렬)
 ├── backfill_comments.py         # 댓글 백필
 ├── test_sentiment_korean.py     # 감정 분석 테스트
 │
